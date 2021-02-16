@@ -19,9 +19,20 @@ window.Vue = require('vue').default;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('btn-saber-detalhes', require('./components/BotaoSaberDetalhes.vue').default);
 Vue.component('nossos-numeros', require('./components/NossosNumeros.vue').default);
 Vue.component('nossos-programas', require('./components/NossosProgramas.vue').default);
+
+Vue.directive('scroll', {
+    inserted: function (el, binding) {
+      let f = function (evt) {
+        if (binding.value(evt, el)) {
+          window.removeEventListener('scroll', f)
+        }
+      }
+      window.addEventListener('scroll', f)
+    }
+  });
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -32,5 +43,4 @@ window.onload = function(){
     const app = new Vue({
         el: '#app',
     });
-
 }
