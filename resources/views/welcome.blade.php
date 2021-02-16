@@ -25,9 +25,9 @@
     </div>
 </div>
 
-<nossos-programas></nossos-programas>
-<nossos-numeros></nossos-numeros>
-
+<v-nossos-programas></v-nossos-programas>
+<v-nossos-numeros></v-nossos-numeros>
+<v-pre-footer></v-pre-footer>
 
 
 

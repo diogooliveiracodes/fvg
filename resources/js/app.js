@@ -19,9 +19,10 @@ window.Vue = require('vue').default;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('btn-saber-detalhes', require('./components/BotaoSaberDetalhes.vue').default);
-Vue.component('nossos-numeros', require('./components/NossosNumeros.vue').default);
-Vue.component('nossos-programas', require('./components/NossosProgramas.vue').default);
+Vue.component('v-btn-saber-detalhes', require('./components/BotaoSaberDetalhes.vue').default);
+Vue.component('v-nossos-numeros', require('./components/NossosNumeros.vue').default);
+Vue.component('v-nossos-programas', require('./components/NossosProgramas.vue').default);
+Vue.component('v-pre-footer', require('./components/PreFooter.vue').default);
 
 Vue.directive('scroll', {
     inserted: function (el, binding) {

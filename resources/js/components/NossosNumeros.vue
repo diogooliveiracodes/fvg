@@ -78,7 +78,6 @@
 
 
 <script>
-
     export default {
         data(){
             return {
@@ -87,16 +86,13 @@
                 horas: 0,
                 faturamento: 0, 
                 nps: 0,
-                windowHeight: window.scrollY
+                windowHeight: window.screen.height*3.3
             }
         },
-
-        
-
         methods:{
             aumentar(){
                 console.log(this.windowHeight)
-                if (window.scrollY > 3500){
+                if (window.scrollY > this.windowHeight){
                     setInterval(()=>{
                         if(this.paciente<11000){
                             this.paciente = this.paciente+=20

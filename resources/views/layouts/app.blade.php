@@ -123,6 +123,11 @@
     font-family: 'Gotham-bold';   
     font-weight: normal;
     }
+    @font-face {
+    src: url('fontes/Gotham/GothamLight.ttf');
+    font-family: 'Gotham-light';   
+    font-weight: normal;
+    }
 
     body{
         font-family:'Gotham-book'; 
