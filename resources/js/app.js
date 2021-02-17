@@ -23,6 +23,9 @@ Vue.component('v-btn-saber-detalhes', require('./components/BotaoSaberDetalhes.v
 Vue.component('v-nossos-numeros', require('./components/NossosNumeros.vue').default);
 Vue.component('v-nossos-programas', require('./components/NossosProgramas.vue').default);
 Vue.component('v-pre-footer', require('./components/PreFooter.vue').default);
+Vue.component('v-carrossel', require('./components/CarrosselTemp.vue').default);
+Vue.component('v-carrossel-main', require('./components/CarrosselMain.vue').default);
+Vue.component('v-carrossel-slide', require('./components/CarrosselSlide.vue').default);
 
 Vue.directive('scroll', {
     inserted: function (el, binding) {
@@ -30,7 +33,7 @@ Vue.directive('scroll', {
         if (binding.value(evt, el)) {
           window.removeEventListener('scroll', f)
         }
-      }
+      }  
       window.addEventListener('scroll', f)
     }
   });

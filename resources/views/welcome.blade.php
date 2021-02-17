@@ -27,6 +27,7 @@
 
 <v-nossos-programas></v-nossos-programas>
 <v-nossos-numeros></v-nossos-numeros>
+<v-carrossel></v-carrossel>
 <v-pre-footer></v-pre-footer>
 
 
