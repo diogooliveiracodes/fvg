@@ -5,8 +5,6 @@
  */
 
 require('./bootstrap');
-require('./vue-carousel-3d/src/main.js');
-
 
 
 window.Vue = require('vue').default;
@@ -33,6 +31,10 @@ Vue.component('v-carrossel', require('./components/home/Carrossel.vue').default)
 Vue.component('v-navbar-desktop', require('./components/home/NavBarDesktop.vue').default);
 Vue.component('v-footer-desktop', require('./components/home/FooterDesktop.vue').default);
 Vue.component('v-primeiro-video', require('./components/home/PrimeiroVideo.vue').default);
+Vue.component('v-carousel-video-um', require('./components/home/videos/Video01.vue').default);
+Vue.component('v-carousel-video-dois', require('./components/home/videos/Video02.vue').default);
+Vue.component('v-carousel-video-tres', require('./components/home/videos/Video03.vue').default);
+Vue.component('v-carousel-video-quatro', require('./components/home/videos/Video04.vue').default);
 // END HOME ---------
 
 Vue.component('carousel3d', require('./vue-carousel-3d/src/App.vue').default);

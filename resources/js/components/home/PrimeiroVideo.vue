@@ -4,7 +4,7 @@
         <div class="row justify-content-center mx-0 px-0">
             <div class="col-lg-4 d-flex flex-column justify-content-center">
                 <div class="row justify-content-end mx-0 px-0">
-                        <img src="images/imagem_fundo_video_abertura.jpg" alt="">
+                        <img @click="videooverflow = true" src="images/imagem_fundo_video_abertura.jpg" alt="">
                 </div>
             </div>
             <div class="col-lg-4 pl-3 ms-3 d-flex flex-column justify-content-center">
@@ -13,13 +13,23 @@
                 <p class="gotham-bold text-muted">Você está pronto para atualizar suas técnicas e promover mudanças significativas em seu negócio?</p>
             </div>
         </div>
+        <div id="video-frente" v-if="videooverflow" >
+            <video :autoplay="true" controls>
+                <source  src="videos/abertura.mp4" type="video/mp4">
+            </video>
+            <i class="far fa-3x fa-times-circle cor-azul" @click="videooverflow=false" id="btn-fechar-video"></i>
+      </div>
     </div>
 
 </template>
 
 <script>
 export default {
-
+    data(){
+        return{
+            videooverflow: false
+        }
+    }
 }
 </script>
 
@@ -45,6 +55,24 @@ export default {
             width: 400px;
             height: 400px;
         }
+    }
+    #video-frente{
+        position: fixed;
+        background-color: black;
+        top: 15%;
+        right: 15%;
+        width: 70%;
+        max-height: 80%;
+        z-index: 1000;
+    }
+    video{
+        width: 100%;
+    }
+        #btn-fechar-video{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
     }
     
 

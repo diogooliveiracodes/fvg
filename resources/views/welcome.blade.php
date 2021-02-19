@@ -4,7 +4,4 @@
 
 <v-home-index-desktop></v-home-index-desktop>
 
-
-
-
 @endsection
