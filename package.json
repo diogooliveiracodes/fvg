@@ -25,6 +25,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "v-video-embed": "^1.0.8"
+        "v-video-embed": "^1.0.8",
+        "vue-carousel-3d": "^1.0.1"
     }
 }

@@ -5,8 +5,9 @@
  */
 
 require('./bootstrap');
-require('./v-video-embed/src/index.js')
-require('./vue-coverflow/lib/index.js');
+require('./vue-carousel-3d/src/main.js');
+
+
 
 window.Vue = require('vue').default;
 
@@ -34,9 +35,7 @@ Vue.component('v-footer-desktop', require('./components/home/FooterDesktop.vue')
 Vue.component('v-primeiro-video', require('./components/home/PrimeiroVideo.vue').default);
 // END HOME ---------
 
-
-Vue.component('video-embed', require('./v-video-embed/src/embed.vue').default);
-Vue.component('coverflow', require('./vue-coverflow/lib/Coverflow.vue').default);
+Vue.component('carousel3d', require('./vue-carousel-3d/src/App.vue').default);
 
 Vue.directive('scroll', {
     inserted: function (el, binding) {

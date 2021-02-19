@@ -5,7 +5,7 @@
     <v-primeiro-video></v-primeiro-video>
     <v-nossos-programas></v-nossos-programas>
     <v-nossos-numeros></v-nossos-numeros>
-    <v-carrossel></v-carrossel>
+    <carousel3d></carousel3d>
     <v-pre-footer></v-pre-footer>
     <v-footer-desktop></v-footer-desktop>
   </div>
