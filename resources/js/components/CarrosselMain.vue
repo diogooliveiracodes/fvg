@@ -28,8 +28,8 @@ export default {
 <style>
     .carousel{
         position: relative;
-        width: 350px;
-        height: 350px;
+        width: 600px;
+        height: 400px;
         overflow: hidden;
         border-radius: 20px;
     }

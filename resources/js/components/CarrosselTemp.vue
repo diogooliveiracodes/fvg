@@ -1,7 +1,8 @@
 <template>
 <div class="row justify-content-center bg-light pt-5">
-    <div class="col-md-4">
-        <div class="carrosell-maint">
+    <h1 class="text-center cor-azul gotham-bold pb-4" style="font-size: 2.9rem">O que nossos alunos falam:</h1>
+    <div class="col" align-center>
+        <div class="carrosell-maint" align="center">
             <v-carrossel-main
                 @next="next"
                 @prev="prev"
@@ -12,9 +13,8 @@
                     :visibleSlide= "visibleSlide"
                     :direction="direction">
                     <!-- <img :src="slide" alt="" /> -->
-                    <iframe width="350" height="350"
-                        :src="slide" frameborder="0" allowfullscreen>
-                    </iframe>
+                    <video-embed :src="slide"></video-embed>
+
                 </v-carrossel-slide>
             </v-carrossel-main>
         </div>
@@ -27,10 +27,8 @@
         data(){
             return {
                 slides: [
-                    'https://www.youtube.com/watch?v=BIsWNTWDaDQ&ab_channel=FVGCirurgiaPl%C3%A1stica',
                     'https://www.youtube.com/watch?v=SXGE6rdpJsE&ab_channel=FVGCirurgiaPl%C3%A1stica',
-                    'https://www.youtube.com/watch?v=a9HrxU0S5rs&ab_channel=FVGCirurgiaPl%C3%A1stica',
-                    'https://www.youtube.com/watch?v=ffjCuureU6s&ab_channel=FVGCirurgiaPl%C3%A1stica'
+                    'https://www.youtube.com/watch?v=a9HrxU0S5rs&ab_channel=FVGCirurgiaPl%C3%A1stica'
                 ],
                 visibleSlide: 0,
                 direction: 'left'

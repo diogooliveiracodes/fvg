@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://unpkg.com/v-video-embed/dist/video-embed.min.js" type="text/javascript"></script>
+
+
     {{-- VueJS App --}}
     <script src="js/app.js"></script>
 
@@ -30,86 +33,8 @@
 <body class="m-0 p-0">
     <div class="m-0 p-0" id="app">
 
-
-    
-    {{-- NAVBAR --}}
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(61 57 53); height: 10%;">
-        <div class="container-fluid">
-        <a class="navbar-brand px-5" href="#">
-            <img src="images/logo.png" alt="" style="height: 4rem">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
-
-            {{-- Dropdown Imersão --}}
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Imersão
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Hands On - Prótese de mama</a></li>
-                <li><a class="dropdown-item" href="#">Hands On - Mastopexia</a></li>
-                {{-- <li><hr class="dropdown-divider"></li> --}}
-                <li><a class="dropdown-item" href="#">Gestão e Marketing Médico</a></li>
-                </ul>
-            </li>
-            {{-- END Dropdown Imersão --}}
-
-            {{-- Dropdown Online --}}
-            <li class="nav-item dropdown px-2">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Online
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Mamoplastia de aumento</a></li>
-                </ul>
-            </li>
-            {{-- END Dropdown Online --}}
-
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#" tabindex="-1">Sobre</a>
-            </li>
-            </ul>
-        </div>
-        </div>
-    </nav>
-    {{-- END NAVBAR --}}
-
     @yield('content')
 
-    {{-- FOOTER --}}
-    <footer class="pt-4 pt-md-5 border-top pt-5 mb-0 pb-5 mx-0 px-0" style="background-color: rgb(61 57 53)">
-        <div class="row justify-content-around mx-0">
-            <div class="col-md-4 col-sm-12">
-                <img src="images/logo.png" alt="" style="height: 6rem"><br><br>
-                <div>
-                    <a href="https://www.facebook.com/fvgeducacaoeensino/">
-                        <i class="fab fa-3x fa-facebook-square cor-azul"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/company/fvgcirurgiaplastica/">
-                        <i class="fab fa-3x fa-linkedin cor-azul"></i>
-                    </a>
-                    <a href="https://www.instagram.com/fvgeducacaoeensino/">
-                        <i class="fab fa-3x fa-instagram-square cor-azul"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-12">
-                <ul class="list-unstyled text-small">
-                <li><a class="btn btn-sm botao-fale-com-especialista" href="#"><i class="fab fa-whatsapp"></i> Fale com nosso especialista</a></li>
-                <li class="cor-azul gotham-bold pt-2" style="font-size: 1.4rem">(31) 3090-4488</li>
-                <li class="cor-azul gotham-bold" style="font-size: 1.4rem">(31) 9 9678-8844</li>
-                <li class="text-white gotham-bold pt-2">Av. Bandeirantes, 694</li>
-                <li class="text-white">Mangabeiras – CEP: 30315-382</li>
-                <li class="text-white">Belo Horizonte / MG</li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    {{-- END FOOTER --}}
 </div>
 </body>
 <style>

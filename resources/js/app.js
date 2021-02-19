@@ -5,6 +5,8 @@
  */
 
 require('./bootstrap');
+require('./v-video-embed/src/index.js')
+require('./vue-coverflow/lib/index.js');
 
 window.Vue = require('vue').default;
 
@@ -19,13 +21,22 @@ window.Vue = require('vue').default;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('v-btn-saber-detalhes', require('./components/BotaoSaberDetalhes.vue').default);
-Vue.component('v-nossos-numeros', require('./components/NossosNumeros.vue').default);
-Vue.component('v-nossos-programas', require('./components/NossosProgramas.vue').default);
-Vue.component('v-pre-footer', require('./components/PreFooter.vue').default);
-Vue.component('v-carrossel', require('./components/CarrosselTemp.vue').default);
-Vue.component('v-carrossel-main', require('./components/CarrosselMain.vue').default);
-Vue.component('v-carrossel-slide', require('./components/CarrosselSlide.vue').default);
+// HOME ------------
+Vue.component('v-home-index-desktop', require('./components/home/HomeIndexDesktop.vue').default);
+Vue.component('v-home-video-fundo', require('./components/home/HomeVideoFundo.vue').default);
+Vue.component('v-btn-saber-detalhes', require('./components/home/BotaoSaberDetalhes.vue').default);
+Vue.component('v-nossos-numeros', require('./components/home/NossosNumeros.vue').default);
+Vue.component('v-nossos-programas', require('./components/home/NossosProgramas.vue').default);
+Vue.component('v-pre-footer', require('./components/home/PreFooter.vue').default);
+Vue.component('v-carrossel', require('./components/home/Carrossel.vue').default);
+Vue.component('v-navbar-desktop', require('./components/home/NavBarDesktop.vue').default);
+Vue.component('v-footer-desktop', require('./components/home/FooterDesktop.vue').default);
+Vue.component('v-primeiro-video', require('./components/home/PrimeiroVideo.vue').default);
+// END HOME ---------
+
+
+Vue.component('video-embed', require('./v-video-embed/src/embed.vue').default);
+Vue.component('coverflow', require('./vue-coverflow/lib/Coverflow.vue').default);
 
 Vue.directive('scroll', {
     inserted: function (el, binding) {
