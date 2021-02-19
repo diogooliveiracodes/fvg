@@ -16,7 +16,7 @@
                 <ul class="dropdown-menu px-0" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Hands On - Prótese de mama</a></li>
                 <li><a class="dropdown-item" href="#">Hands On - Mastopexia</a></li>
-                {{-- <li><hr class="dropdown-divider"></li> --}}
+                
                 <li><a class="dropdown-item" href="#">Gestão e Marketing Médico</a></li>
                 </ul>
             </li>
