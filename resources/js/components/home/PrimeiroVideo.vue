@@ -7,7 +7,7 @@
                         <img @click="videooverflow = true" src="images/imagem_fundo_video_abertura.jpg" alt="">
                 </div>
             </div>
-            <div class="col-lg-3 pl-3 ms-3 d-flex flex-column justify-content-center div-text">
+            <div class="col-lg-3 px-2 d-flex flex-column justify-content-center div-text">
                 <h5 class="gotham-bold text-muted">O que é a FVG Educação e Ensino</h5>
                 <p class="text-muted">As imersões e mentorias da FVG Educação e Ensino é um negócio que surgiu a partir da necessidade de transferir conhecimento, prática e gestão empresarial para profissionais da saúde em posições estratégicas.</p>
                 <p class="gotham-bold text-muted">Você está pronto para atualizar suas técnicas e promover mudanças significativas em seu negócio?</p>

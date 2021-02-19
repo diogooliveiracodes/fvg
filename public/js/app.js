@@ -42514,27 +42514,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "col-md-6 offset-md-5" }, [
               _c("p", { staticClass: "text-muted Gotham-light" }, [
                 _vm._v(
-                  "\n                    Na FVG Educação & Ensino nossa missão"
-                ),
-                _c("br"),
-                _vm._v(
-                  "\n                    é ajudar cirurgiões plásticos formados e residentes"
-                ),
-                _c("br"),
-                _vm._v(
-                  "\n                    a evoluir com a prática cirúrgica e aprimorar skills"
-                ),
-                _c("br"),
-                _vm._v(
-                  "\n                    sobre gestão e boas práticas comerciais. Se você"
-                ),
-                _c("br"),
-                _vm._v(
-                  "\n                    quer sair na frente, assine nossa newsletter e"
-                ),
-                _c("br"),
-                _vm._v(
-                  "\n                    receba nossos conteúdos gratuitos.\n                "
+                  "\n                    Na FVG Educação & Ensino nossa missão\n                    é ajudar cirurgiões plásticos formados e residentes\n                    a evoluir com a prática cirúrgica e aprimorar skills\n                    sobre gestão e boas práticas comerciais. Se você\n                    quer sair na frente, assine nossa newsletter e\n                    receba nossos conteúdos gratuitos.\n                "
                 )
               ])
             ])
@@ -42633,7 +42613,7 @@ var staticRenderFns = [
       "div",
       {
         staticClass:
-          "col-lg-3 pl-3 ms-3 d-flex flex-column justify-content-center div-text"
+          "col-lg-3 px-2 d-flex flex-column justify-content-center div-text"
       },
       [
         _c("h5", { staticClass: "gotham-bold text-muted" }, [
