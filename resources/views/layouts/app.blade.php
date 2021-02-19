@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://unpkg.com/v-video-embed/dist/video-embed.min.js" type="text/javascript"></script>
-
-
     {{-- VueJS App --}}
     <script src="js/app.js"></script>
 
@@ -23,12 +20,10 @@
 
     {{-- Styles  --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="./css/landing-page.min.css" rel="stylesheet">
 
     {{-- Fontawsome --}}
     <script src="https://kit.fontawesome.com/9f90449050.js" crossorigin="anonymous"></script>
-
-    
-
 </head>
 <body class="m-0 p-0">
     <div class="m-0 p-0" id="app">
@@ -66,16 +61,6 @@
     a{
         text-decoration: none;
     }
-    .botao-fale-com-especialista{
-        border-radius: 15px;
-        background-color: rgb(147 187 194);
-        border: 1px solid rgb(147 187 194);
-        font-family: 'Gotham-bold';
-        font-size: 1rem;
-        padding-left: 25px;
-        padding-right: 25px;
-        color: rgb(61 57 53);
-    }
     #myVideo {
         position: relative;
         right: 0;
@@ -92,6 +77,17 @@
     }
     .cor-escura{
         background-color: rgb(61 57 53)
+    }
+    .botao-fale-com-especialista{
+        border-radius: 15px;
+        background-color: rgb(147 187 194);
+        border: 1px solid rgb(147 187 194);
+        font-family: 'Gotham-bold';
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-top: 10px;
+        color: rgb(61 57 53);
     }
 </style>
 

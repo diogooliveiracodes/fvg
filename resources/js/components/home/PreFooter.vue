@@ -33,6 +33,11 @@
         line-height: 1.5;
         margin: 0 0 1em 0;
     }
+    @media screen and (max-width: 767px){
+        #div-prefooter{
+            text-align: center;
+        }
+    }
 </style>
 
 <script>

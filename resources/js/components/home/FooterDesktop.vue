@@ -1,6 +1,6 @@
 <template>
       <footer class="pt-4 pt-md-5 border-top pt-5 mb-0 pb-5 mx-0 px-0" style="background-color: rgb(61 57 53)">
-        <div class="row justify-content-around mx-0">
+        <div class="row justify-content-around mx-0 div-footer">
             <div class="col-md-4 col-sm-12">
                 <img src="images/logo.png" alt="" style="height: 6rem"><br><br>
                 <div>
@@ -36,5 +36,10 @@ export default {
 </script>
 
 <style>
-
+    @media screen and (max-width: 767px){
+        .div-footer{
+            text-align: center;
+            justify-content: center;
+        }
+    }
 </style>

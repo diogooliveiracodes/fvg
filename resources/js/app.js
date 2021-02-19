@@ -36,6 +36,12 @@ Vue.component('v-carousel-video-tres', require('./components/home/videos/Video03
 Vue.component('v-carousel-video-quatro', require('./components/home/videos/Video04.vue').default);
 // END HOME ---------
 
+//MOBILE ------------
+Vue.component('v-mobile-nossos-programas', require('./components/mobile/NossosProgramas.vue').default);
+
+
+//END MOBILE ---------
+
 Vue.component('carousel3d', require('./components/App.vue').default);
 
 Vue.directive('scroll', {
