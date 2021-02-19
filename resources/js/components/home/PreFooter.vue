@@ -4,11 +4,11 @@
             <div class="row">
                 <div class="col-md-6 offset-md-5">
                     <p class="text-muted Gotham-light">
-                        Na FVG Educação & Ensino nossa missão<br>
-                        é ajudar cirurgiões plásticos formados e residentes<br>
-                        a evoluir com a prática cirúrgica e aprimorar skills<br>
-                        sobre gestão e boas práticas comerciais. Se você<br>
-                        quer sair na frente, assine nossa newsletter e<br>
+                        Na FVG Educação & Ensino nossa missão
+                        é ajudar cirurgiões plásticos formados e residentes
+                        a evoluir com a prática cirúrgica e aprimorar skills
+                        sobre gestão e boas práticas comerciais. Se você
+                        quer sair na frente, assine nossa newsletter e
                         receba nossos conteúdos gratuitos.
                     </p>
                 </div>
