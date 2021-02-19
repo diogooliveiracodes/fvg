@@ -5,7 +5,6 @@
     <v-navbar-desktop></v-navbar-desktop>
     <v-home-video-fundo></v-home-video-fundo>
     <v-primeiro-video></v-primeiro-video>
-    <!-- <v-nossos-programas></v-nossos-programas> -->
     <v-mobile-nossos-programas></v-mobile-nossos-programas>
     <v-nossos-numeros></v-nossos-numeros>
     <carousel3d></carousel3d>
