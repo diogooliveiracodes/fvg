@@ -27,7 +27,6 @@ Vue.component('v-btn-saber-detalhes', require('./components/home/BotaoSaberDetal
 Vue.component('v-nossos-numeros', require('./components/home/NossosNumeros.vue').default);
 Vue.component('v-nossos-programas', require('./components/home/NossosProgramas.vue').default);
 Vue.component('v-pre-footer', require('./components/home/PreFooter.vue').default);
-Vue.component('v-carrossel', require('./components/home/Carrossel.vue').default);
 Vue.component('v-navbar-desktop', require('./components/home/NavBarDesktop.vue').default);
 Vue.component('v-footer-desktop', require('./components/home/FooterDesktop.vue').default);
 Vue.component('v-primeiro-video', require('./components/home/PrimeiroVideo.vue').default);
@@ -37,7 +36,7 @@ Vue.component('v-carousel-video-tres', require('./components/home/videos/Video03
 Vue.component('v-carousel-video-quatro', require('./components/home/videos/Video04.vue').default);
 // END HOME ---------
 
-Vue.component('carousel3d', require('./vue-carousel-3d/src/App.vue').default);
+Vue.component('carousel3d', require('./components/App.vue').default);
 
 Vue.directive('scroll', {
     inserted: function (el, binding) {
