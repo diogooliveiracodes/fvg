@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="col-md-6 gotham-bold">
-            Descubra como evoluir sua prática cirúrgica e se tornar um<br> profissional da saúde 5.0
+            Descubra como evoluir sua prática cirúrgica e se tornar um profissional da saúde 5.0
         </div>
     </div>
 </template>
@@ -35,7 +35,7 @@
     }
     @media screen and (max-width: 767px){
         #div-prefooter{
-            text-align: center;
+            text-align: justify;
         }
     }
 </style>

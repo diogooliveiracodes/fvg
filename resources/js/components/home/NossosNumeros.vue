@@ -2,33 +2,33 @@
     <div id="div-nossos-numeros" v-scroll="aumentar">
         <h3 id="titulo-nossos-numeros" class="text-center gotham-bold">Nossos números</h3>
         <div class="row justify-content-center mx-0 px-0">
-            <div class="col-9">
-                <div class="row justify-content-center mt-5 mx-0 px-0">
-                    <div class="col-sm-2 px-0">
+            <div class="col-12 mx-0 px-0">
+                <div class=" mt-5 mx-0 px-0" style="display: flex; flex-wrap: wrap;">
+                    <div class="flex-container">
                         <p class="font2">{{paciente}}+</p>
-                        <p class="font08 gotham-bold">PACIENTES ATENDIDOS</p>
+                        <p class="gotham-bold">PACIENTES ATENDIDOS</p>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="flex-container">
                         <p class="font2">{{procedimentos}}+</p>
-                        <p class="font08 gotham-bold">PROCEDIMENTOS CIRÚRGICOS</p>
+                        <p class="gotham-bold">PROCEDIMENTOS CIRÚRGICOS</p>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="flex-container">
                         <p class="font2">{{horas}}+</p>
-                        <p class="font08 gotham-bold">HORAS CIRÚRGICOS</p>
+                        <p class="gotham-bold">HORAS CIRÚRGICOS</p>
                     </div>
-                    <div class="col-sm-2">
+                    <div class="flex-container">
                         <p class="font2">{{faturamento}}MM</p>
-                        <p class="font08 gotham-bold">FATURAMENTO</p>
+                        <p class="gotham-bold">FATURAMENTO</p>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="flex-container">
                         <p class="font2">{{nps}}</p>
-                        <p class="font08 gotham-bold">NPS</p>
+                        <p class="gotham-bold">NPS</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center mt-5 mx-0 px-0">
-            <a class="btn btn-sm cor-escura col-sm-2 text-white">EU QUERO PARTICIPAR</a>
+            <a class="btn btn-sm cor-escura col-11 col-sm-10 col-md-8 col-lg-4 col-xl-3 text-white">EU QUERO PARTICIPAR</a>
         </div>
         <div id="jarallax-container-0 px-0 mx-0" style="position: absolute; bottom: 0px; overflow: hidden; z-index: -100;">
             <img src="images/img1.jpg" alt="hero background" class="jarallax-img" >
@@ -38,6 +38,7 @@
 <style scoped>
     p{
         text-align: center;
+        
     }
     .font2{
         font-size: 2rem;
@@ -71,7 +72,17 @@
         transform: translate3d(0px, 36.8px, 0px);
 
     }
-    
+
+    @media screen and (max-width: 919px){
+        .flex-container{
+            width: 100% !important;
+        }
+    }
+    @media screen and (min-width: 920px){
+        .flex-container{
+            width: 20%;
+        }
+    }
 
 </style>
 

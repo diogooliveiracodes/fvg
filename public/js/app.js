@@ -2672,6 +2672,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -2905,6 +2912,17 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -2962,6 +2980,89 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3093,6 +3194,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
 //
 //
 //
@@ -8057,7 +8160,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width: 767px){\n.div-footer{\n        text-align: center;\n        justify-content: center;\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width: 992px){\n.div-footer, .img-div-footer{\n        text-align: center;\n        justify-content: center;\n}\n.flex-container{\n        justify-content: center !important;\n}\n}\n.flex-container{\n    justify-content: flex-end;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -8081,7 +8184,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.img-logo[data-v-f3c12772]{\n    position: absolute;\n    height: 80%;\n    top: 10%;\n    left: 20%;\n    padding: 0;\n}\n.a-img-logo[data-v-f3c12772]{\n    position: absolute;\n    top: 10%;\n    left: 30%;\n    padding: 0;\n}\nli[data-v-f3c12772]{\n    padding-left: 0;\n    padding-right: 0;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (min-width: 992px) {\n.img-logo[data-v-f3c12772]{\r\n        position: absolute;\r\n        height: 80%;\r\n        top: 10%;\r\n        left: 16.72%;\r\n        padding: 0;\n}\nli[data-v-f3c12772]{\r\n        padding-left: 0;\r\n        padding-right: 0;\n}\n#navbarSupportedContent[data-v-f3c12772]{\r\n        position: absolute;\r\n        right: 19%;\r\n        margin-right: -2.8%\n}\n}\n@media screen and (max-width: 991px) {\n#navbarSupportedContent[data-v-f3c12772]{\r\n        padding-top:30px;\r\n        padding-left: 10px !important;\r\n        padding-right: 10px !important;\n}\n}\n.img-logo[data-v-f3c12772]{\r\n        position: absolute;\r\n        height: 80%;\r\n        top: 10%;\r\n        padding: 0;\n}\na[data-v-f3c12772]{\r\n        color: white !important;\n}\na[data-v-f3c12772]:hover{\r\n        background-color: rgb(61 57 53) !important;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -8105,7 +8208,31 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\np[data-v-404dc466]{\n    text-align: center;\n}\n.font2[data-v-404dc466]{\n    font-size: 2rem;\n}\n.font08[data-v-404dc466]{\n    font-size: 0.8rem;\n}\na[data-v-404dc466]{\n    border-radius: 20px;\n    padding: 5px;\n    font-size: 1.4rem;\n}\n#div-nossos-numeros[data-v-404dc466]{\n    padding-top: 3%;\n    padding-bottom: 3%;\n    background-color: RGB(147, 187, 194, 0.9);\n    margin-bottom: 0px;\n}\nimg[data-v-404dc466]{\n    -o-object-fit: cover;\n       object-fit: cover;\n    max-width: 100%;\n    position: fixed; \n    bottom: 0px;  \n    width: 100%; \n    overflow: hidden; \n    pointer-events: none; \n    transform-style: preserve-3d; \n    -webkit-backface-visibility: hidden; \n            backface-visibility: hidden; \n    will-change: transform, opacity; \n    margin-top: -8.8px; \n    transform: translate3d(0px, 36.8px, 0px);\n}\n\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\np[data-v-404dc466]{\n    text-align: center;\n}\n.font2[data-v-404dc466]{\n    font-size: 2rem;\n}\n.font08[data-v-404dc466]{\n    font-size: 0.8rem;\n}\na[data-v-404dc466]{\n    border-radius: 20px;\n    padding: 5px;\n    font-size: 1.4rem;\n}\n#div-nossos-numeros[data-v-404dc466]{\n    padding-top: 3%;\n    padding-bottom: 3%;\n    background-color: RGB(147, 187, 194, 0.9);\n    margin-bottom: 0px;\n}\nimg[data-v-404dc466]{\n    -o-object-fit: cover;\n       object-fit: cover;\n    max-width: 100%;\n    position: fixed; \n    bottom: 0px;  \n    width: 100%; \n    overflow: hidden; \n    pointer-events: none; \n    transform-style: preserve-3d; \n    -webkit-backface-visibility: hidden; \n            backface-visibility: hidden; \n    will-change: transform, opacity; \n    margin-top: -8.8px; \n    transform: translate3d(0px, 36.8px, 0px);\n}\n@media screen and (max-width: 919px){\n.flex-container[data-v-404dc466]{\n        width: 100% !important;\n}\n}\n@media screen and (min-width: 920px){\n.flex-container[data-v-404dc466]{\n        width: 20%;\n}\n}\n\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home/NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home/NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width:575px) {\nh3[data-v-dd4556a8]{\n        text-align: center;\n}\np[data-v-dd4556a8]{\n        font-size: 1rem;\n        text-align: justify;\n}\n.img-fundo-mobile[data-v-dd4556a8]{\n        display: block;\n        width: 100%;\n}\n.div-img-background[data-v-dd4556a8]{\n        display: none;\n}\n}\n@media screen and (min-width:576px) and (max-width: 1282px) {\nh3[data-v-dd4556a8]{\n        text-align: left;\n}\np[data-v-dd4556a8]{\n        font-size: 1rem;\n}\n.img-fundo-mobile[data-v-dd4556a8]{\n        display: none;\n}\n.div-img-background[data-v-dd4556a8]{\n        height: 500px;\n        background-size: auto 100%;\n        background-repeat: no-repeat;\n}\n}\n@media screen and (min-width:1283px) and (max-width: 1817px) {\n.div-img-background[data-v-dd4556a8]{\n        background-size: 100% auto;\n        background-repeat: no-repeat;\n        height: 450px;\n}\n.img-fundo-mobile[data-v-dd4556a8]{\n        display: none;\n}\np[data-v-dd4556a8]{\n        font-size: 1.2rem;\n}\n}\n@media screen and (min-width: 1817px){\n.div-img-background[data-v-dd4556a8]{\n        background-size: 100% auto;\n        background-repeat: no-repeat;\n        height: 450px;\n}\n.img-fundo-mobile[data-v-dd4556a8]{\n        display: none;\n}\np[data-v-dd4556a8]{\n        font-size: 1.5rem;\n}\n}\n.div-text[data-v-dd4556a8]{\n    padding-top: 20px;\n    padding-bottom: 20px;\n    margin: 0;\n}\nh1[data-v-dd4556a8]{\n    padding-top: 3rem !important;\n    padding-bottom: 3rem !important;\n}\np[data-v-dd4556a8]{\n    text-align: justify;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -8129,7 +8256,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#div-prefooter[data-v-03f2b4d9]{\n    background-color: #F6F6F6;\n    padding-top: 7%;\n    padding-bottom: 7%;\n}\np[data-v-03f2b4d9]{\n    color: #858383;\n    font-size: 1.1rem;\n    font-weight: 300;\n    line-height: 1.5;\n    margin: 0 0 1em 0;\n}\n@media screen and (max-width: 767px){\n#div-prefooter[data-v-03f2b4d9]{\n        text-align: center;\n}\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#div-prefooter[data-v-03f2b4d9]{\n    background-color: #F6F6F6;\n    padding-top: 7%;\n    padding-bottom: 7%;\n}\np[data-v-03f2b4d9]{\n    color: #858383;\n    font-size: 1.1rem;\n    font-weight: 300;\n    line-height: 1.5;\n    margin: 0 0 1em 0;\n}\n@media screen and (max-width: 767px){\n#div-prefooter[data-v-03f2b4d9]{\n        text-align: justify;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -8153,7 +8280,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nimg[data-v-47fe016f]{\n    border-radius: 5px;\n    padding: 0px;\n}\n@media only screen and (max-width: 600px) {\nimg[data-v-47fe016f] {\n        width: 100%;\n}\n.div-text[data-v-47fe016f]{\n        margin-top: 30px;\n        justify-content: center;\n        text-align: center;\n}\n}\n@media only screen and (min-width: 601px) and (max-width: 992px) {\nimg[data-v-47fe016f] {\n        width: 300px;\n        height: 300px;\n}\n.div-image[data-v-47fe016f]{\n        justify-content: center !important;\n}\n.div-text[data-v-47fe016f]{\n        margin-top: 30px;\n        justify-content: center;\n        text-align: center;\n}\n}\n@media only screen and (min-width: 1200px){\nimg[data-v-47fe016f] {\n        width: 400px;\n        height: 400px;\n}\n}\n#video-frente[data-v-47fe016f]{\n    position: fixed;\n    background-color: black;\n    top: 15%;\n    right: 15%;\n    width: 70%;\n    max-height: 80%;\n    z-index: 1000;\n}\nvideo[data-v-47fe016f]{\n    width: 100%;\n}\n#btn-fechar-video[data-v-47fe016f]{\n    position: absolute;\n    top: 10px;\n    right: 10px;\n    cursor: pointer;\n}\n\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nimg[data-v-47fe016f]{\n    border-radius: 5px;\n    padding: 0px;\n    margin: 0px;\n}\n@media only screen and (max-width: 576px) {\nimg[data-v-47fe016f] {\n        width: 100%;\n}\n.div-text[data-v-47fe016f]{\n        margin-top: 30px;\n        justify-content: center;\n        text-align: center;\n}\n}\n@media only screen and (min-width: 601px) and (max-width: 992px) {\nimg[data-v-47fe016f] {\n        width: 300px;\n        height: 300px;\n}\n.div-image[data-v-47fe016f]{\n        justify-content: flex-end !important;\n}\n.div-text[data-v-47fe016f]{\n        justify-content: center;\n}\n}\n@media only screen and (min-width: 993px){\nimg[data-v-47fe016f] {\n        width: 400px;\n        height: 400px;\n}\n}\n#video-frente[data-v-47fe016f]{\n    position: fixed;\n    background-color: black;\n    top: 15%;\n    right: 15%;\n    width: 70%;\n    max-height: 80%;\n    z-index: 1000;\n}\nvideo[data-v-47fe016f]{\n    width: 100%;\n}\n#btn-fechar-video[data-v-47fe016f]{\n    position: absolute;\n    top: 10px;\n    right: 10px;\n    cursor: pointer;\n}\np[data-v-47fe016f]{\n    text-align: justify;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39385,6 +39512,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home/NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home/NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_NossosProgramas_vue_vue_type_style_index_0_id_dd4556a8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home/NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_NossosProgramas_vue_vue_type_style_index_0_id_dd4556a8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_NossosProgramas_vue_vue_type_style_index_0_id_dd4556a8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home/PreFooter.vue?vue&type=style&index=0&id=03f2b4d9&scoped=true&lang=css&":
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home/PreFooter.vue?vue&type=style&index=0&id=03f2b4d9&scoped=true&lang=css& ***!
@@ -40176,15 +40333,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _NossosProgramas_vue_vue_type_template_id_dd4556a8_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./NossosProgramas.vue?vue&type=template&id=dd4556a8&scoped=true& */ "./resources/js/components/home/NossosProgramas.vue?vue&type=template&id=dd4556a8&scoped=true&");
 /* harmony import */ var _NossosProgramas_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NossosProgramas.vue?vue&type=script&lang=js& */ "./resources/js/components/home/NossosProgramas.vue?vue&type=script&lang=js&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* harmony import */ var _NossosProgramas_vue_vue_type_style_index_0_id_dd4556a8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css& */ "./resources/js/components/home/NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
+;
 
 
 /* normalize component */
-;
-var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
   _NossosProgramas_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
   _NossosProgramas_vue_vue_type_template_id_dd4556a8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
   _NossosProgramas_vue_vue_type_template_id_dd4556a8_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
@@ -40873,6 +41032,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_NossosNumeros_vue_vue_type_style_index_0_id_404dc466_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./NossosNumeros.vue?vue&type=style&index=0&id=404dc466&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home/NossosNumeros.vue?vue&type=style&index=0&id=404dc466&scoped=true&lang=css&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/home/NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css&":
+/*!*******************************************************************************************************************!*\
+  !*** ./resources/js/components/home/NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css& ***!
+  \*******************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_NossosProgramas_vue_vue_type_style_index_0_id_dd4556a8_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/home/NossosProgramas.vue?vue&type=style&index=0&id=dd4556a8&scoped=true&lang=css&");
 
 
 /***/ }),
@@ -41626,109 +41798,158 @@ var staticRenderFns = [
         staticStyle: { "background-color": "rgb(61 57 53)" }
       },
       [
-        _c(
-          "div",
-          { staticClass: "row justify-content-around mx-0 div-footer" },
-          [
-            _c("div", { staticClass: "col-md-4 col-sm-12" }, [
-              _c("img", {
-                staticStyle: { height: "6rem" },
-                attrs: { src: "images/logo.png", alt: "" }
-              }),
-              _c("br"),
-              _c("br"),
-              _vm._v(" "),
-              _c("div", [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.facebook.com/fvgeducacaoeensino/"
-                    }
-                  },
-                  [
-                    _c("i", {
-                      staticClass: "fab fa-3x fa-facebook-square cor-azul"
-                    })
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href:
-                        "https://www.linkedin.com/company/fvgcirurgiaplastica/"
-                    }
-                  },
-                  [_c("i", { staticClass: "fab fa-3x fa-linkedin cor-azul" })]
-                ),
-                _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: "https://www.instagram.com/fvgeducacaoeensino/"
-                    }
-                  },
-                  [
-                    _c("i", {
-                      staticClass: "fab fa-3x fa-instagram-square cor-azul"
-                    })
-                  ]
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-4 col-sm-12" }, [
-              _c("ul", { staticClass: "list-unstyled text-small" }, [
-                _c("li", [
+        _c("div", { staticClass: "row justify-content-center mx-0" }, [
+          _c(
+            "div",
+            {
+              staticClass:
+                "col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 mx-0 px-0"
+            },
+            [
+              _c(
+                "div",
+                { staticClass: "row justify-content-center mx-0 px-0" },
+                [
                   _c(
-                    "a",
+                    "div",
                     {
-                      staticClass: "btn btn-sm botao-fale-com-especialista",
-                      attrs: { href: "#" }
+                      staticClass:
+                        "col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-0 mx-0 img-div-footer"
                     },
                     [
-                      _c("i", { staticClass: "fab fa-whatsapp" }),
-                      _vm._v(" Fale com nosso especialista")
+                      _c("img", {
+                        staticStyle: { height: "6rem" },
+                        attrs: { src: "images/logo.png", alt: "" }
+                      }),
+                      _c("br"),
+                      _c("br"),
+                      _vm._v(" "),
+                      _c("div", [
+                        _c(
+                          "a",
+                          {
+                            attrs: {
+                              href:
+                                "https://www.facebook.com/fvgeducacaoeensino/"
+                            }
+                          },
+                          [
+                            _c("i", {
+                              staticClass:
+                                "fab fa-3x fa-facebook-square cor-azul"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            attrs: {
+                              href:
+                                "https://www.linkedin.com/company/fvgcirurgiaplastica/"
+                            }
+                          },
+                          [
+                            _c("i", {
+                              staticClass: "fab fa-3x fa-linkedin cor-azul"
+                            })
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            attrs: {
+                              href:
+                                "https://www.instagram.com/fvgeducacaoeensino/"
+                            }
+                          },
+                          [
+                            _c("i", {
+                              staticClass:
+                                "fab fa-3x fa-instagram-square cor-azul"
+                            })
+                          ]
+                        )
+                      ])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-0 mx-0 div-footer"
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "flex-container",
+                          staticStyle: { display: "flex" }
+                        },
+                        [
+                          _c(
+                            "ul",
+                            { staticClass: "list-unstyled text-small" },
+                            [
+                              _c("li", [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "btn btn-sm botao-fale-com-especialista",
+                                    attrs: { href: "#" }
+                                  },
+                                  [
+                                    _c("i", { staticClass: "fab fa-whatsapp" }),
+                                    _vm._v(" Fale com nosso especialista")
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "li",
+                                {
+                                  staticClass: "cor-azul gotham-bold pt-2",
+                                  staticStyle: { "font-size": "1.4rem" }
+                                },
+                                [_vm._v("(31) 3090-4488")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "li",
+                                {
+                                  staticClass: "cor-azul gotham-bold",
+                                  staticStyle: { "font-size": "1.4rem" }
+                                },
+                                [_vm._v("(31) 9 9678-8844")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "li",
+                                { staticClass: "text-white gotham-bold pt-2" },
+                                [_vm._v("Av. Bandeirantes, 694")]
+                              ),
+                              _vm._v(" "),
+                              _c("li", { staticClass: "text-white" }, [
+                                _vm._v("Mangabeiras – CEP: 30315-382")
+                              ]),
+                              _vm._v(" "),
+                              _c("li", { staticClass: "text-white" }, [
+                                _vm._v("Belo Horizonte / MG")
+                              ])
+                            ]
+                          )
+                        ]
+                      )
                     ]
                   )
-                ]),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  {
-                    staticClass: "cor-azul gotham-bold pt-2",
-                    staticStyle: { "font-size": "1.4rem" }
-                  },
-                  [_vm._v("(31) 3090-4488")]
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
-                  {
-                    staticClass: "cor-azul gotham-bold",
-                    staticStyle: { "font-size": "1.4rem" }
-                  },
-                  [_vm._v("(31) 9 9678-8844")]
-                ),
-                _vm._v(" "),
-                _c("li", { staticClass: "text-white gotham-bold pt-2" }, [
-                  _vm._v("Av. Bandeirantes, 694")
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "text-white" }, [
-                  _vm._v("Mangabeiras – CEP: 30315-382")
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "text-white" }, [
-                  _vm._v("Belo Horizonte / MG")
-                ])
-              ])
-            ])
-          ]
-        )
+                ]
+              )
+            ]
+          )
+        ])
       ]
     )
   }
@@ -41957,13 +42178,13 @@ var staticRenderFns = [
           _c(
             "button",
             {
-              staticClass: "navbar-toggler",
+              staticClass: "navbar-toggler bg-dark",
               attrs: {
                 type: "button",
                 "data-bs-toggle": "collapse",
                 "data-bs-target": "#navbarSupportedContent",
                 "aria-controls": "navbarSupportedContent",
-                "aria-expanded": "false",
+                "aria-expanded": "true",
                 "aria-label": "Toggle navigation"
               }
             },
@@ -41974,121 +42195,120 @@ var staticRenderFns = [
             "div",
             {
               staticClass: "collapse navbar-collapse px-0",
+              staticStyle: { "background-color": "rgb(61 57 53)" },
               attrs: { id: "navbarSupportedContent" }
             },
             [
-              _c(
-                "ul",
-                { staticClass: "navbar-nav ms-auto mb-2 mb-lg-0 me-5 px-0" },
-                [
-                  _c("li", { staticClass: "nav-item dropdown px-0" }, [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "nav-link dropdown-toggle text-white",
-                        attrs: {
-                          href: "#",
-                          id: "navbarDropdown",
-                          role: "button",
-                          "data-bs-toggle": "dropdown",
-                          "aria-expanded": "false"
-                        }
-                      },
-                      [_vm._v("\n                Imersão\n            ")]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "ul",
-                      {
-                        staticClass: "dropdown-menu px-0",
-                        attrs: { "aria-labelledby": "navbarDropdown" }
-                      },
-                      [
-                        _c("li", [
-                          _c(
-                            "a",
-                            {
-                              staticClass: "dropdown-item",
-                              attrs: { href: "#" }
-                            },
-                            [_vm._v("Hands On - Prótese de mama")]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "a",
-                            {
-                              staticClass: "dropdown-item",
-                              attrs: { href: "#" }
-                            },
-                            [_vm._v("Hands On - Mastopexia")]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("li", [
-                          _c(
-                            "a",
-                            {
-                              staticClass: "dropdown-item",
-                              attrs: { href: "#" }
-                            },
-                            [_vm._v("Gestão e Marketing Médico")]
-                          )
-                        ])
-                      ]
-                    )
-                  ]),
+              _c("ul", { staticClass: "navbar-nav mb-2 mb-lg-0 px-0" }, [
+                _c("li", { staticClass: "nav-item dropdown px-0" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link dropdown-toggle text-white",
+                      attrs: {
+                        href: "#",
+                        id: "navbarDropdown",
+                        role: "button",
+                        "data-bs-toggle": "dropdown",
+                        "aria-expanded": "false"
+                      }
+                    },
+                    [_vm._v("\n                    Imersão\n                ")]
+                  ),
                   _vm._v(" "),
-                  _c("li", { staticClass: "nav-item dropdown px-2" }, [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "nav-link dropdown-toggle text-white",
-                        attrs: {
-                          href: "#",
-                          id: "navbarDropdown",
-                          role: "button",
-                          "data-bs-toggle": "dropdown",
-                          "aria-expanded": "false"
-                        }
-                      },
-                      [_vm._v("\n                Online\n            ")]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "ul",
-                      {
-                        staticClass: "dropdown-menu",
-                        attrs: { "aria-labelledby": "navbarDropdown" }
-                      },
-                      [
-                        _c("li", [
-                          _c(
-                            "a",
-                            {
-                              staticClass: "dropdown-item",
-                              attrs: { href: "#" }
-                            },
-                            [_vm._v("Mamoplastia de aumento")]
-                          )
-                        ])
-                      ]
-                    )
-                  ]),
+                  _c(
+                    "ul",
+                    {
+                      staticClass: "dropdown-menu px-0",
+                      staticStyle: { "background-color": "rgb(147 187 194)" },
+                      attrs: { "aria-labelledby": "navbarDropdown" }
+                    },
+                    [
+                      _c("li", [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: { href: "#" }
+                          },
+                          [_vm._v("Hands On - Prótese de mama")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: { href: "#" }
+                          },
+                          [_vm._v("Hands On - Mastopexia")]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: { href: "#" }
+                          },
+                          [_vm._v("Gestão e Marketing Médico")]
+                        )
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item dropdown" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link dropdown-toggle text-white",
+                      attrs: {
+                        href: "#",
+                        id: "navbarDropdown",
+                        role: "button",
+                        "data-bs-toggle": "dropdown",
+                        "aria-expanded": "false"
+                      }
+                    },
+                    [_vm._v("\n                    Online\n                ")]
+                  ),
                   _vm._v(" "),
-                  _c("li", { staticClass: "nav-item" }, [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "nav-link text-white",
-                        attrs: { href: "#", tabindex: "-1" }
-                      },
-                      [_vm._v("Sobre")]
-                    )
-                  ])
-                ]
-              )
+                  _c(
+                    "ul",
+                    {
+                      staticClass: "dropdown-menu",
+                      staticStyle: { "background-color": "rgb(147 187 194)" },
+                      attrs: { "aria-labelledby": "navbarDropdown" }
+                    },
+                    [
+                      _c("li", [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: { href: "#" }
+                          },
+                          [_vm._v("Mamoplastia de aumento")]
+                        )
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "nav-item" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "nav-link text-white",
+                      attrs: { href: "#", tabindex: "-1" }
+                    },
+                    [_vm._v("Sobre")]
+                  )
+                ])
+              ])
             ]
           )
         ])
@@ -42142,55 +42362,56 @@ var render = function() {
       ),
       _vm._v(" "),
       _c("div", { staticClass: "row justify-content-center mx-0 px-0" }, [
-        _c("div", { staticClass: "col-9" }, [
+        _c("div", { staticClass: "col-12 mx-0 px-0" }, [
           _c(
             "div",
-            { staticClass: "row justify-content-center mt-5 mx-0 px-0" },
+            {
+              staticClass: " mt-5 mx-0 px-0",
+              staticStyle: { display: "flex", "flex-wrap": "wrap" }
+            },
             [
-              _c("div", { staticClass: "col-sm-2 px-0" }, [
+              _c("div", { staticClass: "flex-container" }, [
                 _c("p", { staticClass: "font2" }, [
                   _vm._v(_vm._s(_vm.paciente) + "+")
                 ]),
                 _vm._v(" "),
-                _c("p", { staticClass: "font08 gotham-bold" }, [
+                _c("p", { staticClass: "gotham-bold" }, [
                   _vm._v("PACIENTES ATENDIDOS")
                 ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "col-sm-2" }, [
+              _c("div", { staticClass: "flex-container" }, [
                 _c("p", { staticClass: "font2" }, [
                   _vm._v(_vm._s(_vm.procedimentos) + "+")
                 ]),
                 _vm._v(" "),
-                _c("p", { staticClass: "font08 gotham-bold" }, [
+                _c("p", { staticClass: "gotham-bold" }, [
                   _vm._v("PROCEDIMENTOS CIRÚRGICOS")
                 ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "col-sm-2" }, [
+              _c("div", { staticClass: "flex-container" }, [
                 _c("p", { staticClass: "font2" }, [
                   _vm._v(_vm._s(_vm.horas) + "+")
                 ]),
                 _vm._v(" "),
-                _c("p", { staticClass: "font08 gotham-bold" }, [
+                _c("p", { staticClass: "gotham-bold" }, [
                   _vm._v("HORAS CIRÚRGICOS")
                 ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "col-sm-2" }, [
+              _c("div", { staticClass: "flex-container" }, [
                 _c("p", { staticClass: "font2" }, [
                   _vm._v(_vm._s(_vm.faturamento) + "MM")
                 ]),
                 _vm._v(" "),
-                _c("p", { staticClass: "font08 gotham-bold" }, [
-                  _vm._v("FATURAMENTO")
-                ])
+                _c("p", { staticClass: "gotham-bold" }, [_vm._v("FATURAMENTO")])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "col-sm-1" }, [
+              _c("div", { staticClass: "flex-container" }, [
                 _c("p", { staticClass: "font2" }, [_vm._v(_vm._s(_vm.nps))]),
                 _vm._v(" "),
-                _c("p", { staticClass: "font08 gotham-bold" }, [_vm._v("NPS")])
+                _c("p", { staticClass: "gotham-bold" }, [_vm._v("NPS")])
               ])
             ]
           )
@@ -42212,9 +42433,14 @@ var staticRenderFns = [
       "div",
       { staticClass: "row justify-content-center mt-5 mx-0 px-0" },
       [
-        _c("a", { staticClass: "btn btn-sm cor-escura col-sm-2 text-white" }, [
-          _vm._v("EU QUERO PARTICIPAR")
-        ])
+        _c(
+          "a",
+          {
+            staticClass:
+              "btn btn-sm cor-escura col-11 col-sm-10 col-md-8 col-lg-4 col-xl-3 text-white"
+          },
+          [_vm._v("EU QUERO PARTICIPAR")]
+        )
       ]
     )
   },
@@ -42266,213 +42492,224 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticStyle: { top: "700px", "background-color": "white" } },
+    {
+      staticStyle: {
+        top: "700px",
+        "background-color": "white",
+        "padding-bottom": "3rem"
+      }
+    },
     [
       _c(
         "h1",
         {
-          staticClass: "cor-azul gotham-bold py-5 mx-0 px-0",
+          staticClass: "cor-azul gotham-bold mx-0 px-0",
           staticStyle: { "text-align": "center" }
         },
         [_vm._v("Nossos programas")]
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "row justify-content-center px-0 mx-0 pb-5" }, [
-        _vm._m(0),
+      _c("div", { staticClass: "row justify-content-center mx-0 px-0" }, [
+        _c("img", {
+          staticClass: "img-fundo-mobile",
+          staticStyle: { margin: "0", padding: "0" },
+          attrs: { src: "images/img1.jpg", alt: "" }
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "col-lg-4 mx-0 px-0 col-md-4 col-sm-4 div-img-background",
+          staticStyle: {
+            "background-position": "right",
+            "background-image": "url('images/img1.jpg')"
+          }
+        }),
         _vm._v(" "),
         _c(
           "div",
           {
             staticClass:
-              "col-lg-4 col-md-5 col-sm-6 ms-3 d-flex flex-column justify-content-center"
+              "div-text col-lg-4 col-md-4 col-sm-4 d-flex mx-0 px-0 flex-column justify-content-center"
           },
           [
-            _c("h3", { staticClass: "gotham-bold text-muted" }, [
-              _vm._v("Hands On - Prótese de Mama")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "text-muted font15" }, [
-              _vm._v(
-                "São 2 dias de imersão, com 70% da metodologia prática e com mentoria exclusiva, personalizada e individualizada da equipe FVG Cirurgia Plástica. Desenvolvido para cirurgiões plásticos formados e residentes."
+            _c("div", { staticClass: "row justify-content-end mx-0 px-0" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12"
+                },
+                [
+                  _c("h3", { staticClass: "gotham-bold text-muted" }, [
+                    _vm._v("Hands On - Prótese de Mama")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-muted" }, [
+                    _vm._v(
+                      "São 2 dias de imersão, com 70% da metodologia prática e com mentoria exclusiva, personalizada e individualizada da equipe FVG Cirurgia Plástica. Desenvolvido para cirurgiões plásticos formados e residentes."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("v-btn-saber-detalhes")
+                ],
+                1
               )
-            ]),
-            _vm._v(" "),
-            _c("v-btn-saber-detalhes")
-          ],
-          1
+            ])
+          ]
         )
       ]),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "row justify-content-center px-0 mx-0 mt-5 py-5" },
-        [
-          _c(
-            "div",
-            {
-              staticClass:
-                "col-lg-4 col-md-5 col-sm-6 me-3 d-flex flex-column justify-content-center"
-            },
-            [
-              _c(
-                "h3",
-                {
-                  staticClass: "gotham-bold text-muted",
-                  staticStyle: { "text-align": "right" }
-                },
-                [_vm._v("Hands On - Mastopexia e Redução Mamária com prótese")]
-              ),
-              _vm._v(" "),
-              _c(
-                "p",
-                {
-                  staticClass: "text-muted font15",
-                  staticStyle: { "text-align": "right" }
-                },
-                [
-                  _vm._v(
-                    "São 30h de curso, divididas em 3 dias de imersão, com 70% da metodologia prática e mentoria exclusiva e individualizada da equipe FVG Cirurgia Plástica. Desenvolvido para cirurgiões plásticos formados e residentes."
-                  )
-                ]
-              ),
-              _vm._v(" "),
+      _c("div", { staticClass: "row justify-content-center mx-0 px-0 mt-5" }, [
+        _c("img", {
+          staticClass: "img-fundo-mobile",
+          staticStyle: { margin: "0", padding: "0" },
+          attrs: { src: "images/img2.jpg", alt: "" }
+        }),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "div-text col-lg-4 col-md-4 col-sm-4 d-flex mx-0 px-0 flex-column justify-content-center"
+          },
+          [
+            _c("div", { staticClass: "row justify-content-start mx-0 px-0" }, [
               _c(
                 "div",
-                { staticClass: "row justify-content-end" },
-                [_c("v-btn-saber-detalhes")],
-                1
-              )
-            ]
-          ),
-          _vm._v(" "),
-          _vm._m(1)
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "row justify-content-center px-0 mx-0 mt-5 py-5" },
-        [
-          _vm._m(2),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass:
-                "col-lg-4 col-md-5 col-sm-6 ms-3 d-flex flex-column justify-content-center"
-            },
-            [
-              _c("h3", { staticClass: "gotham-bold text-muted" }, [
-                _vm._v("Gestão e Marketing Médico")
-              ]),
-              _vm._v(" "),
-              _c("p", { staticClass: "text-muted font15" }, [
-                _vm._v(
-                  "Tudo que você precisa saber para elevar seu negócio! Se você quer aumentar sua base de pacientes, o curso de Gestão e Marketing Médico é definitivamente para você! Saiba mais sobre o segredo para um marketing médico de sucesso."
-                )
-              ]),
-              _vm._v(" "),
-              _c("v-btn-saber-detalhes")
-            ],
-            1
-          )
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "row justify-content-center px-0 mx-0 mt-5 py-5" },
-        [
-          _c(
-            "div",
-            {
-              staticClass:
-                "col-lg-4 col-md-5 col-sm-6 me-3 d-flex flex-column justify-content-center"
-            },
-            [
-              _c(
-                "h3",
                 {
-                  staticClass: "gotham-bold text-muted",
-                  staticStyle: { "text-align": "right" }
-                },
-                [_vm._v("Online: Mamoplastia de Aumento")]
-              ),
-              _vm._v(" "),
-              _c(
-                "p",
-                {
-                  staticClass: "text-muted font15",
-                  staticStyle: { "text-align": "right" }
+                  staticClass: "col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12"
                 },
                 [
-                  _vm._v(
-                    "O objetivo do curso é, através do pilar de transferência do conhecimento FVG Cirurgia Plástica, repassar as práticas que vão desde o atendimento no consultório ao pós-operatório. Tudo isso online e na hora que você quiser e precisar. Confira!"
-                  )
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                { staticClass: "row justify-content-end" },
-                [_c("v-btn-saber-detalhes")],
+                  _c("h3", { staticClass: "gotham-bold text-muted" }, [
+                    _vm._v(
+                      "Hands On - Mastopexia e Redução Mamária com prótese"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-muted" }, [
+                    _vm._v(
+                      "São 30h de curso, divididas em 3 dias de imersão, com 70% da metodologia prática e mentoria exclusiva e individualizada da equipe FVG Cirurgia Plástica. Desenvolvido para cirurgiões plásticos formados e residentes."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("v-btn-saber-detalhes")
+                ],
                 1
               )
-            ]
-          ),
-          _vm._v(" "),
-          _vm._m(3)
-        ]
-      )
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "col-lg-4 mx-0 px-0 col-md-4 col-sm-4 div-img-background",
+          staticStyle: {
+            "background-position": "left",
+            "background-image": "url('images/img2.jpg')"
+          }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row justify-content-center mx-0 px-0 mt-5" }, [
+        _c("img", {
+          staticClass: "img-fundo-mobile",
+          staticStyle: { margin: "0", padding: "0" },
+          attrs: { src: "images/img3.jpg", alt: "" }
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "col-lg-4 mx-0 px-0 col-md-4 col-sm-4 div-img-background",
+          staticStyle: {
+            "background-position": "right",
+            "background-image": "url('images/img3.jpg')"
+          }
+        }),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "div-text col-lg-4 col-md-4 col-sm-4 d-flex mx-0 px-0 flex-column justify-content-center"
+          },
+          [
+            _c("div", { staticClass: "row justify-content-end mx-0 px-0" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12"
+                },
+                [
+                  _c("h3", { staticClass: "gotham-bold text-muted" }, [
+                    _vm._v("Gestão e Marketing Médico")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-muted" }, [
+                    _vm._v(
+                      "Tudo que você precisa saber para elevar seu negócio! Se você quer aumentar sua base de pacientes, o curso de Gestão e Marketing Médico é definitivamente para você! Saiba mais sobre o segredo para um marketing médico de sucesso."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("v-btn-saber-detalhes")
+                ],
+                1
+              )
+            ])
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "row justify-content-center mx-0 px-0 mt-5" }, [
+        _c("img", {
+          staticClass: "img-fundo-mobile",
+          staticStyle: { margin: "0", padding: "0" },
+          attrs: { src: "images/img4.jpg", alt: "" }
+        }),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "div-text col-lg-4 col-md-4 col-sm-4 d-flex flex-column mx-0 px-0 justify-content-center"
+          },
+          [
+            _c("div", { staticClass: "row justify-content-start mx-0 px-0" }, [
+              _c(
+                "div",
+                {
+                  staticClass: "col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12"
+                },
+                [
+                  _c("h3", { staticClass: "gotham-bold text-muted" }, [
+                    _vm._v("Online: Mamoplastia de Aumento")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "text-muted" }, [
+                    _vm._v(
+                      "O objetivo do curso é, através do pilar de transferência do conhecimento FVG Cirurgia Plástica, repassar as práticas que vão desde o atendimento no consultório ao pós-operatório. Tudo isso online e na hora que você quiser e precisar. Confira!"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("v-btn-saber-detalhes")
+                ],
+                1
+              )
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "col-lg-4 mx-0 px-0 col-md-4 col-sm-4 div-img-background",
+          staticStyle: {
+            "background-position": "left",
+            "background-image": "url('images/img4.jpg')"
+          }
+        })
+      ])
     ]
   )
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-lg-4 col-md-3 col-sm-2" }, [
-      _c("img", {
-        staticStyle: { width: "100%" },
-        attrs: { src: "images/img1.jpg", alt: "" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-lg-4 col-md-3 col-sm-2" }, [
-      _c("img", {
-        staticStyle: { width: "100%" },
-        attrs: { src: "images/img2.jpg", alt: "" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-lg-4 col-md-3 col-sm-2" }, [
-      _c("img", {
-        staticStyle: { width: "100%" },
-        attrs: { src: "images/img3.jpg", alt: "" }
-      })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-lg-4 col-md-3 col-sm-2" }, [
-      _c("img", {
-        staticStyle: { width: "100%" },
-        attrs: { src: "images/img4.jpg", alt: "" }
-      })
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -42523,10 +42760,8 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "col-md-6 gotham-bold" }, [
           _vm._v(
-            "\n        Descubra como evoluir sua prática cirúrgica e se tornar um"
-          ),
-          _c("br"),
-          _vm._v(" profissional da saúde 5.0\n    ")
+            "\n        Descubra como evoluir sua prática cirúrgica e se tornar um profissional da saúde 5.0\n    "
+          )
         ])
       ]
     )
@@ -42555,14 +42790,20 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "mx-0 px-0 bg-light py-5" }, [
-    _c("div", { staticClass: "row justify-content-center mx-0 px-0" }, [
+    _c("div", { staticClass: "row justify-content-center m-0 p-0" }, [
       _c(
         "div",
-        { staticClass: "col-lg-4 d-flex flex-column justify-content-center" },
+        {
+          staticClass: "col-xl-3 col-lg-4 col-md-5 col-sm-6 col-12 p-0 m-0",
+          staticStyle: { display: "block" }
+        },
         [
           _c(
             "div",
-            { staticClass: "row justify-content-end mx-0 px-0 div-image" },
+            {
+              staticClass: "row justify-content-end m-0 p-0 div-image",
+              staticStyle: { display: "flex" }
+            },
             [
               _c("img", {
                 attrs: {
@@ -42612,23 +42853,31 @@ var staticRenderFns = [
     return _c(
       "div",
       {
-        staticClass:
-          "col-lg-3 px-2 d-flex flex-column justify-content-center div-text"
+        staticClass: "col-xl-3 col-lg-4 col-md-5 col-sm-6 col-12 div-text",
+        staticStyle: { display: "flex", "align-items": "center" }
       },
       [
-        _c("h5", { staticClass: "gotham-bold text-muted" }, [
-          _vm._v("O que é a FVG Educação e Ensino")
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "text-muted" }, [
-          _vm._v(
-            "As imersões e mentorias da FVG Educação e Ensino é um negócio que surgiu a partir da necessidade de transferir conhecimento, prática e gestão empresarial para profissionais da saúde em posições estratégicas."
-          )
-        ]),
-        _vm._v(" "),
-        _c("p", { staticClass: "gotham-bold text-muted" }, [
-          _vm._v(
-            "Você está pronto para atualizar suas técnicas e promover mudanças significativas em seu negócio?"
+        _c("div", { staticClass: "row justify-content-end mx-0 px-0" }, [
+          _c(
+            "div",
+            { staticClass: "col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12" },
+            [
+              _c("h5", { staticClass: "gotham-bold text-muted" }, [
+                _vm._v("O que é a FVG Educação e Ensino")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-muted" }, [
+                _vm._v(
+                  "As imersões e mentorias da FVG Educação e Ensino é um negócio que surgiu a partir da necessidade de transferir conhecimento, prática e gestão empresarial para profissionais da saúde em posições estratégicas."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "gotham-bold text-muted" }, [
+                _vm._v(
+                  "Você está pronto para atualizar suas técnicas e promover mudanças significativas em seu negócio?"
+                )
+              ])
+            ]
           )
         ])
       ]
