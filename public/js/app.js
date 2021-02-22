@@ -42362,60 +42362,69 @@ var render = function() {
       ),
       _vm._v(" "),
       _c("div", { staticClass: "row justify-content-center mx-0 px-0" }, [
-        _c("div", { staticClass: "col-12 mx-0 px-0" }, [
-          _c(
-            "div",
-            {
-              staticClass: " mt-5 mx-0 px-0",
-              staticStyle: { display: "flex", "flex-wrap": "wrap" }
-            },
-            [
-              _c("div", { staticClass: "flex-container" }, [
-                _c("p", { staticClass: "font2" }, [
-                  _vm._v(_vm._s(_vm.paciente) + "+")
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12 mx-0 px-0"
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass: " mt-5 mx-0 px-0",
+                staticStyle: { display: "flex", "flex-wrap": "wrap" }
+              },
+              [
+                _c("div", { staticClass: "flex-container" }, [
+                  _c("p", { staticClass: "font2" }, [
+                    _vm._v(_vm._s(_vm.paciente) + "+")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "gotham-bold" }, [
+                    _vm._v("PACIENTES ATENDIDOS")
+                  ])
                 ]),
                 _vm._v(" "),
-                _c("p", { staticClass: "gotham-bold" }, [
-                  _vm._v("PACIENTES ATENDIDOS")
+                _c("div", { staticClass: "flex-container" }, [
+                  _c("p", { staticClass: "font2" }, [
+                    _vm._v(_vm._s(_vm.procedimentos) + "+")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "gotham-bold" }, [
+                    _vm._v("PROCEDIMENTOS CIRÚRGICOS")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flex-container" }, [
+                  _c("p", { staticClass: "font2" }, [
+                    _vm._v(_vm._s(_vm.horas) + "+")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "gotham-bold" }, [
+                    _vm._v("HORAS CIRÚRGICOS")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flex-container" }, [
+                  _c("p", { staticClass: "font2" }, [
+                    _vm._v(_vm._s(_vm.faturamento) + "MM")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "gotham-bold" }, [
+                    _vm._v("FATURAMENTO")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flex-container" }, [
+                  _c("p", { staticClass: "font2" }, [_vm._v(_vm._s(_vm.nps))]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "gotham-bold" }, [_vm._v("NPS")])
                 ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "flex-container" }, [
-                _c("p", { staticClass: "font2" }, [
-                  _vm._v(_vm._s(_vm.procedimentos) + "+")
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "gotham-bold" }, [
-                  _vm._v("PROCEDIMENTOS CIRÚRGICOS")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "flex-container" }, [
-                _c("p", { staticClass: "font2" }, [
-                  _vm._v(_vm._s(_vm.horas) + "+")
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "gotham-bold" }, [
-                  _vm._v("HORAS CIRÚRGICOS")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "flex-container" }, [
-                _c("p", { staticClass: "font2" }, [
-                  _vm._v(_vm._s(_vm.faturamento) + "MM")
-                ]),
-                _vm._v(" "),
-                _c("p", { staticClass: "gotham-bold" }, [_vm._v("FATURAMENTO")])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "flex-container" }, [
-                _c("p", { staticClass: "font2" }, [_vm._v(_vm._s(_vm.nps))]),
-                _vm._v(" "),
-                _c("p", { staticClass: "gotham-bold" }, [_vm._v("NPS")])
-              ])
-            ]
-          )
-        ])
+              ]
+            )
+          ]
+        )
       ]),
       _vm._v(" "),
       _vm._m(0),
