@@ -77,7 +77,8 @@
     }
     .img-fundo-mobile{
         display: block;
-        width: 100%;
+        max-width: 500px;
+        max-height: 500px;
     }
     .div-img-background{
         display: none;
@@ -109,7 +110,7 @@
         display: none;
     }
     p{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 @media screen and (min-width: 1817px){
@@ -122,7 +123,7 @@
         display: none;
     }
     p{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 .div-text{
@@ -136,7 +137,12 @@ h1{
 }
 p{
     text-align: justify;
+    font-family: 'Gotham-book';
 }
+h3{
+    font-family: 'Gotham-book';
+}
+
 </style>
 
 

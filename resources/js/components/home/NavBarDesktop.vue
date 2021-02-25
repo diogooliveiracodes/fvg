@@ -81,5 +81,7 @@ export default {
     a:hover{
         background-color: rgb(61 57 53) !important;
     }
-
+*{
+    font-family: 'Gotham-book';
+}
 </style>

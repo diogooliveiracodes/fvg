@@ -16,10 +16,8 @@
     {{-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> --}}
 
     {{-- Scripts  --}}
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-    {{-- Styles  --}}
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">    
+    
     <link href="./css/landing-page.min.css" rel="stylesheet">
 
     {{-- Fontawsome --}}
@@ -31,26 +29,23 @@
     @yield('content')
 
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+
 </body>
 <style>
     @font-face {
     src: url('fontes/Gotham/GothamBook.ttf');
-    font-family: 'Gotham-book';   
-    font-weight: normal;
+    font-family: 'Gotham-book';
     }
     @font-face {
     src: url('fontes/Gotham/GothamBold.ttf');
-    font-family: 'Gotham-bold';   
-    font-weight: normal;
+    font-family: 'Gotham-bold';
     }
     @font-face {
     src: url('fontes/Gotham/GothamLight.ttf');
-    font-family: 'Gotham-light';   
-    font-weight: normal;
-    }
-
-    body{
-        font-family:'Gotham-book'; 
+    font-family: 'Gotham-light';
     }
     .cor-azul{
         color: rgb(147 187 194);
@@ -79,15 +74,7 @@
         background-color: rgb(61 57 53)
     }
     .botao-fale-com-especialista{
-        border-radius: 15px;
         background-color: rgb(147 187 194);
-        border: 1px solid rgb(147 187 194);
-        font-family: 'Gotham-bold';
-        font-size: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin-top: 10px;
-        color: rgb(61 57 53);
     }
 </style>
 

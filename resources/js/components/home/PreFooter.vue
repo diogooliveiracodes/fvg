@@ -38,6 +38,9 @@
             text-align: justify;
         }
     }
+    *{
+        font-family: 'Gotham-book';
+    }
 </style>
 
 <script>

@@ -1,16 +1,39 @@
 <template>
-    <div class="col-xxl-8 col-xl-10 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <a href="" class="btn btn-sm botao-fale-com-especialista font15">Quero saber os detalhes</a>
+    <div class="div-text">
+        <a class="btn btn-md" href="#garantias">Quero saber os detalhes</a>
     </div>
 </template>
 
 <style scoped>
-    a{
-        width: 100%;
-        font-size: 1.2rem;
+@media only screen and (max-width: 576px) {
+    .div-text{
+        margin-top: 30px;
+        justify-content: center;
+        text-align: center;
     }
+}
+a{
+    transition: all 0.3s ease-in-out 0s;
+    background-color:rgb(147 187 194);
+    border: none;
+    border-radius: 20px;
+    color: rgb(61 57 53);
+}
+a:hover{
+    transform: scale3d(1.2, 1.2, 2);
+    background-color:rgb(147 187 194);
+    color: rgb(61 57 53);
+}
+a:after{
+    transition: all 0.3s ease-in-out 0s;
+    background-color:rgb(147 187 194);
+    border: none;
+    border-radius: 20px;
+    color: rgb(61 57 53);
+}
+ 
 </style>
-
 <script>
+
 
 </script>

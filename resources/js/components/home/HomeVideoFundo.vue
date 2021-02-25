@@ -17,7 +17,7 @@
                     de técnicas e promoção de mudanças significativas,<br>
                     do marketing médico à técnica cirúrgica.<br>
                 </p>
-                <a class="btn btn-sm btn-danger botao-fale-com-especialista" href="#" style="font-size: 1.4rem">QUERO CONHECER OS PROGRAMAS</a>
+                <button class="btn btn-lg" href="#garantias">QUERO CONHECER OS PROGRAMAS</button>
             </div>
         </div>
     </div>
@@ -30,6 +30,20 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+p, h4{
+    font-family: 'Gotham-book';
+}
+button{
+    transition: all 0.3s ease-in-out 0s;
+    background-color:rgb(147 187 194);
+    border: none;
+    border-radius: 20px;
+    color: rgb(61 57 53);
+}
+button:hover{
+    transform: scale3d(1.2, 1.2, 2);
+    background-color:rgb(147 187 194);
+    color: rgb(61 57 53);
+}
 </style>
