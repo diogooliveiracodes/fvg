@@ -68,6 +68,12 @@ export default {
         padding-left: 10px !important;
         padding-right: 10px !important;
     }
+    .img-logo{
+        left: 20px;
+    }
+    .navbar-toggler{
+        margin-right: 20px;
+    }
 }
     .img-logo{
         position: absolute;
@@ -83,5 +89,8 @@ export default {
     }
 *{
     font-family: 'Gotham-book';
+}
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0 !important;
 }
 </style>
