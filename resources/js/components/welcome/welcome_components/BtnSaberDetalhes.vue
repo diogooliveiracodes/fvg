@@ -34,6 +34,8 @@ a:after{
  
 </style>
 <script>
-
+export default {
+    name: 'btnSaberDetalhes'
+}
 
 </script>

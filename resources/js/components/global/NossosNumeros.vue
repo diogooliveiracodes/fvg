@@ -123,10 +123,10 @@
 
 </style>
 
-
-
 <script>
+
     export default {
+        name: 'nossosNumeros',
         data(){
             return {
                 paciente: 0,

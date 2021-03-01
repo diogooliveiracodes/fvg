@@ -12,10 +12,10 @@
         </slide>
       </carousel-3d>
       <div id="video-frente" v-show="videoFrente" >
-        <v-carousel-video-um v-if="i == 0" :videoplay="videoFrente"></v-carousel-video-um>
-        <v-carousel-video-dois v-if="i == 1" :videoplay="videoFrente"></v-carousel-video-dois>
-        <v-carousel-video-tres v-if="i == 2" :videoplay="videoFrente"></v-carousel-video-tres>
-        <v-carousel-video-quatro v-if="i == 3" :videoplay="videoFrente"></v-carousel-video-quatro>
+        <videoComponent01 v-if="i == 0" :videoplay="videoFrente"></videoComponent01>
+        <videoComponent02 v-if="i == 1" :videoplay="videoFrente"></videoComponent02>
+        <videoComponent03 v-if="i == 2" :videoplay="videoFrente"></videoComponent03>
+        <videoComponent04 v-if="i == 3" :videoplay="videoFrente"></videoComponent04>
         <i class="far fa-3x fa-times-circle cor-azul" @click="clearVideo()" id="btn-fechar-video"></i>
       </div>
     </div>
@@ -24,8 +24,6 @@
 </template>
 
 <script>
-import Carousel3d from "./carousel-3d/Carousel3d";
-import Slide from "./carousel-3d/Slide";
 
 const slides = [
   {
@@ -51,11 +49,18 @@ const slides = [
   }
 ]
 
+import videoComponent01 from '../../global/videos/Video01.vue'
+import videoComponent02 from '../../global/videos/Video02.vue'
+import videoComponent03 from '../../global/videos/Video03.vue'
+import videoComponent04 from '../../global/videos/Video04.vue'
+
 export default {
-  name: 'App',
+  name: 'welcomeCarousel',
   components: {
-    Carousel3d,
-    Slide
+    videoComponent01,
+    videoComponent02,
+    videoComponent03,
+    videoComponent04,
   },
   data () {
     return {

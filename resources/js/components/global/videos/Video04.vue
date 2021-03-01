@@ -6,6 +6,7 @@
 
 <script>
 export default {
+    name: 'videoComponent04',
     props: {
         videoplay: false,
     }

@@ -12,7 +12,7 @@
                     <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12">
                         <h3 class="gotham-bold text-muted">Hands On - Prótese de Mama</h3>
                         <p class="text-muted">São 2 dias de imersão, com 70% da metodologia prática e com mentoria exclusiva, personalizada e individualizada da equipe FVG Cirurgia Plástica. Desenvolvido para cirurgiões plásticos formados e residentes.</p>
-                        <v-btn-saber-detalhes></v-btn-saber-detalhes>
+                        <btnSaberDetalhes></btnSaberDetalhes>
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                     <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12">
                         <h3 class="gotham-bold text-muted">Hands On - Mastopexia e Redução Mamária com prótese</h3>
                         <p class="text-muted">São 30h de curso, divididas em 3 dias de imersão, com 70% da metodologia prática e mentoria exclusiva e individualizada da equipe FVG Cirurgia Plástica. Desenvolvido para cirurgiões plásticos formados e residentes.</p>
-                        <v-btn-saber-detalhes></v-btn-saber-detalhes>
+                        <btnSaberDetalhes></btnSaberDetalhes>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                     <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12">
                         <h3 class="gotham-bold text-muted">Gestão e Marketing Médico</h3>
                         <p class="text-muted">Tudo que você precisa saber para elevar seu negócio! Se você quer aumentar sua base de pacientes, o curso de Gestão e Marketing Médico é definitivamente para você! Saiba mais sobre o segredo para um marketing médico de sucesso.</p>
-                        <v-btn-saber-detalhes></v-btn-saber-detalhes>
+                        <btnSaberDetalhes></btnSaberDetalhes>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                     <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12">
                         <h3 class="gotham-bold text-muted">Online: Mamoplastia de Aumento</h3>
                         <p class="text-muted">O objetivo do curso é, através do pilar de transferência do conhecimento FVG Cirurgia Plástica, repassar as práticas que vão desde o atendimento no consultório ao pós-operatório. Tudo isso online e na hora que você quiser e precisar. Confira!</p>
-                        <v-btn-saber-detalhes></v-btn-saber-detalhes>
+                        <btnSaberDetalhes></btnSaberDetalhes>
                     </div>
                 </div>
             </div>
@@ -147,7 +147,11 @@ h3{
 
 
 <script>
+import btnSaberDetalhes from './BtnSaberDetalhes'
     export default {
-
+        name: 'welcomeNossosProgramas',
+        components: {
+            btnSaberDetalhes
+        }
     }
 </script>

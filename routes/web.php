@@ -16,8 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/teste', function () {
-    return view('teste');
+Route::get('/handson', function () {
+    return view('handson');
+});
+Route::get('/mastopexia', function () {
+    return view('mastopexia');
+});
+Route::get('/gestao-e-marketing', function () {
+    return view('gestao_e_marketing');
 });
 
 Auth::routes();

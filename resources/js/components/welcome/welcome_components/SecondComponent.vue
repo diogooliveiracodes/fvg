@@ -28,6 +28,7 @@
 
 <script>
 export default {
+    name: 'welcomeSecondComponent',
     data(){
         return{
             videooverflow: false
