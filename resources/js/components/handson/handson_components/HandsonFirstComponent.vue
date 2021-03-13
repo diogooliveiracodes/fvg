@@ -1,8 +1,11 @@
 <template>
-<div class="row justify-content-center m-0 p-0" style="height: 100vh; background-image: url('images/handson/backgroundhandson.jpg'">
+<div 
+    class="row justify-content-center m-0 p-0" 
+    style="height: 100vh; background-image: url('images/handson/backgroundhandson.jpg'">
     <div>
-        <div class="row justify-content-center px-0 mx-0">
-            <div class="col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12" style="margin-top: 15%;">
+        <div class="row justify-content-center px-0 mx-0"
+            data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
+            <div class="px-0 col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12" style="margin-top: 15%;">
                 <h4 class="text-white gotham-bold desktop" style="font-size: 2.7rem">
                     Imersão e mentoria <br>
                     desenvolvida para você <br>
@@ -18,7 +21,7 @@
                     de técnicas e promoção de mudanças significativas,<br>
                     do marketing médico à técnica cirúrgica.<br>
                 </p>
-                <button class="btn btn-lg" href="#garantias">QUERO CONHECER OS PROGRAMAS</button>
+                <button class="btn btn-success btn-lg" href="#garantias">QUERO CONHECER OS PROGRAMAS</button>
             </div>
         </div>
     </div>

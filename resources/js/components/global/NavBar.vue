@@ -1,5 +1,8 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: rgb(61 57 53); height: 10%;">
+    <nav
+        v-scroll="handleScroll" :class="{'aplicarbg': aplicarbg}"
+        class="navbar navbar-expand-lg navbar-dark fixed-top" 
+        style="height: 10%;">
         <div class="container-fluid px-0">
             <a class="navbar-brand p-0 m-0" href="#">
                 <img :src="imagem" alt="" class="img-logo">
@@ -7,17 +10,19 @@
             <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div v-if="pginicial == true" class="collapse navbar-collapse px-0" id="navbarSupportedContent" style="background-color: rgb(61 57 53);">
+            <div v-if="pginicial == 'true'" :class="{'aplicarbg': aplicarbg}" 
+                class="collapse navbar-collapse px-0" 
+                id="navbarSupportedContent" 
+                >
                 <ul class="navbar-nav mb-2 mb-lg-0 px-0">
                     <li class="nav-item dropdown px-0">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Imersão
                         </a>
                         <ul class="dropdown-menu px-0" aria-labelledby="navbarDropdown" style="background-color: rgb(147 187 194);">
-                        <li><a class="dropdown-item" href="#">Hands On - Prótese de mama</a></li>
-                        <li><a class="dropdown-item" href="#">Hands On - Mastopexia</a></li>
-                        
-                        <li><a class="dropdown-item" href="#">Gestão e Marketing Médico</a></li>
+                        <li><a class="dropdown-item" :href="handsonlink">Hands On - Prótese de mama</a></li>
+                        <li><a class="dropdown-item" :href="mastopexialink">Hands On - Mastopexia</a></li>
+                        <li><a class="dropdown-item" :href="gestaolink">Gestão e Marketing Médico</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -33,7 +38,7 @@
                     </li>
                 </ul>
             </div>
-            <div v-if="handson == true" class="collapse navbar-collapse px-0" id="navbarSupportedContent" style="background-color: rgb(61 57 53);">
+            <div v-else class="collapse navbar-collapse px-0" :class="{'aplicarbg': aplicarbg}" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 px-0">
 
                     <li class="nav-item">
@@ -59,7 +64,17 @@
 
 <script>
 export default {
-    props:['imagem', 'pginicial', 'handson'],
+    props:['imagem', 'pginicial', 'naoinicial', 'handsonlink', 'mastopexialink', 'gestaolink'],
+    data(){
+        return{
+            aplicarbg: false
+        }
+    },
+    methods:{
+        handleScroll(){
+            window.scrollY > 80 ? this.aplicarbg=true : this.aplicarbg=false
+        }
+    },
 }
 </script>
 
@@ -112,5 +127,14 @@ export default {
 }
 .navbar-toggler:focus{
     box-shadow: 0 0 0 0 !important;
+}
+.aplicarbg{
+    background: rgb(61 57 53);
+}
+#navbarDropdown:hover{
+    background: transparent !important;
+}
+.nav-item .nav-link{
+    background: transparent !important;
 }
 </style>

@@ -1,6 +1,5 @@
 <template>
   <div v-if="!isloaded">
-    <v-navbar imagem="images/logo.png" :pginicial="pginicial"></v-navbar>
     <welcomeFirstComponent></welcomeFirstComponent>
     <welcomeSecondComponent></welcomeSecondComponent>
     <welcomeNossosProgramas></welcomeNossosProgramas>
@@ -32,7 +31,6 @@ export default {
   data(){
     return{
       isloaded: false,
-      pginicial: true
     }
   },
   mounted(){

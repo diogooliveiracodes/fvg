@@ -1,6 +1,7 @@
 <template>
     <div id="sobre" class="row mx-0 px-0 py-5 div-sobreohandson">
-            <div>
+            <div class="py-5" 
+                data-aos="flip-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                 <h4><strong>Sobre o HandsOn</strong></h4>
                 <p class="mt-3">
                     O <strong>Hands On – Prótese de Mama</strong> é uma imersão desenvolvida para cirurgiões plásticos formados e residentes,

@@ -1,7 +1,8 @@
 <template>
     <div id="div-nossos-numeros" v-scroll="aumentar">
         <h3 id="titulo-nossos-numeros" class="text-center gotham-bold">Nossos números</h3>
-        <div class="row justify-content-center mx-0 px-0">
+        <div class="row justify-content-center mx-0 px-0"
+        data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
             <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12 mx-0 px-0">
                 <div class=" mt-5 mx-0 px-0" style="display: flex; flex-wrap: wrap;">
                     <div class="flex-container">

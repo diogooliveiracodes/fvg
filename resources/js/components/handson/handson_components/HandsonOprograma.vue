@@ -2,10 +2,14 @@
 <div class="div-main-oprograma py-5 mx-0 px-0"
     id="oprograma"
     style="background-image: url('http://fvgeducacaoensino.com.br/wp-content/uploads/2020/09/handson-fvg-curso-online.png')">
-    <h3 class="pb-4"><strong>O Programa</strong></h3>
+    <h3 class="pb-4 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
+        <strong>O Programa</strong>
+    </h3>
     <div class="" style="display: box;">
         <div class="div-textos-oprograma">
-            <div class="div-textos-oprograma-conteudo" style="padding-right: 10px">
+            <div 
+                data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
+                class="div-textos-oprograma-conteudo" style="padding-right: 10px">
                 <p>
                     <strong>
                         No Hands On – Prótese de Mama ajudamos cirurgiões plásticos residentes ou recém formados a aplicarem as melhores práticas e ferramentas para alavancar os resultados de suas empresas.
@@ -19,7 +23,9 @@
                 </p>
                 <a class="btn btn-md" href="#garantias">Eu quero participar do Hands On!</a>
             </div>
-            <div class="div-textos-oprograma-conteudo" style="padding-left: 10px">
+            <div 
+                data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
+                class="div-textos-oprograma-conteudo" style="padding-left: 10px">
                 <h5>
                     <strong>IMERSÃO E MENTORIA PARA CIRURGIÕES PLÁSTICOS​</strong>
                 </h5>
@@ -32,7 +38,8 @@
             </div>
         </div>
         <div class="div-textos-oprograma-mobile row mx-0 px-0 justify-content-center">
-            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
+                class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos">
                 <p>
                     <strong>
                         No Hands On – Prótese de Mama ajudamos cirurgiões plásticos residentes ou recém formados a aplicarem as melhores práticas e ferramentas para alavancar os resultados de suas empresas.
@@ -48,7 +55,8 @@
                     <a class="btn btn-md" href="#garantias">Eu quero participar do Hands On!</a>
                 </div>
             </div>
-            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos mt-4 text-center">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
+                class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos mt-4 text-center">
                 <h5 class="py-3">
                     <strong>IMERSÃO E MENTORIA PARA CIRURGIÕES PLÁSTICOS​</strong>
                 </h5>
@@ -60,7 +68,8 @@
                 <p><i class="fas fa-check cor-azul"></i>  Discussão dos casos e feedback das pacientes</p>
             </div>
         </div>
-        <div style="display: flex; justify-content: center; flex-wrap: wrap" class="my-5">
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
+            style="display: flex; justify-content: center; flex-wrap: wrap" class="my-5">
             <v-card-default cardTitulo="Conhecimento Aplicável​">
                 <strong>Do marketing médico<br>
                 à técnica cirúrgica:</strong><br>
@@ -90,8 +99,9 @@
 
 
 
-        <div class="div-textos-oprograma">
-            <div class="div-textos-oprograma-conteudo" style="padding-right: 10px">
+        <div class="div-textos-oprograma" id="conteudo">
+            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
+                class="div-textos-oprograma-conteudo" style="padding-right: 10px">
                 <p>
                     <strong>
                         O que vou aprender?
@@ -106,7 +116,8 @@
                 </p>
                 <a class="btn btn-md" href="#garantias">Eu quero a minha vaga!</a>
             </div>
-            <div class="div-textos-oprograma-conteudo" style="padding-left: 10px">
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
+                class="div-textos-oprograma-conteudo" style="padding-left: 10px">
                 <p><i class="fas fa-check cor-azul"></i>  Do consultório à sala de cirurgia;</p>
                 <p><i class="fas fa-check cor-azul"></i>  Como lidar com as intercorrências;</p>
                 <p><i class="fas fa-check cor-azul"></i>  Experiência prática com pacientes reais;</p>

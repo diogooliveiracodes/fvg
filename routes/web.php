@@ -18,13 +18,15 @@ Route::get('/', function () {
 });
 Route::get('/handson', function () {
     return view('handson');
-});
+})->name('handson');
+
 Route::get('/mastopexia', function () {
     return view('mastopexia');
-});
+})->name('mastopexia');
+
 Route::get('/gestao-e-marketing', function () {
     return view('gestao_e_marketing');
-});
+})->name('gestao-e-marketing');
 
 Auth::routes();
 

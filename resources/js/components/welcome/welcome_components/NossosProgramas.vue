@@ -2,7 +2,7 @@
     <div style="top: 700px; background-color: white; padding-bottom: 3rem;">
         <h1 class="cor-azul gotham-bold mx-0 px-0" style="text-align: center">Nossos programas</h1>
         
-        <div class="row justify-content-center mx-0 px-0">
+        <div class="row justify-content-center mx-0 px-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
             <img class="img-fundo-mobile" src="images/img1.jpg" alt="" style="margin: 0; padding:0;">
             <div style="background-position: right;  background-image: url('images/img1.jpg');" 
                 class="col-lg-4 mx-0 px-0 col-md-4 col-sm-4 div-img-background">
@@ -17,7 +17,8 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center mx-0 px-0 mt-5">
+        <div class="row justify-content-center mx-0 px-0 mt-5"
+            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
             <img class="img-fundo-mobile" src="images/img2.jpg" alt="" style="margin: 0; padding:0;">
             <div class="div-text col-lg-4 col-md-4 col-sm-4 d-flex mx-0 px-0 flex-column justify-content-center">
                 <div class="row justify-content-start mx-0 px-0">
@@ -32,7 +33,8 @@
                 class="col-lg-4 mx-0 px-0 col-md-4 col-sm-4 div-img-background">
             </div>
         </div>
-        <div class="row justify-content-center mx-0 px-0 mt-5">
+        <div class="row justify-content-center mx-0 px-0 mt-5"
+            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
             <img class="img-fundo-mobile" src="images/img3.jpg" alt="" style="margin: 0; padding:0;">
             <div style="background-position: right;  background-image: url('images/img3.jpg');" 
                 class="col-lg-4 mx-0 px-0 col-md-4 col-sm-4 div-img-background">
@@ -47,7 +49,8 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center mx-0 px-0 mt-5">
+        <div class="row justify-content-center mx-0 px-0 mt-5"
+            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
             <img class="img-fundo-mobile" src="images/img4.jpg" alt="" style="margin: 0; padding:0;">
             <div class="div-text col-lg-4 col-md-4 col-sm-4 d-flex flex-column mx-0 px-0 justify-content-center">
                 <div class="row justify-content-start mx-0 px-0">
