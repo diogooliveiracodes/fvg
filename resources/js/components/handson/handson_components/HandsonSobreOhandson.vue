@@ -1,5 +1,5 @@
 <template>
-    <div class="row mx-0 px-0 py-5 div-sobreohandson" style="margin-top: 100px">
+    <div id="sobre" class="row mx-0 px-0 py-5 div-sobreohandson">
             <div>
                 <h4><strong>Sobre o HandsOn</strong></h4>
                 <p class="mt-3">

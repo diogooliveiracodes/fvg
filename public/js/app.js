@@ -1853,6 +1853,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: ['cardTitulo']
 });
@@ -2987,6 +2990,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _handson_components_HandsonCarousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./handson_components/HandsonCarousel */ "./resources/js/components/handson/handson_components/HandsonCarousel.vue");
 /* harmony import */ var _handson_components_HandsonSobreOhandson__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./handson_components/HandsonSobreOhandson */ "./resources/js/components/handson/handson_components/HandsonSobreOhandson.vue");
 /* harmony import */ var _handson_components_HandsonOprograma__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./handson_components/HandsonOprograma */ "./resources/js/components/handson/handson_components/HandsonOprograma.vue");
+/* harmony import */ var _handson_components_HandsonFirstComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./handson_components/HandsonFirstComponent */ "./resources/js/components/handson/handson_components/HandsonFirstComponent.vue");
 //
 //
 //
@@ -2998,6 +3002,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+
 
 
 
@@ -3006,7 +3012,8 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     handsonCarousel: _handson_components_HandsonCarousel__WEBPACK_IMPORTED_MODULE_0__.default,
     handsonSobreOhandsOn: _handson_components_HandsonSobreOhandson__WEBPACK_IMPORTED_MODULE_1__.default,
-    handsonOprograma: _handson_components_HandsonOprograma__WEBPACK_IMPORTED_MODULE_2__.default
+    handsonOprograma: _handson_components_HandsonOprograma__WEBPACK_IMPORTED_MODULE_2__.default,
+    handsonFirstComponent: _handson_components_HandsonFirstComponent__WEBPACK_IMPORTED_MODULE_3__.default
   },
   data: function data() {
     return {
@@ -3141,6 +3148,50 @@ var slides = [{
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: 'handsonFirstComponent'
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=script&lang=js&":
 /*!**************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=script&lang=js& ***!
@@ -3152,6 +3203,94 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -8482,7 +8621,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nh5[data-v-fc4f00e0]{\n    color: white;\n}\np[data-v-fc4f00e0]{\n    color: white;\n}\ndiv[data-v-fc4f00e0]{\n    border: 2px solid rgb(147 187 194);\n    border-radius: 5px;\n    padding: 31px 15px 15px 15px;\n    text-align: center;\n    margin: 10px;\n    width: 256px;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (min-width: 577px) {\n.div-main[data-v-fc4f00e0]{\r\n        width: 256px;\n}\n}\n@media screen and (max-width: 576px) {\n.div-main[data-v-fc4f00e0]{\r\n        width: 100%;\n}\n}\nh5[data-v-fc4f00e0]{\r\n        color: white;\n}\np[data-v-fc4f00e0]{\r\n        color: white;\n}\n.div-main[data-v-fc4f00e0]{\r\n        border: 2px solid rgb(147 187 194);\r\n        border-radius: 5px;\r\n        padding: 31px 15px 15px 15px;\r\n        text-align: center;\r\n        margin: 10px;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -8633,6 +8772,30 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n.carousel-3d-slide {\n\tposition: ab
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width: 576px) {\nh4[data-v-3fff5a0a]{\r\n        margin-top: 25vh;\r\n        font-size: 2rem !important;\n}\np[data-v-3fff5a0a], button[data-v-3fff5a0a]{\r\n        font-size: 1rem !important;\n}\n.desktop[data-v-3fff5a0a]{\r\n        display: none !important;\n}\n}\n@media screen and (min-width: 577px) {\n.mobile[data-v-3fff5a0a]{\r\n        display: none !important;\n}\n}\np[data-v-3fff5a0a], h4[data-v-3fff5a0a]{\r\n    font-family: 'Gotham-book';\n}\nbutton[data-v-3fff5a0a]{\r\n    transition: all 0.3s ease-in-out 0s;\r\n    background-color:rgb(147 187 194);\r\n    border: none;\r\n    border-radius: 20px;\r\n    color: rgb(61 57 53);\n}\nbutton[data-v-3fff5a0a]:hover{\r\n    transform: scale3d(1.2, 1.2, 2);\r\n    background-color:rgb(147 187 194);\r\n    color: rgb(61 57 53);\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=style&index=0&id=6687637f&scoped=true&lang=css&":
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=style&index=0&id=6687637f&scoped=true&lang=css& ***!
@@ -8650,7 +8813,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nh3[data-v-6687637f]{\n    color: white !important;\n    text-align: center;\n    font-family: 'gotham-book';\n}\nh5[data-v-6687637f]{\n    color: white;\n}\np[data-v-6687637f]{\n    color: white !important;\n    text-align: start;\n    font-family: 'gotham-book';\n    text-align: justify;\n}\n.div-textos-oprograma[data-v-6687637f]{\n    display: flex;\n    justify-content: center;\n}\n.div-textos-oprograma-conteudo[data-v-6687637f]{\n    width: 528px;\n    margin: 10px;\n}\na[data-v-6687637f]{\n    transition: all 0.3s ease-in-out 0s;\n    background-color:rgb(147 187 194);\n    border: none;\n    border-radius: 20px;\n    color: rgb(61 57 53);\n}\na[data-v-6687637f]:hover{\n    transform: scale3d(1.2, 1.2, 2);\n    background-color:rgb(147 187 194);\n    color: rgb(61 57 53);\n}\na[data-v-6687637f]:after{\n    transition: all 0.3s ease-in-out 0s;\n    background-color:rgb(147 187 194);\n    border: none;\n    border-radius: 20px;\n    color: rgb(61 57 53);\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width: 576px) {\n.div-textos-oprograma[data-v-6687637f]{\r\n        display: none !important;\n}\n}\n@media screen and (min-width: 577px) {\n.div-textos-oprograma-mobile[data-v-6687637f]{\r\n        display: none !important;\n}\n}\nh3[data-v-6687637f]{\r\n        color: white !important;\r\n        text-align: center;\r\n        font-family: 'gotham-book';\n}\nh5[data-v-6687637f]{\r\n        color: white;\n}\np[data-v-6687637f]{\r\n        color: white !important;\r\n        text-align: start;\r\n        font-family: 'gotham-book';\r\n        text-align: justify;\n}\n.div-textos-oprograma[data-v-6687637f]{\r\n        display: flex;\r\n        justify-content: center;\n}\n.div-textos-oprograma-conteudo[data-v-6687637f]{\r\n        width: 528px;\r\n        margin: 10px;\n}\na[data-v-6687637f]{\r\n        transition: all 0.3s ease-in-out 0s;\r\n        background-color:rgb(147 187 194);\r\n        border: none;\r\n        border-radius: 20px;\r\n        color: rgb(61 57 53);\n}\na[data-v-6687637f]:hover{\r\n        transform: scale3d(1.2, 1.2, 2);\r\n        background-color:rgb(147 187 194);\r\n        color: rgb(61 57 53);\n}\na[data-v-6687637f]:after{\r\n        transition: all 0.3s ease-in-out 0s;\r\n        background-color:rgb(147 187 194);\r\n        border: none;\r\n        border-radius: 20px;\r\n        color: rgb(61 57 53);\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40032,6 +40195,36 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_HandsonFirstComponent_vue_vue_type_style_index_0_id_3fff5a0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_HandsonFirstComponent_vue_vue_type_style_index_0_id_3fff5a0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_HandsonFirstComponent_vue_vue_type_style_index_0_id_3fff5a0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=style&index=0&id=6687637f&scoped=true&lang=css&":
 /*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=style&index=0&id=6687637f&scoped=true&lang=css& ***!
@@ -41044,6 +41237,47 @@ component.options.__file = "resources/js/components/handson/handson_components/H
 
 /***/ }),
 
+/***/ "./resources/js/components/handson/handson_components/HandsonFirstComponent.vue":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/handson/handson_components/HandsonFirstComponent.vue ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _HandsonFirstComponent_vue_vue_type_template_id_3fff5a0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HandsonFirstComponent.vue?vue&type=template&id=3fff5a0a&scoped=true& */ "./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=template&id=3fff5a0a&scoped=true&");
+/* harmony import */ var _HandsonFirstComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HandsonFirstComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=script&lang=js&");
+/* harmony import */ var _HandsonFirstComponent_vue_vue_type_style_index_0_id_3fff5a0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css& */ "./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _HandsonFirstComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _HandsonFirstComponent_vue_vue_type_template_id_3fff5a0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _HandsonFirstComponent_vue_vue_type_template_id_3fff5a0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "3fff5a0a",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/handson/handson_components/HandsonFirstComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/handson/handson_components/HandsonOprograma.vue":
 /*!*********************************************************************************!*\
   !*** ./resources/js/components/handson/handson_components/HandsonOprograma.vue ***!
@@ -41619,6 +41853,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************!*\
+  !*** ./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HandsonFirstComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./HandsonFirstComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HandsonFirstComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
 /***/ "./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************!*\
   !*** ./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=script&lang=js& ***!
@@ -41876,6 +42126,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Slide_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader/dist/cjs.js!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Slide.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/global/carousel-3d/Slide.vue?vue&type=style&index=0&lang=css&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css&":
+/*!***********************************************************************************************************************************************!*\
+  !*** ./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css& ***!
+  \***********************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_HandsonFirstComponent_vue_vue_type_style_index_0_id_3fff5a0a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader/dist/cjs.js!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=style&index=0&id=3fff5a0a&scoped=true&lang=css&");
 
 
 /***/ }),
@@ -42192,6 +42455,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=template&id=3fff5a0a&scoped=true&":
+/*!*********************************************************************************************************************************!*\
+  !*** ./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=template&id=3fff5a0a&scoped=true& ***!
+  \*********************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HandsonFirstComponent_vue_vue_type_template_id_3fff5a0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HandsonFirstComponent_vue_vue_type_template_id_3fff5a0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HandsonFirstComponent_vue_vue_type_template_id_3fff5a0a_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./HandsonFirstComponent.vue?vue&type=template&id=3fff5a0a&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=template&id=3fff5a0a&scoped=true&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=template&id=6687637f&scoped=true&":
 /*!****************************************************************************************************************************!*\
   !*** ./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=template&id=6687637f&scoped=true& ***!
@@ -42361,12 +42641,14 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c("h5", [_vm._v(_vm._s(_vm.cardTitulo))]),
+  return _c("div", { staticClass: "div-main" }, [
+    _c("div", { staticClass: "row mx-0 px-0" }, [
+      _c("h5", [_vm._v(_vm._s(_vm.cardTitulo))])
+    ]),
     _vm._v(" "),
-    _c("br"),
-    _vm._v(" "),
-    _c("p", [_vm._t("default")], 2)
+    _c("div", { staticClass: "row mx-0 px-0" }, [
+      _c("p", [_vm._t("default")], 2)
+    ])
   ])
 }
 var staticRenderFns = []
@@ -42757,7 +43039,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass: "nav-link text-white",
-            attrs: { href: "#", tabindex: "-1" }
+            attrs: { href: "#sobre", tabindex: "-1" }
           },
           [_vm._v("Saiba Mais")]
         )
@@ -42768,7 +43050,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass: "nav-link text-white",
-            attrs: { href: "#", tabindex: "-1" }
+            attrs: { href: "#oprograma", tabindex: "-1" }
           },
           [_vm._v("O Programa")]
         )
@@ -42779,7 +43061,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass: "nav-link text-white",
-            attrs: { href: "#", tabindex: "-1" }
+            attrs: { href: "#conteudo", tabindex: "-1" }
           },
           [_vm._v("Conteúdo")]
         )
@@ -42790,7 +43072,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass: "nav-link text-white",
-            attrs: { href: "#", tabindex: "-1" }
+            attrs: { href: "#mentores", tabindex: "-1" }
           },
           [_vm._v("Mentores")]
         )
@@ -42801,7 +43083,7 @@ var staticRenderFns = [
           "a",
           {
             staticClass: "nav-link text-white",
-            attrs: { href: "#", tabindex: "-1" }
+            attrs: { href: "#depoimentos", tabindex: "-1" }
           },
           [_vm._v("Depoimentos")]
         )
@@ -43299,6 +43581,8 @@ var render = function() {
             }
           }),
           _vm._v(" "),
+          _c("handsonFirstComponent"),
+          _vm._v(" "),
           _c("handsonSobreOhandsOn"),
           _vm._v(" "),
           _c("handsonOprograma"),
@@ -43470,6 +43754,116 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=template&id=3fff5a0a&scoped=true&":
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonFirstComponent.vue?vue&type=template&id=3fff5a0a&scoped=true& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "row justify-content-center m-0 p-0",
+        staticStyle: {
+          height: "100vh",
+          "background-image": "url('images/handson/backgroundhandson.jpg'"
+        }
+      },
+      [
+        _c("div", [
+          _c("div", { staticClass: "row justify-content-center px-0 mx-0" }, [
+            _c(
+              "div",
+              {
+                staticClass: "col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12",
+                staticStyle: { "margin-top": "15%" }
+              },
+              [
+                _c(
+                  "h4",
+                  {
+                    staticClass: "text-white gotham-bold desktop",
+                    staticStyle: { "font-size": "2.7rem" }
+                  },
+                  [
+                    _vm._v("\r\n                    Imersão e mentoria "),
+                    _c("br"),
+                    _vm._v("\r\n                    desenvolvida para você "),
+                    _c("br"),
+                    _vm._v(
+                      "\r\n                    evoluir na prática\r\n                "
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "h4",
+                  {
+                    staticClass: "text-white gotham-bold mobile",
+                    staticStyle: { "font-size": "2.7rem" }
+                  },
+                  [
+                    _vm._v(
+                      "\r\n                    Imersão e mentoria \r\n                    desenvolvida para você \r\n                    evoluir na prática\r\n                "
+                    )
+                  ]
+                ),
+                _vm._v(" "),
+                _c("p", { staticClass: "text-white font15" }, [
+                  _vm._v(
+                    "O Hands On foi desenvolvido por cirurgiões plásticos,"
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\r\n                    feito para cirurgiões plásticos e residentes, para atualizações"
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\r\n                    de técnicas e promoção de mudanças significativas,"
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\r\n                    do marketing médico à técnica cirúrgica."
+                  ),
+                  _c("br")
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  { staticClass: "btn btn-lg", attrs: { href: "#garantias" } },
+                  [_vm._v("QUERO CONHECER OS PROGRAMAS")]
+                )
+              ]
+            )
+          ])
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=template&id=6687637f&scoped=true&":
 /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/handson/handson_components/HandsonOprograma.vue?vue&type=template&id=6687637f&scoped=true& ***!
@@ -43493,13 +43887,16 @@ var render = function() {
       staticStyle: {
         "background-image":
           "url('http://fvgeducacaoensino.com.br/wp-content/uploads/2020/09/handson-fvg-curso-online.png')"
-      }
+      },
+      attrs: { id: "oprograma" }
     },
     [
       _vm._m(0),
       _vm._v(" "),
       _c("div", { staticStyle: { display: "box" } }, [
         _vm._m(1),
+        _vm._v(" "),
+        _vm._m(2),
         _vm._v(" "),
         _c(
           "div",
@@ -43581,7 +43978,11 @@ var render = function() {
             ])
           ],
           1
-        )
+        ),
+        _vm._v(" "),
+        _vm._m(3),
+        _vm._v(" "),
+        _vm._m(4)
       ])
     ]
   )
@@ -43670,6 +44071,274 @@ var staticRenderFns = [
         ]
       )
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "div-textos-oprograma-mobile row mx-0 px-0 justify-content-center"
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos"
+          },
+          [
+            _c("p", [
+              _c("strong", [
+                _vm._v(
+                  "\r\n                        No Hands On – Prótese de Mama ajudamos cirurgiões plásticos residentes ou recém formados a aplicarem as melhores práticas e ferramentas para alavancar os resultados de suas empresas.\r\n                    "
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "\r\n                    Aqui você vai elevar suas habilidades durante alguns processos necessários durante o procedimento cirúrgico. Atualizar suas práticas como: \r\n                    "
+              ),
+              _c("strong", [
+                _vm._v(
+                  "\r\n                    marcação da paciente, colocação da prótese, fechamento da loja, montagem da mama, posicionamento da aréola, etc.\r\n                    "
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row mx-0 px-0 justify-content-center" }, [
+              _c(
+                "a",
+                { staticClass: "btn btn-md", attrs: { href: "#garantias" } },
+                [_vm._v("Eu quero participar do Hands On!")]
+              )
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos mt-4 text-center"
+          },
+          [
+            _c("h5", { staticClass: "py-3" }, [
+              _c("strong", [
+                _vm._v("IMERSÃO E MENTORIA PARA CIRURGIÕES PLÁSTICOS​")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "\r\n                    Você vai ter dois dias de imersão em um grupo seleto, compartilhando conteúdo com profissionais qualificados e se preparando para o mercado da medicina 5.0.\r\n                "
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c("i", { staticClass: "fas fa-check cor-azul" }),
+              _vm._v("  2 dias de imersão")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c("i", { staticClass: "fas fa-check cor-azul" }),
+              _vm._v("  Prática e mentoria com a equipe FVG Cirurgia Plástica")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c("i", { staticClass: "fas fa-check cor-azul" }),
+              _vm._v("  Discussão dos casos e feedback das pacientes")
+            ])
+          ]
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "div-textos-oprograma" }, [
+      _c(
+        "div",
+        {
+          staticClass: "div-textos-oprograma-conteudo",
+          staticStyle: { "padding-right": "10px" }
+        },
+        [
+          _c("p", [
+            _c("strong", [
+              _vm._v(
+                "\r\n                        O que vou aprender?\r\n                    "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\r\n                    Ao longo dos 2 dias de imersão, você terá aulas cobrindo diversos tópicos relevantes que vai da \r\n                    prática cirúrgica à gestão."
+            ),
+            _c("br"),
+            _vm._v(
+              "\r\n                    O curso não é apenas demonstração! Durante o curso, você vai receber mentoria \r\n                    individualizada e atuar dentro do campo cirúrgico.\r\n                    \r\n                "
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            { staticClass: "btn btn-md", attrs: { href: "#garantias" } },
+            [_vm._v("Eu quero a minha vaga!")]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "div-textos-oprograma-conteudo",
+          staticStyle: { "padding-left": "10px" }
+        },
+        [
+          _c("p", [
+            _c("i", { staticClass: "fas fa-check cor-azul" }),
+            _vm._v("  Do consultório à sala de cirurgia;")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _c("i", { staticClass: "fas fa-check cor-azul" }),
+            _vm._v("  Como lidar com as intercorrências;")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _c("i", { staticClass: "fas fa-check cor-azul" }),
+            _vm._v("  Experiência prática com pacientes reais;")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _c("i", { staticClass: "fas fa-check cor-azul" }),
+            _vm._v(
+              "  Conhecimento técnico das práticas de sucesso da FVG Cirurgia Plástica;"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _c("i", { staticClass: "fas fa-check cor-azul" }),
+            _vm._v("  Marketing médico;")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _c("i", { staticClass: "fas fa-check cor-azul" }),
+            _vm._v("  Estratégias de gestão;")
+          ]),
+          _vm._v(" "),
+          _c("p", [
+            _c("i", { staticClass: "fas fa-check cor-azul" }),
+            _vm._v(
+              "  Como definir metas alinhadas a sua estratégia de crescimento."
+            )
+          ])
+        ]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "div-textos-oprograma-mobile row mx-0 px-0 justify-content-center"
+      },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos"
+          },
+          [
+            _c("p", { staticClass: "text-center" }, [
+              _c("strong", [
+                _vm._v(
+                  "\r\n                        O que vou aprender?\r\n                    "
+                )
+              ])
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _vm._v(
+                "\r\n                    Ao longo dos 2 dias de imersão, você terá aulas cobrindo diversos tópicos relevantes que vai da \r\n                    prática cirúrgica à gestão."
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n                    O curso não é apenas demonstração! Durante o curso, você vai receber mentoria \r\n                    individualizada e atuar dentro do campo cirúrgico.\r\n                    \r\n                "
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row mx-0 px-0 justify-content-center" }, [
+              _c(
+                "a",
+                { staticClass: "btn btn-md", attrs: { href: "#garantias" } },
+                [_vm._v("Eu quero a minha vaga!")]
+              )
+            ])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos mt-4 text-center"
+          },
+          [
+            _c("p", [
+              _c("i", { staticClass: "fas fa-check cor-azul" }),
+              _vm._v("  Do consultório à sala de cirurgia;")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c("i", { staticClass: "fas fa-check cor-azul" }),
+              _vm._v("  Como lidar com as intercorrências;")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c("i", { staticClass: "fas fa-check cor-azul" }),
+              _vm._v("  Experiência prática com pacientes reais;")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c("i", { staticClass: "fas fa-check cor-azul" }),
+              _vm._v(
+                "  Conhecimento técnico das práticas de sucesso da FVG Cirurgia Plástica;"
+              )
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c("i", { staticClass: "fas fa-check cor-azul" }),
+              _vm._v("  Marketing médico;")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c("i", { staticClass: "fas fa-check cor-azul" }),
+              _vm._v("  Estratégias de gestão;")
+            ]),
+            _vm._v(" "),
+            _c("p", [
+              _c("i", { staticClass: "fas fa-check cor-azul" }),
+              _vm._v(
+                "  Como definir metas alinhadas a sua estratégia de crescimento."
+              )
+            ])
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -43705,7 +44374,7 @@ var staticRenderFns = [
       "div",
       {
         staticClass: "row mx-0 px-0 py-5 div-sobreohandson",
-        staticStyle: { "margin-top": "100px" }
+        attrs: { id: "sobre" }
       },
       [
         _c("div", [

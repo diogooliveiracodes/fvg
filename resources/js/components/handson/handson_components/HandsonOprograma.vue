@@ -1,5 +1,6 @@
 <template>
 <div class="div-main-oprograma py-5 mx-0 px-0"
+    id="oprograma"
     style="background-image: url('http://fvgeducacaoensino.com.br/wp-content/uploads/2020/09/handson-fvg-curso-online.png')">
     <h3 class="pb-4"><strong>O Programa</strong></h3>
     <div class="" style="display: box;">
@@ -20,6 +21,35 @@
             </div>
             <div class="div-textos-oprograma-conteudo" style="padding-left: 10px">
                 <h5>
+                    <strong>IMERSÃO E MENTORIA PARA CIRURGIÕES PLÁSTICOS​</strong>
+                </h5>
+                <p>
+                    Você vai ter dois dias de imersão em um grupo seleto, compartilhando conteúdo com profissionais qualificados e se preparando para o mercado da medicina 5.0.
+                </p>
+                <p><i class="fas fa-check cor-azul"></i>  2 dias de imersão</p>
+                <p><i class="fas fa-check cor-azul"></i>  Prática e mentoria com a equipe FVG Cirurgia Plástica</p>
+                <p><i class="fas fa-check cor-azul"></i>  Discussão dos casos e feedback das pacientes</p>
+            </div>
+        </div>
+        <div class="div-textos-oprograma-mobile row mx-0 px-0 justify-content-center">
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos">
+                <p>
+                    <strong>
+                        No Hands On – Prótese de Mama ajudamos cirurgiões plásticos residentes ou recém formados a aplicarem as melhores práticas e ferramentas para alavancar os resultados de suas empresas.
+                    </strong>
+                </p>
+                <p>
+                    Aqui você vai elevar suas habilidades durante alguns processos necessários durante o procedimento cirúrgico. Atualizar suas práticas como: 
+                    <strong>
+                    marcação da paciente, colocação da prótese, fechamento da loja, montagem da mama, posicionamento da aréola, etc.
+                    </strong> 
+                </p>
+                <div class="row mx-0 px-0 justify-content-center">
+                    <a class="btn btn-md" href="#garantias">Eu quero participar do Hands On!</a>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos mt-4 text-center">
+                <h5 class="py-3">
                     <strong>IMERSÃO E MENTORIA PARA CIRURGIÕES PLÁSTICOS​</strong>
                 </h5>
                 <p>
@@ -57,6 +87,64 @@
                 do curso nas suas mãos!</strong><br>
             </v-card-default>
         </div>
+
+
+
+        <div class="div-textos-oprograma">
+            <div class="div-textos-oprograma-conteudo" style="padding-right: 10px">
+                <p>
+                    <strong>
+                        O que vou aprender?
+                    </strong>
+                </p>
+                <p>
+                    Ao longo dos 2 dias de imersão, você terá aulas cobrindo diversos tópicos relevantes que vai da 
+                    prática cirúrgica à gestão.<br>
+                    O curso não é apenas demonstração! Durante o curso, você vai receber mentoria 
+                    individualizada e atuar dentro do campo cirúrgico.
+                    
+                </p>
+                <a class="btn btn-md" href="#garantias">Eu quero a minha vaga!</a>
+            </div>
+            <div class="div-textos-oprograma-conteudo" style="padding-left: 10px">
+                <p><i class="fas fa-check cor-azul"></i>  Do consultório à sala de cirurgia;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Como lidar com as intercorrências;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Experiência prática com pacientes reais;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Conhecimento técnico das práticas de sucesso da FVG Cirurgia Plástica;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Marketing médico;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Estratégias de gestão;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Como definir metas alinhadas a sua estratégia de crescimento.</p>
+            </div>
+        </div>
+        <div class="div-textos-oprograma-mobile row mx-0 px-0 justify-content-center">
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos">
+                <p class="text-center">
+                    <strong>
+                        O que vou aprender?
+                    </strong>
+                </p>
+                <p>
+                    Ao longo dos 2 dias de imersão, você terá aulas cobrindo diversos tópicos relevantes que vai da 
+                    prática cirúrgica à gestão.<br>
+                    O curso não é apenas demonstração! Durante o curso, você vai receber mentoria 
+                    individualizada e atuar dentro do campo cirúrgico.
+                    
+                </p>
+                <div class="row mx-0 px-0 justify-content-center">
+                    <a class="btn btn-md" href="#garantias">Eu quero a minha vaga!</a>
+                </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos mt-4 text-center">
+                <p><i class="fas fa-check cor-azul"></i>  Do consultório à sala de cirurgia;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Como lidar com as intercorrências;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Experiência prática com pacientes reais;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Conhecimento técnico das práticas de sucesso da FVG Cirurgia Plástica;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Marketing médico;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Estratégias de gestão;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Como definir metas alinhadas a sua estratégia de crescimento.</p>
+            </div>
+        </div>
+
     </div>
 </div>
 </template>
@@ -68,6 +156,16 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (max-width: 576px) {
+    .div-textos-oprograma{
+        display: none !important;
+    }
+}
+@media screen and (min-width: 577px) {
+    .div-textos-oprograma-mobile{
+        display: none !important;
+    }
+}
     h3{
         color: white !important;
         text-align: center;

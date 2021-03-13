@@ -1,6 +1,7 @@
 <template>
   <div v-if="!isloaded">
     <v-navbar imagem="images/logo-protese-mama.png" :handson="handson"></v-navbar>
+    <handsonFirstComponent></handsonFirstComponent>
     <handsonSobreOhandsOn></handsonSobreOhandsOn>
     <handsonOprograma></handsonOprograma>
     <v-nossos-numeros></v-nossos-numeros>
@@ -13,12 +14,14 @@
 import handsonCarousel from './handson_components/HandsonCarousel'
 import handsonSobreOhandsOn from './handson_components/HandsonSobreOhandson'
 import handsonOprograma from './handson_components/HandsonOprograma'
+import handsonFirstComponent from './handson_components/HandsonFirstComponent'
 export default {
   name: 'handsonApp',
   components:{
     handsonCarousel,
     handsonSobreOhandsOn,
-    handsonOprograma
+    handsonOprograma,
+    handsonFirstComponent
   },
   data(){
     return{

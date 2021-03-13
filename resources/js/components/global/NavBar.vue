@@ -37,19 +37,19 @@
                 <ul class="navbar-nav mb-2 mb-lg-0 px-0">
 
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" tabindex="-1">Saiba Mais</a>
+                        <a class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" tabindex="-1">O Programa</a>
+                        <a class="nav-link text-white" href="#oprograma" tabindex="-1">O Programa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" tabindex="-1">Conteúdo</a>
+                        <a class="nav-link text-white" href="#conteudo" tabindex="-1">Conteúdo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" tabindex="-1">Mentores</a>
+                        <a class="nav-link text-white" href="#mentores" tabindex="-1">Mentores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" tabindex="-1">Depoimentos</a>
+                        <a class="nav-link text-white" href="#depoimentos" tabindex="-1">Depoimentos</a>
                     </li>
                 </ul>
             </div>
