@@ -4,6 +4,8 @@
     <handsonFirstComponent></handsonFirstComponent>
     <handsonSobreOhandsOn></handsonSobreOhandsOn>
     <handsonOprograma></handsonOprograma>
+    <handsonEquipe></handsonEquipe>
+    <!-- <handsonEquipeCaroussel></handsonEquipeCaroussel> -->
     <v-nossos-numeros></v-nossos-numeros>
     <handsonCarousel></handsonCarousel>
     <v-footer></v-footer>
@@ -15,13 +17,16 @@ import handsonCarousel from './handson_components/HandsonCarousel'
 import handsonSobreOhandsOn from './handson_components/HandsonSobreOhandson'
 import handsonOprograma from './handson_components/HandsonOprograma'
 import handsonFirstComponent from './handson_components/HandsonFirstComponent'
+import handsonEquipe from './handson_components/HandsonEquipe'
+
 export default {
   name: 'handsonApp',
   components:{
     handsonCarousel,
     handsonSobreOhandsOn,
     handsonOprograma,
-    handsonFirstComponent
+    handsonFirstComponent,
+    handsonEquipe
   },
   data(){
     return{

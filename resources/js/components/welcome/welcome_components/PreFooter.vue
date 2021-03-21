@@ -1,9 +1,9 @@
 <template>
-    <div class="row justify-content-center mx-0" id="div-prefooter">
+    <div class="row justify-content-center mx-0 px-0" id="div-prefooter">
         <div class="col-md-8">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between mx-0 px-0">
                 <div class="col-md-5"
-                    data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
+                    data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                     <p class="text-muted Gotham-light" style="text-align: justify;">
                         Na FVG Educação & Ensino nossa missão
                         é ajudar cirurgiões plásticos formados e residentes
@@ -14,7 +14,7 @@
                     </p>
                 </div>
                 <div class="col-md-5 gotham-bold"
-                    data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
+                    data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                     Descubra como evoluir sua prática cirúrgica e se tornar um profissional da saúde 5.0
                 </div>
             </div>
@@ -27,6 +27,7 @@
         background-color: #F6F6F6;
         padding-top: 7%;
         padding-bottom: 7%;
+        max-width: 100vw !important;
     }
     p{
         color: #858383;

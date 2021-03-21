@@ -4,7 +4,7 @@
             <div 
                 class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-12 p-0 m-0" 
                 style="display: block;"
-                data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
                 >
                 <div class="row justify-content-end m-0 p-0 div-image" style="display:flex">
                     <img @click="videooverflow = true" src="images/imagem_fundo_video_abertura.jpg" alt="">
@@ -13,7 +13,7 @@
             <div 
                 class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-12 div-text" 
                 style="display: flex; align-items: center"
-                data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
                 >
                 <div class="row justify-content-end mx-0 px-0">
                     <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12">

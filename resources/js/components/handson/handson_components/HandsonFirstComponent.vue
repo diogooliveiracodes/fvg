@@ -4,24 +4,28 @@
     style="height: 100vh; background-image: url('images/handson/backgroundhandson.jpg'">
     <div>
         <div class="row justify-content-center px-0 mx-0"
-            data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
+            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
             <div class="px-0 col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12" style="margin-top: 15%;">
-                <h4 class="text-white gotham-bold desktop" style="font-size: 2.7rem">
-                    Imersão e mentoria <br>
-                    desenvolvida para você <br>
-                    evoluir na prática
-                </h4>
-                <h4 class="text-white gotham-bold mobile" style="font-size: 2.7rem">
-                    Imersão e mentoria 
-                    desenvolvida para você 
-                    evoluir na prática
-                </h4>
-                <p class="text-white font15">O Hands On foi desenvolvido por cirurgiões plásticos,<br>
-                    feito para cirurgiões plásticos e residentes, para atualizações<br>
-                    de técnicas e promoção de mudanças significativas,<br>
-                    do marketing médico à técnica cirúrgica.<br>
-                </p>
-                <button class="btn btn-success btn-lg" href="#garantias">QUERO CONHECER OS PROGRAMAS</button>
+                <div class="row px-0 mx-0">
+                    <div class="col-xl-9 col-lg-10 col-md-11 col-sm-12 col-12">
+                        <h1 class="text-white gotham-bold desktop pb-2">
+                            Desenvolvido para você evoluir na prática.
+                        </h1>
+                        <h1 class="text-white gotham-bold mobile" style="font-size: 2.7rem">
+                            Desenvolvido para você evoluir na prática.
+                        </h1>
+                        <p class="text-white font15">
+                            São 2 dias de imersão, com 70% da metodologia prática e com mentoria
+                            exclusiva, personalizada e individualizada da equipe FVG Cirurgia Plástica.
+                            Desenvolvido para cirurgiões plásticos formados e residentes.
+                        </p>
+                        <p class="text-white font15">
+                            Conheça as técnicas que utilizamos e aprenda como aplicá-las na prática.
+                        </p>
+                        <button class="btn btn-success mt-3 btn-lg" href="#garantias">QUERO CONHECER OS PROGRAMAS</button>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -36,9 +40,8 @@ export default {
 
 <style scoped>
 @media screen and (max-width: 576px) {
-    h4{
-        margin-top: 25vh;
-        font-size: 2rem !important;
+    h1{
+        margin-top: 10vh;
     }
     p, button{
         font-size: 1rem !important;
@@ -53,7 +56,7 @@ export default {
         display: none !important;
     }
 }
-p, h4{
+p, h1, h2, h3, h4, h5{
     font-family: 'Gotham-book';
 }
 button{
