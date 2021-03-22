@@ -21,7 +21,7 @@
                     marcação da paciente, colocação da prótese, fechamento da loja, montagem da mama, posicionamento da aréola, etc.
                     </strong> 
                 </p>
-                <a class="btn btn-md" href="#garantias">Eu quero participar do Hands On!</a>
+                <a class="btn btn-md" href="https://fvg.typeform.com/to/C16WV6eH#tema=handson&fonte=site">Eu quero participar do Hands On!</a>
             </div>
             <div 
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
@@ -142,7 +142,7 @@
                     
                 </p>
                 <div class="row mx-0 px-0 justify-content-center">
-                    <a class="btn btn-md" href="#garantias">Eu quero a minha vaga!</a>
+                    <a class="btn btn-md" href="https://fvg.typeform.com/to/C16WV6eH#tema=handson&fonte=site">Eu quero a minha vaga!</a>
                 </div>
             </div>
             <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos mt-4 text-center">

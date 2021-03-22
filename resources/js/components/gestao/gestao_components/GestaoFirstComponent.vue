@@ -22,7 +22,7 @@
                     para alavancar os resultados do seu negócio.
                 </p>
 
-                <button class="btn btn-success btn-lg" href="#garantias">QUERO CONHECER</button>
+                <a class="btn btn-success btn-lg" href="#oprograma">QUERO CONHECER</a>
             </div>
         </div>
     </div>
@@ -41,7 +41,7 @@ export default {
         margin-top: 25vh;
         font-size: 2rem !important;
     }
-    p, button{
+    p, a{
         font-size: 1rem !important;
     }
     .desktop{
@@ -57,14 +57,14 @@ export default {
 p, h4{
     font-family: 'Gotham-book';
 }
-button{
+a{
     transition: all 0.3s ease-in-out 0s;
     background-color:rgb(147 187 194);
     border: none;
     border-radius: 20px;
     color: rgb(61 57 53);
 }
-button:hover{
+a:hover{
     transform: scale3d(1.2, 1.2, 2);
     background-color:rgb(147 187 194);
     color: rgb(61 57 53);

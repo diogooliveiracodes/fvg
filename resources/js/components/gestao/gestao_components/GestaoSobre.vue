@@ -1,7 +1,7 @@
 <template>
     <div id="sobre" class="row mx-0 px-0 py-5 div-sobreohandson">
             <div class="py-5" 
-                data-aos="flip-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                 <h4><strong>Sobre o curso de Gestão e Marketing Médico</strong></h4>
                 <p class="mt-3">
                     A imersão e mentoria em Gestão e Marketing Médico é um programa de desenvolvimento para médicos,

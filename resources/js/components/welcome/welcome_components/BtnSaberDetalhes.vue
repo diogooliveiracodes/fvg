@@ -1,6 +1,6 @@
 <template>
     <div class="div-text">
-        <a class="btn btn-md" href="#garantias">Quero saber os detalhes</a>
+        <a class="btn btn-md" :href="linkroute">Quero saber os detalhes</a>
     </div>
 </template>
 
@@ -35,6 +35,9 @@ a:after{
 </style>
 <script>
 export default {
+    props:[
+        'linkroute'
+    ],
     name: 'btnSaberDetalhes'
 }
 

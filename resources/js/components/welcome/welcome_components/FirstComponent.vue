@@ -20,7 +20,7 @@
                     de técnicas e promoção de mudanças significativas,<br>
                     do marketing médico à técnica cirúrgica.<br>
                 </p>
-                <button class="btn btn-lg" href="#garantias">QUERO CONHECER OS PROGRAMAS</button>
+                <a class="btn btn-lg" href="#oprograma">QUERO CONHECER OS PROGRAMAS</a>
             </div>
         </div>
     </div>
@@ -60,14 +60,14 @@ export default {
 p, h4{
     font-family: 'Gotham-book';
 }
-button{
+a{
     transition: all 0.3s ease-in-out 0s;
     background-color:rgb(147 187 194);
     border: none;
     border-radius: 20px;
     color: rgb(61 57 53);
 }
-button:hover{
+a:hover{
     transform: scale3d(1.2, 1.2, 2);
     background-color:rgb(147 187 194);
     color: rgb(61 57 53);

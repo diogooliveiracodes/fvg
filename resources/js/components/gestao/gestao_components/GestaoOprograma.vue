@@ -31,7 +31,7 @@
                     Iremos te guiar e ajudar a entender quais são as mudanças fundamentais que o seu negócio sofrerá nesse momento, 
                     e como criar uma estratégia sólida para se adaptar e prosperar diante dessa nova realidade.
                 </p>
-                <a class="btn btn-md" href="#garantias">Eu quero participar do Hands On!</a>
+                <a class="btn btn-md" href="https://fvg.typeform.com/to/fRmSZb6c#tema=gestaomkt&fonte=site">Eu quero participar do Hands On!</a>
             </div>
             <div 
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
@@ -132,7 +132,7 @@
                    onde nossos mentores ajudarão você, a entender como implementar as técnicas, 
                    ferramentas e estratégias apresentadas no seu negócio!
                 </p>
-                <a class="btn btn-md" href="#garantias">Eu quero a minha vaga!</a>
+                <a class="btn btn-md" href="https://fvg.typeform.com/to/fRmSZb6c#tema=gestaomkt&fonte=site">Eu quero a minha vaga!</a>
             </div>
             <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
                 class="div-textos-oprograma-conteudo" style="padding-left: 10px">

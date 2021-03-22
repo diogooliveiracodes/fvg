@@ -20,7 +20,7 @@
                         <h5 class="gotham-bold text-muted">O que é a FVG Educação e Ensino</h5>
                         <p class="text-muted">As imersões e mentorias da FVG Educação e Ensino é um negócio que surgiu a partir da necessidade de transferir conhecimento, prática e gestão empresarial para profissionais da saúde em posições estratégicas.</p>
                         <p class="gotham-bold text-muted">Você está pronto para atualizar suas técnicas e promover mudanças significativas em seu negócio?</p>
-                        <button class="btn btn-md" href="#garantias">Quero saber mais</button>
+                        <a class="btn btn-md" href="#nossosprogramas">Quero saber mais</a>
                     </div>
                 </div>
             </div>
@@ -105,14 +105,14 @@ export default {
     p, h5{
         font-family: 'Gotham-book';
     }
-    button{
+    a{
     transition: all 0.3s ease-in-out 0s;
     background-color:rgb(147 187 194);
     border: none;
     border-radius: 20px;
     color: rgb(61 57 53);
     }
-    button:hover{
+    a:hover{
         transform: scale3d(1.2, 1.2, 2);
         background-color:rgb(147 187 194);
         color: rgb(61 57 53);

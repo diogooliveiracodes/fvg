@@ -22,7 +22,7 @@
                         <p class="text-white font15">
                             Conheça as técnicas que utilizamos e aprenda como aplicá-las na prática.
                         </p>
-                        <button class="btn btn-success mt-3 btn-lg" href="#garantias">QUERO CONHECER OS PROGRAMAS</button>
+                        <a class="btn btn-success mt-3 btn-lg" href="#oprograma">QUERO CONHECER OS PROGRAMAS</a>
 
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export default {
     h1{
         margin-top: 10vh;
     }
-    p, button{
+    p, a{
         font-size: 1rem !important;
     }
     .desktop{
@@ -59,14 +59,14 @@ export default {
 p, h1, h2, h3, h4, h5{
     font-family: 'Gotham-book';
 }
-button{
+a{
     transition: all 0.3s ease-in-out 0s;
     background-color:rgb(147 187 194);
     border: none;
     border-radius: 20px;
     color: rgb(61 57 53);
 }
-button:hover{
+a:hover{
     transform: scale3d(1.2, 1.2, 2);
     background-color:rgb(147 187 194);
     color: rgb(61 57 53);

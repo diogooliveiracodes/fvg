@@ -23,7 +23,7 @@
                     marcação da paciente, colocação da prótese, fechamento da loja, montagem da mama, posicionamento da aréola, etc.
                     </strong> 
                 </p>
-                <a class="btn btn-md" href="#garantias">Eu quero participar do Hands On!</a>
+                <a class="btn btn-md" href="https://fvg.typeform.com/to/C16WV6eH#tema=handson&fonte=MastopexiaSite">Eu quero participar do Hands On!</a>
             </div>
             <div 
                 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
@@ -119,7 +119,7 @@
                     O curso não é apenas demonstração! Durante o curso, você vai receber mentoria 
                     individualizada e atuar dentro do campo cirúrgico.
                 </p>
-                <a class="btn btn-md" href="#garantias">Eu quero a minha vaga!</a>
+                <a class="btn btn-md" href="https://fvg.typeform.com/to/C16WV6eH#tema=handson&fonte=MastopexiaSite">Eu quero a minha vaga!</a>
             </div>
             <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
                 class="div-textos-oprograma-conteudo" style="padding-left: 10px">
