@@ -39,8 +39,24 @@
                 </ul>
             </div>
             <div v-else class="collapse navbar-collapse px-0" :class="{'aplicarbg': aplicarbg}" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 px-0">
-
+                <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-mobile">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#oprograma" tabindex="-1">O Programa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#conteudo" tabindex="-1">Conteúdo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#mentores" tabindex="-1">Mentores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#depoimentos" tabindex="-1">Depoimentos</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-desktop">
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
                     </li>
@@ -96,6 +112,12 @@ export default {
         right: 19%;
         margin-right: -2.8%
     }
+    #navbar-mobile{
+        display: none;
+    }
+    #navbar-desktop{
+        display: flex;
+    }
 }
 @media screen and (max-width: 991px) {
     #navbarSupportedContent{
@@ -122,6 +144,13 @@ export default {
     a:hover{
         background-color: rgb(61 57 53) !important;
     }
+    #navbar-desktop{
+        display: none;
+    }
+    #navbar-mobile{
+        background: rgb(61 57 53);
+        padding: 20px;
+    }
 *{
     font-family: 'Gotham-book';
 }
@@ -137,4 +166,9 @@ export default {
 .nav-item .nav-link{
     background: transparent !important;
 }
+
+#navbar-mobile{
+    background: rgb(61 57 53);
+}
+
 </style>
