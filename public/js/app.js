@@ -14077,7 +14077,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (min-width: 992px) {\n.img-logo[data-v-5a61c47e]{\r\n        position: absolute;\r\n        height: 80%;\r\n        top: 10%;\r\n        left: 16.72%;\r\n        padding: 0;\n}\nli[data-v-5a61c47e]{\r\n        padding-left: 0;\r\n        padding-right: 0;\n}\n#navbarSupportedContent[data-v-5a61c47e]{\r\n        position: absolute;\r\n        right: 19%;\r\n        margin-right: -2.8%\n}\n#navbar-mobile[data-v-5a61c47e]{\r\n        display: none;\n}\n#navbar-desktop[data-v-5a61c47e]{\r\n        display: flex;\n}\n}\n@media screen and (max-width: 991px) {\n#navbarSupportedContent[data-v-5a61c47e]{\r\n        padding-top:30px;\r\n        padding-left: 10px !important;\r\n        padding-right: 10px !important;\n}\n.img-logo[data-v-5a61c47e]{\r\n        left: 20px;\n}\n.navbar-toggler[data-v-5a61c47e]{\r\n        margin-right: 20px;\n}\n}\n.img-logo[data-v-5a61c47e]{\r\n        position: absolute;\r\n        height: 80%;\r\n        top: 10%;\r\n        padding: 0;\n}\na[data-v-5a61c47e]{\r\n        color: white !important;\n}\na[data-v-5a61c47e]:hover{\r\n        background-color: rgb(61 57 53) !important;\n}\n#navbar-desktop[data-v-5a61c47e]{\r\n        display: none;\n}\n#navbar-mobile[data-v-5a61c47e]{\r\n        background: rgb(61 57 53);\r\n        padding: 20px;\n}\n*[data-v-5a61c47e]{\r\n    font-family: 'Gotham-book';\n}\n.navbar-toggler[data-v-5a61c47e]:focus{\r\n    box-shadow: 0 0 0 0 !important;\n}\n.aplicarbg[data-v-5a61c47e]{\r\n    background: rgb(61 57 53);\n}\n#navbarDropdown[data-v-5a61c47e]:hover{\r\n    background: transparent !important;\n}\n.nav-item .nav-link[data-v-5a61c47e]{\r\n    background: transparent !important;\n}\n#navbar-mobile[data-v-5a61c47e]{\r\n    background: rgb(61 57 53);\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (min-width: 992px) {\n.img-logo[data-v-5a61c47e]{\r\n        position: absolute;\r\n        height: 80%;\r\n        top: 10%;\r\n        left: 16.72%;\r\n        padding: 0;\n}\nli[data-v-5a61c47e]{\r\n        padding-left: 0;\r\n        padding-right: 0;\n}\n#navbarSupportedContent[data-v-5a61c47e]{\r\n        position: absolute;\r\n        right: 19%;\r\n        margin-right: -2.8%\n}\n#navbar-mobile[data-v-5a61c47e]{\r\n        display: none;\n}\n#navbar-desktop[data-v-5a61c47e]{\r\n        display: flex;\n}\n}\n@media screen and (max-width: 991px) {\n#navbarSupportedContent[data-v-5a61c47e]{\r\n        padding-top:30px;\r\n        padding-left: 10px !important;\r\n        padding-right: 10px !important;\n}\n.img-logo[data-v-5a61c47e]{\r\n        left: 20px;\n}\n.navbar-toggler[data-v-5a61c47e]{\r\n        margin-right: 20px;\n}\n#navbar-desktop[data-v-5a61c47e]{\r\n        display: none;\n}\n.nav-item[data-v-5a61c47e]{\r\n        padding-left: 20px;\n}\n}\n.img-logo[data-v-5a61c47e]{\r\n    position: absolute;\r\n    height: 80%;\r\n    top: 10%;\r\n    padding: 0;\n}\na[data-v-5a61c47e]{\r\n    color: white !important;\n}\na[data-v-5a61c47e]:hover{\r\n    background-color: rgb(61 57 53) !important;\n}\n*[data-v-5a61c47e]{\r\n    font-family: 'Gotham-book';\n}\n.navbar-toggler[data-v-5a61c47e]:focus{\r\n    box-shadow: 0 0 0 0 !important;\n}\n.aplicarbg[data-v-5a61c47e]{\r\n    background: rgb(61 57 53);\n}\n#navbarDropdown[data-v-5a61c47e]:hover{\r\n    background: transparent !important;\n}\n.nav-item .nav-link[data-v-5a61c47e]{\r\n    background: transparent !important;\n}\n#navbar-mobile[data-v-5a61c47e]{\r\n    background: rgb(61 57 53);\r\n    padding: 20px;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -52370,7 +52370,7 @@ var staticRenderFns = [
           staticClass: "div-textos-oprograma-conteudo",
           staticStyle: { "padding-right": "10px" },
           attrs: {
-            "data-aos": "fade-right",
+            "data-aos": "fade-up",
             "data-aos-duration": "1000",
             "data-aos-delay": "50",
             "data-aos-easing": "ease-in-out"
@@ -52416,7 +52416,7 @@ var staticRenderFns = [
           staticClass: "div-textos-oprograma-conteudo",
           staticStyle: { "padding-left": "10px" },
           attrs: {
-            "data-aos": "fade-left",
+            "data-aos": "fade-up",
             "data-aos-duration": "1000",
             "data-aos-delay": "50",
             "data-aos-easing": "ease-in-out"
@@ -52564,7 +52564,7 @@ var staticRenderFns = [
             staticClass: "div-textos-oprograma-conteudo",
             staticStyle: { "padding-right": "10px" },
             attrs: {
-              "data-aos": "fade-right",
+              "data-aos": "fade-up",
               "data-aos-duration": "1000",
               "data-aos-delay": "50",
               "data-aos-easing": "ease-in-out"
@@ -52603,7 +52603,7 @@ var staticRenderFns = [
             staticClass: "div-textos-oprograma-conteudo",
             staticStyle: { "padding-left": "10px" },
             attrs: {
-              "data-aos": "fade-left",
+              "data-aos": "fade-up",
               "data-aos-duration": "1000",
               "data-aos-delay": "50",
               "data-aos-easing": "ease-in-out"
@@ -52668,7 +52668,7 @@ var staticRenderFns = [
           "div",
           {
             staticClass:
-              "col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos"
+              "col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 div-textos"
           },
           [
             _c("p", { staticClass: "text-center" }, [

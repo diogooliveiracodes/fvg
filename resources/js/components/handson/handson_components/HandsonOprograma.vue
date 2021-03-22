@@ -8,7 +8,7 @@
     <div class="" style="display: box;">
         <div class="div-textos-oprograma">
             <div 
-                data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
                 class="div-textos-oprograma-conteudo" style="padding-right: 10px">
                 <p>
                     <strong>
@@ -24,7 +24,7 @@
                 <a class="btn btn-md" href="https://fvg.typeform.com/to/C16WV6eH#tema=handson&fonte=site">Eu quero participar do Hands On!</a>
             </div>
             <div 
-                data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
                 class="div-textos-oprograma-conteudo" style="padding-left: 10px">
                 <h5>
                     <strong>IMERSÃO E MENTORIA PARA CIRURGIÕES PLÁSTICOS​</strong>
@@ -100,7 +100,7 @@
 
 
         <div class="div-textos-oprograma" id="conteudo">
-            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
                 class="div-textos-oprograma-conteudo" style="padding-right: 10px">
                 <p>
                     <strong>
@@ -116,7 +116,7 @@
                 </p>
                 <a class="btn btn-md" href="#garantias">Eu quero a minha vaga!</a>
             </div>
-            <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
                 class="div-textos-oprograma-conteudo" style="padding-left: 10px">
                 <p><i class="fas fa-check cor-azul"></i>  Do consultório à sala de cirurgia;</p>
                 <p><i class="fas fa-check cor-azul"></i>  Como lidar com as intercorrências;</p>
@@ -128,7 +128,7 @@
             </div>
         </div>
         <div class="div-textos-oprograma-mobile row mx-0 px-0 justify-content-center">
-            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos">
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 div-textos">
                 <p class="text-center">
                     <strong>
                         O que vou aprender?

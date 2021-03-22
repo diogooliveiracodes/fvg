@@ -131,26 +131,26 @@ export default {
     .navbar-toggler{
         margin-right: 20px;
     }
-}
-    .img-logo{
-        position: absolute;
-        height: 80%;
-        top: 10%;
-        padding: 0;
-    }
-    a{
-        color: white !important;
-    }
-    a:hover{
-        background-color: rgb(61 57 53) !important;
-    }
     #navbar-desktop{
         display: none;
     }
-    #navbar-mobile{
-        background: rgb(61 57 53);
-        padding: 20px;
+    .nav-item{
+        padding-left: 20px;
     }
+
+}
+.img-logo{
+    position: absolute;
+    height: 80%;
+    top: 10%;
+    padding: 0;
+}
+a{
+    color: white !important;
+}
+a:hover{
+    background-color: rgb(61 57 53) !important;
+}
 *{
     font-family: 'Gotham-book';
 }
@@ -166,9 +166,9 @@ export default {
 .nav-item .nav-link{
     background: transparent !important;
 }
-
 #navbar-mobile{
     background: rgb(61 57 53);
+    padding: 20px;
 }
 
 </style>
