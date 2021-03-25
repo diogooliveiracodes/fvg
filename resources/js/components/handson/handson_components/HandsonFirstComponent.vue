@@ -61,14 +61,14 @@ p, h1, h2, h3, h4, h5{
 }
 a{
     transition: all 0.3s ease-in-out 0s;
-    background-color:rgb(147 187 194);
+    /* background-color:rgb(147 187 194); */
     border: none;
     border-radius: 20px;
-    color: rgb(61 57 53);
+    /* color: rgb(61 57 53); */
 }
 a:hover{
-    transform: scale3d(1.2, 1.2, 2);
-    background-color:rgb(147 187 194);
-    color: rgb(61 57 53);
+    transform: scale3d(1.1, 1.1, 1);
+    /* background-color:rgb(147 187 194); */
+    /* color: rgb(61 57 53); */
 }
 </style>
