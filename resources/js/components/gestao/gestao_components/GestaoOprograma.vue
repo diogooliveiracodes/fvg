@@ -10,7 +10,7 @@
         <!-- DESKTOP -->
         <div class="div-textos-oprograma">
             <div 
-                data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
                 class="div-textos-oprograma-conteudo" style="padding-right: 10px">
                 <p>
                     <strong>
@@ -34,7 +34,7 @@
                 <a class="btn btn-md" href="https://fvg.typeform.com/to/fRmSZb6c#tema=gestaomkt&fonte=site">Eu quero participar do Hands On!</a>
             </div>
             <div 
-                data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
                 class="div-textos-oprograma-conteudo" style="padding-left: 10px">
                 <h5>
                     <strong>IMERSÃO E MENTORIA PARA LÍDERES</strong>
@@ -117,7 +117,7 @@
 
         <!-- DESKTOP -->
         <div class="div-textos-oprograma" id="conteudo">
-            <div data-aos="fade-right" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
                 class="div-textos-oprograma-conteudo" style="padding-right: 10px">
                 <p>
                     <strong>
@@ -134,7 +134,7 @@
                 </p>
                 <a class="btn btn-md" href="https://fvg.typeform.com/to/fRmSZb6c#tema=gestaomkt&fonte=site">Eu quero a minha vaga!</a>
             </div>
-            <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
                 class="div-textos-oprograma-conteudo" style="padding-left: 10px">
                 <p><i class="fas fa-check cor-azul"></i>  O Papel do Gestor;</p>
                 <p><i class="fas fa-check cor-azul"></i>  Como construir times de excelência</p>
@@ -148,8 +148,8 @@
         <!-- END DESKTOP -->
 
         <!-- MOBILE -->
-        <div class="div-textos-oprograma-mobile row mx-0 px-0 justify-content-center">
-            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos">
+        <div class="div-textos-oprograma-mobile row mx-0 px-0 justify-content-center" >
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                 <p class="text-center">
                     <strong>
                         O que vou aprender?
@@ -165,7 +165,7 @@
                     <a class="btn btn-md" href="#garantias">Eu quero a minha vaga!</a>
                 </div>
             </div>
-            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos mt-4 text-center">
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos mt-4 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                 <p><i class="fas fa-check cor-azul"></i>  Do consultório à sala de cirurgia;</p>
                 <p><i class="fas fa-check cor-azul"></i>  Como lidar com as intercorrências;</p>
                 <p><i class="fas fa-check cor-azul"></i>  Experiência prática com pacientes reais;</p>

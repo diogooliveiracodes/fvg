@@ -20,7 +20,7 @@
                     de técnicas e promoção de mudanças significativas,<br>
                     do marketing médico à técnica cirúrgica.<br>
                 </p>
-                <a class="btn btn-success btn-lg" href="#oprograma">QUERO CONHECER OS PROGRAMAS</a>
+                <a class="btn btn-lg" href="#oprograma">QUERO CONHECER OS PROGRAMAS</a>
             </div>
         </div>
     </div>
@@ -62,13 +62,15 @@ p, h4{
 }
 a{
     transition: all 0.3s ease-in-out 0s;
+    background-color:rgb(147 187 194);
     border: none;
     border-radius: 20px;
-    /* color: rgb(61 57 53); */
+    color: rgb(61 57 53);
 }
 a:hover{
     transform: scale3d(1.1, 1.1, 1);
-    /* color: rgb(61 57 53); */
+    background-color:rgb(147 187 194);
+    color: rgb(61 57 53);
 }
 h4{
     font-size: 2.7rem;

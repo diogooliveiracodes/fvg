@@ -9,13 +9,13 @@
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
                         linkedin="linkedin.com/diogooliveiracodes"
-                        imagem="url('images/handson/felipe-villaca.jpg')"
+                        imagem="images/handson/felipe-villaca.jpg"
                         >
                         <template v-slot:titulo>Felipe Villaça</template>
                         <template v-slot:crm>CRM: 48.463</template>
                         <template v-slot:texto>
-                            <strong>Responsável Técnico da FVG</strong><br>
-                            <strong>Membro da Sociedade Brasileira de Cirurgia Plástica – SBCP</strong>
+                            Responsável Técnico da FVG<br>
+                            Membro da Sociedade Brasileira de Cirurgia Plástica – SBCP
                             Membro Adjunto do Colégio Brasileiro de Cirurgiões Sócio Diretor do Premier Hospital Dia Sócio Diretor da Médico sem Fila
                         </template>
                     </v-card-mentores>
@@ -25,7 +25,7 @@
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
                         linkedin="linkedin.com/diogooliveiracodes"
-                        imagem="url('images/handson/marco-tulio.jpg')"
+                        imagem="images/handson/marco-tulio.jpg"
                         >
                         <template v-slot:titulo>Marco Túlio Ferreira</template>
                         <template v-slot:crm>CRM: 48.463</template>
@@ -47,7 +47,7 @@
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
                         linkedin="linkedin.com/diogooliveiracodes"
-                        imagem="url('images/handson/marcus-capanema.jpg')"
+                        imagem="images/handson/marcus-capanema.jpg"
                         >
                         <template v-slot:titulo>Marcus Capanema</template>
                         <template v-slot:crm>CRM: 60.314</template>
@@ -62,7 +62,7 @@
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
                         linkedin="linkedin.com/diogooliveiracodes"
-                        imagem="url('images/handson/david-ordonez.jpg')"
+                        imagem="images/handson/david-ordonez.jpg"
                         >
                         <template v-slot:titulo>David Ordonez</template>
                         <template v-slot:crm>CRM: 66.017</template>
@@ -83,7 +83,7 @@
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
                         linkedin="linkedin.com/diogooliveiracodes"
-                        imagem="url('images/handson/marcio-resende.jpg')"
+                        imagem="images/handson/marcio-resende.jpg"
                         >
                         <template v-slot:titulo>Márcio Resende</template>
                         <template v-slot:crm>CRM: 57.070</template>
@@ -100,7 +100,7 @@
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
                         linkedin="linkedin.com/diogooliveiracodes"
-                        imagem="url('images/handson/lucas-resende.jpg')"
+                        imagem="images/handson/lucas-resende.jpg"
                         >
                         <template v-slot:titulo>Lucas Rezende</template>
                         <template v-slot:crm>CRM: 48.561</template>

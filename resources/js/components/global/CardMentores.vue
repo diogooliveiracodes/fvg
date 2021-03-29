@@ -1,18 +1,21 @@
 <template>
-    <div class="card card-main mb-3 mt-3">
-        <div class="row g-0">
-            <div class="card col-5 div-img-background" 
-                :style="styleObject">
-                
-            </div>
-            <div class="col-7 px-2">
+    <div class="div-main mb-3 mt-3" 
+    :class="{'div-main-background':ativo}"
+    style="position: relative; display: flex; flex-direction: column-reverse" 
+        @mouseover="mudarClasse" 
+        @mouseout="mudarClasse">
+        
+        <transition name="fade">
+            <img :src="imagem" alt="" :class="{'img-ativo':ativo, 'img-inativo':inativo}">
+        </transition>
+            <div class="px-2" style="margin-top: 40px">
                 <div class="card-body">
                     <div class="text-main">
                         <h5 class="card-title">
                             <slot name="titulo"></slot>
                         </h5>
                         <p class="card-text">
-                            <small class="text-muted">
+                            <small class="">
                                 <slot name="crm"></slot>
                             </small>
                         </p>
@@ -37,7 +40,6 @@
 
                 </div>
             </div>
-        </div>
     </div>
 </template>
 
@@ -48,19 +50,55 @@ export default {
     ],
     data(){
         return{
-            styleObject:{
-                'backgroundImage':this.imagem
-            }
+            ativo: false,
+            inativo: true
+        }
+    },
+    methods:{
+        mudarClasse(){
+            console.log('passei aqui')
+            this.ativo = !this.ativo
+            this.inativo = !this.inativo
         }
     }
 }
 </script>
 
-<style>
-    .div-img-background{
-        background-position: center;
-        background-size: auto 100%;
-        background-repeat: no-repeat;
+<style scoped>
+i{
+    color: rgb(61 57 53);
+}
+    .div-main{
+        min-height: 50vh !important;
+        max-width: 40vh !important;
+        box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31);
+        border-left: 10px solid transparent;
+        transition: all .3s ease-in-out;
+    }
+    .div-main-background{
+        background: #c1edff;
+        /* background: rgb(61 57 53); */
+        color: rgb(61 57 53) !important;
+        border-left: 10px solid rgb(61 57 53);
+        transition: all .5s ease-in-out;
+    }
+    img{
+        position: absolute;
+    }
+    .img-inativo{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: all .3s ease;
+    }
+    .img-ativo{
+        top: 5%;
+        left: 25%;
+        width: 45% !important;
+        height: 45% !important;
+        box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31);
+        transition: all .5s ease;
     }
     .card-text{
         text-align: justify !important;
@@ -75,25 +113,18 @@ export default {
         font-size: 21px;
     }
     .bg-component-light {
-        background-color: #c1edff;
+        background-color: transparent;
     }
     i:hover{
         transform: scale3d(1.2, 1.2, 1.2);
         transition: all 0.5s;
     }
-    .card{
-        border: none !important;
-        min-height: 270px !important;
-    }
+
     .card-main{
         transition: all 0.3s;
     }
     @media screen and (max-width: 556px) {
-        .card-main{
-            -webkit-box-shadow: 2px 0px 21px 4px rgba(0,0,0,0.31);
-            -moz-box-shadow: 2px 0px 21px 4px rgba(0,0,0,0.31);
-            box-shadow: 2px 0px 21px 4px rgba(0,0,0,0.31);
-        }
+
         .social-main{
             height: 15%;
         }
@@ -102,19 +133,15 @@ export default {
             padding-bottom: 5%;
         }
     }
-    .card-main:hover{
-        box-shadow: 2px 0px 21px 4px rgba(0,0,0,0.1);
-        transition: all 0.3s;
-    }
     a{
         width: auto !important;
     }
     .card-body{
-        height: 100%;
+        width: 100%;
     }
     .social-main{
         height: 15%;
-        padding-bottom: 5%;
+        /* padding-bottom: 5%; */
     }
     .text-main{
         height: 80%
