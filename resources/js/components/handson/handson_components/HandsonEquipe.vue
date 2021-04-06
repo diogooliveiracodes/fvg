@@ -1,6 +1,6 @@
 <template>
   <div class="row mx-0 px-0 justify-content-center bg-white py-5">
-        <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12 col-lg-8 col-md-10 col-sm-12">
+        <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12">
             <carousel :perPageCustom=[[1,1],[556,2],[992,3]]>
                 <slide>
                     <v-card-mentores

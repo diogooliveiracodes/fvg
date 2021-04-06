@@ -1,5 +1,5 @@
 <template>
-    <div class="div-main" 
+    <div class="div-main mx-0 px-0" 
         :class="{'div-main-background':ativo}"
         style="position: relative; display: flex; align-items: flex-end" 
         @mouseover="mudarClasse" 
@@ -135,7 +135,7 @@ export default {
         }
         .div-main{
             min-height: 80vh !important;
-            /* max-width: 40vh !important; */
+            min-width: 100% !important;
         }
     }
     @media screen and (min-width: 557px) and (max-width: 992px) {
@@ -149,7 +149,7 @@ export default {
         }
         .div-main{
             min-height: 80vh !important;
-            /* max-width: 40vh !important; */
+
         }
     }
     a{
