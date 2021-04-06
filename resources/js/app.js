@@ -4,7 +4,7 @@ window.Vue = require('vue').default;
 
 // GLOBAL 
 Vue.component('carousel-3d', require('./components/global/carousel-3d/Carousel3d.vue').default);
-Vue.component('slide', require('./components/global/carousel-3d/Slide.vue').default);
+Vue.component('slide-3d', require('./components/global/carousel-3d/Slide.vue').default);
 Vue.component('v-navbar', require('./components/global/NavBar.vue').default);
 Vue.component('v-footer', require('./components/global/Footer.vue').default);
 Vue.component('v-footer', require('./components/global/Footer.vue').default);
@@ -43,6 +43,8 @@ Vue.directive('scroll', {
 import { CardPlugin } from 'bootstrap-vue'
 Vue.use(CardPlugin)
 
+import VueCarousel from 'vue-carousel';
+Vue.use(VueCarousel);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

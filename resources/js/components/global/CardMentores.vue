@@ -1,14 +1,14 @@
 <template>
-    <div class="div-main mb-3 mt-3" 
-    :class="{'div-main-background':ativo}"
-    style="position: relative; display: flex; flex-direction: column-reverse" 
+    <div class="div-main" 
+        :class="{'div-main-background':ativo}"
+        style="position: relative; display: flex; align-items: flex-end" 
         @mouseover="mudarClasse" 
         @mouseout="mudarClasse">
         
         <transition name="fade">
             <img :src="imagem" alt="" :class="{'img-ativo':ativo, 'img-inativo':inativo}">
         </transition>
-            <div class="px-2" style="margin-top: 40px">
+            <div class="px-2">
                 <div class="card-body">
                     <div class="text-main">
                         <h5 class="card-title">
@@ -65,13 +65,13 @@ export default {
 </script>
 
 <style scoped>
-i{
-    color: rgb(61 57 53);
-}
+    i{
+        color: rgb(61 57 53);
+    }
     .div-main{
         min-height: 50vh !important;
         max-width: 40vh !important;
-        box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31);
+        /* box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31); */
         border-left: 10px solid transparent;
         transition: all .3s ease-in-out;
     }
@@ -102,6 +102,7 @@ i{
     }
     .card-text{
         text-align: justify !important;
+        font-size: 0.8rem;
     }
     .footer-social-icon {
         border-radius: 100%;
@@ -132,12 +133,32 @@ i{
             height: 80%;
             padding-bottom: 5%;
         }
+        .div-main{
+            min-height: 80vh !important;
+            /* max-width: 40vh !important; */
+        }
+    }
+    @media screen and (min-width: 557px) and (max-width: 992px) {
+
+        .social-main{
+            height: 15%;
+        }
+        .text-main{
+            height: 60%;
+            padding-bottom: 5%;
+        }
+        .div-main{
+            min-height: 80vh !important;
+            /* max-width: 40vh !important; */
+        }
     }
     a{
         width: auto !important;
     }
     .card-body{
         width: 100%;
+        /* height: 50% !important; */
+        overflow: hidden;
     }
     .social-main{
         height: 15%;

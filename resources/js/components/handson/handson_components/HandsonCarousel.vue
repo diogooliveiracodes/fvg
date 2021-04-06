@@ -5,12 +5,12 @@
       <h1 class="cor-azul gotham-bold text-center">O que nossos alunos falam:</h1>
       <carousel-3d :display="3" :autoplay="true" :title="true" :space="300"
         :controlsVisible="true">
-        <slide v-for="(slide, i) in slides" :index="i" :key="i">
+        <slide-3d v-for="(slide, i) in slides" :index="i" :key="i">
           <div @click="getVideo(i)" v-on:mouseover="mousehover=true" v-on:mouseleave="mousehover=false">
             <img :src="slide.src" style="background-color: rgb(147 187 194);">
             <p id="img-desc" v-show="mousehover">{{slide.desc}}</p>
           </div>
-        </slide>
+        </slide-3d>
       </carousel-3d>
       <div id="video-frente" v-show="videoFrente" >
         <videoComponent01 v-if="i == 0" :videoplay="videoFrente"></videoComponent01>

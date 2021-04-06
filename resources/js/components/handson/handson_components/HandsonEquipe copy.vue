@@ -1,8 +1,10 @@
 <template>
-  <div class="row mx-0 px-0 justify-content-center bg-white py-5">
-        <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12 col-lg-8 col-md-10 col-sm-12">
-            <carousel :perPageCustom=[[1,1],[556,2],[992,3]]>
-                <slide>
+  <div class="row mx-0 px-0 justify-content-center bg-white py-5 card-mentores">
+      <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12 col-lg-8 col-md-10 col-sm-12">
+          <h3 class="text-center mb-5">Os seus mentores</h3>
+            <!-- ROW 01 -->
+            <div id="mentores" class="row mx-0 px-0 justify-content-between" style="font-size: 0.8rem !important;">
+                <div class="col-md-6 col-sm-12 col-12">
                     <v-card-mentores
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
@@ -17,8 +19,8 @@
                             Membro Adjunto do Colégio Brasileiro de Cirurgiões Sócio Diretor do Premier Hospital Dia Sócio Diretor da Médico sem Fila
                         </template>
                     </v-card-mentores>
-                </slide>
-                <slide>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
                     <v-card-mentores
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
@@ -34,8 +36,13 @@
                             Belo Horizonte/MG
                         </template>
                     </v-card-mentores>
-                </slide>
-                <slide>
+                </div>
+            </div>
+            <!-- END ROW 01 -->
+
+            <!-- ROW 02 -->
+            <div class="row mx-0 px-0 justify-content-between" style="font-size: 0.8rem !important;">
+                <div class="col-md-6 col-sm-12 col-12">
                     <v-card-mentores
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
@@ -49,8 +56,8 @@
                             Especialização Cirurgia Plástica no Hospital Socor em Belo Horizonte/MG.
                         </template>
                     </v-card-mentores>
-                </slide>
-                <slide>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
                     <v-card-mentores
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
@@ -65,8 +72,13 @@
                             em Belo Horizonte/MG
                         </template>
                     </v-card-mentores>
-                </slide>
-                <slide>
+                </div>
+            </div>
+            <!-- END ROW 02 -->
+
+            <!-- ROW 03 -->
+            <div class="row mx-0 px-0 justify-content-between" style="font-size: 0.8rem !important;">
+                <div class="col-md-6 col-sm-12 col-12">
                     <v-card-mentores
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
@@ -82,8 +94,8 @@
                             em Belo Horizonte/MG
                         </template>
                     </v-card-mentores>
-                </slide>
-                <slide>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12">
                     <v-card-mentores
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
@@ -99,9 +111,10 @@
                             Belo Horizonte/MG
                         </template>
                     </v-card-mentores>
-                </slide>
-            </carousel>
-        </div>
+                </div>
+            </div>
+            <!-- END ROW 03 -->
+      </div>
   </div>
 </template>
 
