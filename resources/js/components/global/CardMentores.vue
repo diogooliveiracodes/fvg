@@ -1,6 +1,6 @@
 <template>
     <div class="div-main mx-0 px-0" 
-        :class="{'div-main-background':ativo}"
+        :class="{'div-main-background':ativo, 'protese':protese}"
         style="position: relative; display: flex; align-items: flex-end" 
         @mouseover="mudarClasse" 
         @mouseout="mudarClasse">
@@ -46,7 +46,7 @@
 <script>
 export default {
     props:[
-        'imagem', 'facebook', 'instagram', 'linkedin'
+        'imagem', 'facebook', 'instagram', 'linkedin', 'protese'
     ],
     data(){
         return{
@@ -65,21 +65,25 @@ export default {
 </script>
 
 <style scoped>
+    .protese{
+        color: white !important;
+        background: #5a6169;
+        /* border-left: 10px solid white; */
+    }
+
+
     i{
-        color: rgb(61 57 53);
+        color: white;
     }
     .div-main{
         min-height: 50vh !important;
         max-width: 40vh !important;
         /* box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31); */
-        border-left: 10px solid transparent;
+        
         transition: all .3s ease-in-out;
     }
     .div-main-background{
-        background: #c1edff;
-        /* background: rgb(61 57 53); */
-        color: rgb(61 57 53) !important;
-        border-left: 10px solid rgb(61 57 53);
+        /* border-left: 10px solid rgb(61 57 53); */
         transition: all .5s ease-in-out;
     }
     img{

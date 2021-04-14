@@ -26,6 +26,8 @@ Vue.component('v-mastopexia-app', require('./components/mastopexia/App.vue').def
 // GESTAO
 Vue.component('v-gestao-app', require('./components/gestao/App.vue').default);
 
+// MAMOPLASTIA - ONLINE
+Vue.component('v-mamoplastia-app', require('./components/mamoplastia/App.vue').default);
 
 // END - HANDSON 
 
@@ -41,6 +43,7 @@ Vue.directive('scroll', {
   });
 
 import { CardPlugin } from 'bootstrap-vue'
+import Vue from 'vue';
 Vue.use(CardPlugin)
 
 import VueCarousel from 'vue-carousel';

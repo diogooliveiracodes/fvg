@@ -30,7 +30,7 @@
                             Online
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(147 187 194);">
-                            <li><a class="dropdown-item" href="#">Mamoplastia de aumento</a></li>
+                            <li><a class="dropdown-item" :href="mamoplastialink">Mamoplastia de aumento</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -80,7 +80,7 @@
 
 <script>
 export default {
-    props:['imagem', 'pginicial', 'naoinicial', 'handsonlink', 'mastopexialink', 'gestaolink'],
+    props:['imagem', 'pginicial', 'naoinicial', 'handsonlink', 'mastopexialink', 'gestaolink', 'mamoplastialink'],
     data(){
         return{
             aplicarbg: false

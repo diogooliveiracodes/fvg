@@ -28,6 +28,10 @@ Route::get('/gestao-e-marketing', function () {
     return view('gestao_e_marketing');
 })->name('gestao-e-marketing');
 
+Route::get('/mamoplastia-de-aumento', function () {
+    return view('mamoplastia');
+})->name('mamoplastia-de-aumento');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
