@@ -76,7 +76,7 @@ export default {
         color: white;
     }
     .div-main{
-        min-height: 50vh !important;
+        height: 500px;
         max-width: 40vh !important;
         /* box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31); */
         
@@ -129,7 +129,9 @@ export default {
         transition: all 0.3s;
     }
     @media screen and (max-width: 556px) {
-
+        .card-text{
+            font-size: 1rem !important;
+        }
         .social-main{
             height: 15%;
         }
@@ -165,7 +167,7 @@ export default {
         overflow: hidden;
     }
     .social-main{
-        height: 15%;
+        height: 30px;
         /* padding-bottom: 5%; */
     }
     .text-main{

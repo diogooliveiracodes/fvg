@@ -45,22 +45,6 @@
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
                         linkedin="linkedin.com/diogooliveiracodes"
-                        imagem="images/handson/marcus-capanema.jpg"
-                        protese=true
-                        >
-                        <template v-slot:titulo>Marcus Capanema</template>
-                        <template v-slot:crm>CRM: 60.314</template>
-                        <template v-slot:texto>
-                            <strong>Membro da Sociedade Brasileira de Cirurgia Plástica – SBCP</strong>
-                            Especialização Cirurgia Plástica no Hospital Socor em Belo Horizonte/MG.
-                        </template>
-                    </v-card-mentores>
-                </slide>
-                <slide>
-                    <v-card-mentores
-                        facebook="facbook.com/diogooliveira06"
-                        instagram="instagram.com/diggx"
-                        linkedin="linkedin.com/diogooliveiracodes"
                         imagem="images/handson/david-ordonez.jpg"
                         protese=true
                         >
@@ -96,7 +80,7 @@
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
                         linkedin="linkedin.com/diogooliveiracodes"
-                        imagem="images/handson/lucas-resende.jpg"
+                        imagem="images/handson/lucas-rezende.jpg"
                         protese=true
                         >
                         <template v-slot:titulo>Lucas Rezende</template>

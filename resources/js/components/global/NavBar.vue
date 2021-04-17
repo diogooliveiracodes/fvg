@@ -10,6 +10,8 @@
             <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
+<!-- NAVBAR WELCOME -->
             <div v-if="pginicial == 'true'" :class="{'aplicarbg': aplicarbg}" 
                 class="collapse navbar-collapse px-0" 
                 id="navbarSupportedContent" 
@@ -38,6 +40,36 @@
                     </li>
                 </ul>
             </div>
+<!-- END NAVBAR WELCOME -->
+
+<!-- NAVBAR CURSO ONLINE -->
+            <div v-if="pgonline == 'true'" class="collapse navbar-collapse px-0" :class="{'aplicarbg': aplicarbg}" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-mobile">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#oprograma" tabindex="-1">O Programa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#conteudo" tabindex="-1">Dúvidas Frequentes</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-desktop">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#oprograma" tabindex="-1">O Programa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#conteudo" tabindex="-1">Dúvidas Frequentes</a>
+                    </li>
+                </ul>
+            </div>
+<!-- END NAVBAR CURSO ONLINE -->
+
+<!-- NAVBAR HANDS ON -->
             <div v-else class="collapse navbar-collapse px-0" :class="{'aplicarbg': aplicarbg}" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-mobile">
                     <li class="nav-item">
@@ -74,13 +106,14 @@
                     </li>
                 </ul>
             </div>
+<!-- END NAVBAR HANDS ON -->
         </div>
     </nav>
 </template>
 
 <script>
 export default {
-    props:['imagem', 'pginicial', 'naoinicial', 'handsonlink', 'mastopexialink', 'gestaolink', 'mamoplastialink'],
+    props:['imagem', 'pginicial', 'naoinicial', 'handsonlink', 'mastopexialink', 'gestaolink', 'mamoplastialink', 'pgonline'],
     data(){
         return{
             aplicarbg: false

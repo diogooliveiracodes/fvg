@@ -1,5 +1,4 @@
 <template>
-
     <v-navbar
         pginicial="true"
         imagem="images/logo.png"
