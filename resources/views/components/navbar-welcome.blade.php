@@ -1,6 +1,7 @@
 <template>
     <v-navbar
         pginicial="true"
+        pgonline=0
         imagem="images/logo.png"
         handsonlink="{{route('handson')}}"
         mastopexialink="{{route('mastopexia')}}"

@@ -43,7 +43,7 @@
 <!-- END NAVBAR WELCOME -->
 
 <!-- NAVBAR CURSO ONLINE -->
-            <div v-if="pgonline == 'true'" class="collapse navbar-collapse px-0" :class="{'aplicarbg': aplicarbg}" id="navbarSupportedContent">
+            <div v-else-if="pgonline == 'true'" class="collapse navbar-collapse px-0" :class="{'aplicarbg': aplicarbg}" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-mobile">
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>

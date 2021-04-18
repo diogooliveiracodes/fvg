@@ -1,7 +1,6 @@
 <template>
       <footer class="pt-4 pt-md-5 border-top pt-5 mb-0 pb-5 mx-0 px-0" style="background-color: rgb(61 57 53)">
-        <div class="row justify-content-center mx-0"
-            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
+        <div class="row justify-content-center mx-0">
             <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 mx-0 px-0">
                 <div class="row justify-content-center mx-0 px-0">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-0 mx-0 img-div-footer">
