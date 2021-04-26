@@ -10,14 +10,14 @@
                 <div class="accordion" id="accordionExample" style="padding-left: 0px">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             Anatomia e fisiologia das mamas
                         </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -27,9 +27,9 @@
                         </button>
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -39,9 +39,9 @@
                         </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
                         </div>
                     </div>
                     <div class="accordion-item">
@@ -51,30 +51,31 @@
                         </button>
                         </h2>
                         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                        </div>
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- END ACORDEON -->
             </div>
-                <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 mt-3">
-                    <div class="row mx-0 px-0">
-                        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1">
-                            <img class="img-grafico" src="images/mamoplastia/grafico-mamoplastia.png" alt="">
-                        </div>
-                    </div>
-                    <div class="row mx-0 px-0">
-                        <div class="text-second-component-bordered col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1">
-                            Ferramentas, estratégias e técnicas para você atualizar os seus resultados com a prática cirúrgica.
-                        </div>
-                    </div>
 
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 mt-3">
+                <div class="row mx-0 px-0 justify-content-end">
+                    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1">
+                        <img class="img-grafico" src="images/mamoplastia/grafico-mamoplastia.png" alt="">
+                    </div>
                 </div>
+                <div class="row mx-0 px-0 justify-content-end">
+                    <div class="text-second-component-bordered col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1">
+                        Ferramentas, estratégias e técnicas para você atualizar os seus resultados com a prática cirúrgica.
+                    </div>
+                </div>
+            </div>
         </div>
-
-
+        <div class="row mx-0 px-0 justify-content-center">
+            <a class="mt-3 botao" href="#oprograma">GARANTA SUA VAGA</a>
+        </div>
     </div>
 </div>
 </template>
@@ -87,10 +88,31 @@ export default {
 
 <style scoped>
 @media screen and (max-width: 576px) {
-
+    .botao{
+        width: 90% !important;
+    }
 }
 @media screen and (min-width: 577px) {
 
+}
+.botao{
+    background-color: #88c1d3;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #222222;
+    width: 25%;
+    text-align: center;
+    letter-spacing: .02rem;
+    font-size: 1.1rem;
+    font-family: "gotham-light";
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.botao:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    transition: all 0.3s ease-in-out 0s;
 }
 
 /* ACORDEON */

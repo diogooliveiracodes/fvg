@@ -4137,6 +4137,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _mamoplastia_components_MamoplastiaFirstComponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mamoplastia_components/MamoplastiaFirstComponent */ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFirstComponent.vue");
 /* harmony import */ var _mamoplastia_components_MamoplastiaSecondComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mamoplastia_components/MamoplastiaSecondComponent */ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue");
 /* harmony import */ var _mamoplastia_components_MamoplastiaThirdComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mamoplastia_components/MamoplastiaThirdComponent */ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaThirdComponent.vue");
+/* harmony import */ var _mamoplastia_components_MamoplastiaFourthComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mamoplastia_components/MamoplastiaFourthComponent */ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue");
+/* harmony import */ var _mamoplastia_components_MamoplastiaLastComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mamoplastia_components/MamoplastiaLastComponent */ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue");
 //
 //
 //
@@ -4147,6 +4149,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+
+
 
 
 
@@ -4154,7 +4160,9 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     mamoplastiaFirstComponent: _mamoplastia_components_MamoplastiaFirstComponent__WEBPACK_IMPORTED_MODULE_0__.default,
     mamoplastiaSecondComponent: _mamoplastia_components_MamoplastiaSecondComponent__WEBPACK_IMPORTED_MODULE_1__.default,
-    mamoplastiaThirdComponent: _mamoplastia_components_MamoplastiaThirdComponent__WEBPACK_IMPORTED_MODULE_2__.default
+    mamoplastiaThirdComponent: _mamoplastia_components_MamoplastiaThirdComponent__WEBPACK_IMPORTED_MODULE_2__.default,
+    mamoplastiaFourthComponent: _mamoplastia_components_MamoplastiaFourthComponent__WEBPACK_IMPORTED_MODULE_3__.default,
+    mamoplastiaLastComponent: _mamoplastia_components_MamoplastiaLastComponent__WEBPACK_IMPORTED_MODULE_4__.default
   },
   name: 'mamoplastiaApp'
 });
@@ -4214,6 +4222,236 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: 'mastopexiaFirstComponent'
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue?vue&type=script&lang=js& ***!
@@ -4225,6 +4463,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
 //
 //
 //
@@ -14650,6 +14889,54 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width: 576px)
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width: 576px) {\n.botao-fourth{\r\n        width: 100% !important;\n}\n.primeira-div{\r\n        text-align: center;\n}\n}\n.avista{\r\n    font-weight: 100;\r\n    font-family: 'gotham-light';\r\n    font-size: 1.2rem;\r\n    color: #e2e2e2b2 !important;\r\n    margin-top: -1rem;\r\n    margin-bottom: 1rem;\r\n    padding-top: 0px;\n}\n.preco{\r\n    font-size: 2.5rem;\r\n    color: #88c1d3;\r\n    margin-bottom: 0px;\r\n    padding-bottom: 0px;\r\n    font-weight: bold;\n}\n.borda-azul{\r\n    border: 1px solid #88c1d3;\r\n    border-radius: 8px;\n}\na{\r\n    text-decoration: none !important;\n}\n.font-white{\r\n    color: white;\r\n    font-family: 'gotham-book';\n}\n.botao-fourth{\r\n    background-color: #88c1d3;\r\n    padding: 10px;\r\n    border: none;\r\n    border-radius: 8px;\r\n    text-decoration: none !important;\r\n    color: #222222;\r\n    width: 60%;\r\n    text-align: center;\r\n    letter-spacing: .02rem;\r\n    font-size: 1.1rem;\r\n    font-family: \"gotham-light\";\r\n    transition: all 0.3s ease-in-out 0s;\n}\n.botao-fourth:hover{\r\n    transform: scale3d(1.1, 1.1, 1);\r\n    transition: all 0.3s ease-in-out 0s;\r\n    color: #222222;\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width: 576px) {\n.botao[data-v-2c57b3bf]{\r\n        width: 90% !important;\n}\n}\n@media screen and (min-width: 577px) {\n}\n.text-pre-telefone[data-v-2c57b3bf]{\r\n    font-family: 'gotham-light';\r\n    text-align: center;\r\n    margin-top: 20px;\r\n    font-size: 1.4rem;\r\n    margin-bottom: 0px;\n}\n.telefone[data-v-2c57b3bf]{\r\n    font-size: 1.6rem;\r\n    color: #88c1d3;\r\n    text-align: center;\r\n    font-weight: 900;\n}\n.botao[data-v-2c57b3bf]{\r\n    background-color: #88c1d3;\r\n    padding: 10px;\r\n    border: none;\r\n    border-radius: 8px;\r\n    text-decoration: none;\r\n    color: #222222;\r\n    width: 25%;\r\n    text-align: center;\r\n    letter-spacing: .02rem;\r\n    font-size: 1.1rem;\r\n    font-family: \"gotham-light\";\r\n    transition: all 0.3s ease-in-out 0s;\n}\n.botao[data-v-2c57b3bf]:hover{\r\n    transform: scale3d(1.1, 1.1, 1);\r\n    transition: all 0.3s ease-in-out 0s;\n}\r\n\r\n/* ACORDEON */\n.accordion-item[data-v-2c57b3bf]{\r\n    margin-top: 20px !important;\r\n    margin-bottom: 20px !important;\r\n    border: 2px solid #88C1D3;\r\n    border-radius: 5px;\n}\n.accordion-button[data-v-2c57b3bf]{\r\n    font-weight: bold;\n}\n.accordion-button[data-v-2c57b3bf]:hover{\r\n    font-weight: bold;\r\n    color: #88C1D3;\n}\n.accordion-button[data-v-2c57b3bf]:not(.collapsed){\r\n    font-weight: bold;\r\n    color: #88C1D3;\n}\n.accordion-button[data-v-2c57b3bf]:focus{\r\n    border: none;\r\n    text-decoration: none;\r\n    box-shadow: none;\n}\r\n\r\n/* END ACORDEON */\n.text-second-component-bordered[data-v-2c57b3bf]{\r\n    border: 2px solid #88C1D3;\r\n    border-radius: 5px;\r\n    padding: 30px;\r\n    margin-top: 20px;\n}\n.img-grafico[data-v-2c57b3bf]{\r\n    height: 5rem;\r\n    width: 5rem;\n}\n.title[data-v-2c57b3bf], .subtitle[data-v-2c57b3bf]{\r\n    text-align: center;\n}\n.title[data-v-2c57b3bf]{\r\n    font-size: 2rem;\r\n    font-weight: 900;\r\n    color: #414042;\r\n    font-family: 'gotham-book';\r\n    margin-bottom: 0px;\r\n    letter-spacing: -1px;\n}\n.subtitle[data-v-2c57b3bf]{\r\n    font-size: 1.4rem;\r\n    font-family: \"gotham-light\";\r\n    margin-top: 0px;\r\n    padding-top: 0px;\r\n    letter-spacing: -1px;\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue?vue&type=style&index=0&id=6870dabe&scoped=true&lang=css&":
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue?vue&type=style&index=0&id=6870dabe&scoped=true&lang=css& ***!
@@ -14667,7 +14954,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width: 576px) {\n}\n@media screen and (min-width: 577px) {\n}\r\n\r\n/* ACORDEON */\n.accordion-item[data-v-6870dabe]{\r\n    margin-top: 20px !important;\r\n    margin-bottom: 20px !important;\r\n    border: 2px solid #88C1D3;\r\n    border-radius: 5px;\n}\n.accordion-button[data-v-6870dabe]{\r\n    font-weight: bold;\n}\n.accordion-button[data-v-6870dabe]:hover{\r\n    font-weight: bold;\r\n    color: #88C1D3;\n}\n.accordion-button[data-v-6870dabe]:not(.collapsed){\r\n    font-weight: bold;\r\n    color: #88C1D3;\n}\n.accordion-button[data-v-6870dabe]:focus{\r\n    border: none;\r\n    text-decoration: none;\r\n    box-shadow: none;\n}\r\n\r\n/* END ACORDEON */\n.text-second-component-bordered[data-v-6870dabe]{\r\n    border: 2px solid #88C1D3;\r\n    border-radius: 5px;\r\n    padding: 30px;\r\n    margin-top: 20px;\n}\n.img-grafico[data-v-6870dabe]{\r\n    height: 5rem;\r\n    width: 5rem;\n}\n.title[data-v-6870dabe], .subtitle[data-v-6870dabe]{\r\n    text-align: center;\n}\n.title[data-v-6870dabe]{\r\n    font-size: 2rem;\r\n    font-weight: 900;\r\n    color: #414042;\r\n    font-family: 'gotham-book';\r\n    margin-bottom: 0px;\r\n    letter-spacing: -1px;\n}\n.subtitle[data-v-6870dabe]{\r\n    font-size: 1.4rem;\r\n    font-family: \"gotham-light\";\r\n    margin-top: 0px;\r\n    padding-top: 0px;\r\n    letter-spacing: -1px;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n@media screen and (max-width: 576px) {\n.botao[data-v-6870dabe]{\r\n        width: 90% !important;\n}\n}\n@media screen and (min-width: 577px) {\n}\n.botao[data-v-6870dabe]{\r\n    background-color: #88c1d3;\r\n    padding: 10px;\r\n    border: none;\r\n    border-radius: 8px;\r\n    text-decoration: none;\r\n    color: #222222;\r\n    width: 25%;\r\n    text-align: center;\r\n    letter-spacing: .02rem;\r\n    font-size: 1.1rem;\r\n    font-family: \"gotham-light\";\r\n    transition: all 0.3s ease-in-out 0s;\n}\n.botao[data-v-6870dabe]:hover{\r\n    transform: scale3d(1.1, 1.1, 1);\r\n    transition: all 0.3s ease-in-out 0s;\n}\r\n\r\n/* ACORDEON */\n.accordion-item[data-v-6870dabe]{\r\n    margin-top: 20px !important;\r\n    margin-bottom: 20px !important;\r\n    border: 2px solid #88C1D3;\r\n    border-radius: 5px;\n}\n.accordion-button[data-v-6870dabe]{\r\n    font-weight: bold;\n}\n.accordion-button[data-v-6870dabe]:hover{\r\n    font-weight: bold;\r\n    color: #88C1D3;\n}\n.accordion-button[data-v-6870dabe]:not(.collapsed){\r\n    font-weight: bold;\r\n    color: #88C1D3;\n}\n.accordion-button[data-v-6870dabe]:focus{\r\n    border: none;\r\n    text-decoration: none;\r\n    box-shadow: none;\n}\r\n\r\n/* END ACORDEON */\n.text-second-component-bordered[data-v-6870dabe]{\r\n    border: 2px solid #88C1D3;\r\n    border-radius: 5px;\r\n    padding: 30px;\r\n    margin-top: 20px;\n}\n.img-grafico[data-v-6870dabe]{\r\n    height: 5rem;\r\n    width: 5rem;\n}\n.title[data-v-6870dabe], .subtitle[data-v-6870dabe]{\r\n    text-align: center;\n}\n.title[data-v-6870dabe]{\r\n    font-size: 2rem;\r\n    font-weight: 900;\r\n    color: #414042;\r\n    font-family: 'gotham-book';\r\n    margin-bottom: 0px;\r\n    letter-spacing: -1px;\n}\n.subtitle[data-v-6870dabe]{\r\n    font-size: 1.4rem;\r\n    font-family: \"gotham-light\";\r\n    margin-top: 0px;\r\n    padding-top: 0px;\r\n    letter-spacing: -1px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -46451,6 +46738,66 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFourthComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFourthComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFourthComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaLastComponent_vue_vue_type_style_index_0_id_2c57b3bf_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css& */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css&");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaLastComponent_vue_vue_type_style_index_0_id_2c57b3bf_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default, options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaLastComponent_vue_vue_type_style_index_0_id_2c57b3bf_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_1__.default.locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue?vue&type=style&index=0&id=6870dabe&scoped=true&lang=css&":
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue?vue&type=style&index=0&id=6870dabe&scoped=true&lang=css& ***!
@@ -48073,6 +48420,88 @@ component.options.__file = "resources/js/components/mamoplastia/mamoplastia_comp
 
 /***/ }),
 
+/***/ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue":
+/*!***************************************************************************************************!*\
+  !*** ./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue ***!
+  \***************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _MamoplastiaFourthComponent_vue_vue_type_template_id_09d36a8a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MamoplastiaFourthComponent.vue?vue&type=template&id=09d36a8a& */ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=template&id=09d36a8a&");
+/* harmony import */ var _MamoplastiaFourthComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MamoplastiaFourthComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=script&lang=js&");
+/* harmony import */ var _MamoplastiaFourthComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css& */ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _MamoplastiaFourthComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _MamoplastiaFourthComponent_vue_vue_type_template_id_09d36a8a___WEBPACK_IMPORTED_MODULE_0__.render,
+  _MamoplastiaFourthComponent_vue_vue_type_template_id_09d36a8a___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue":
+/*!*************************************************************************************************!*\
+  !*** ./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue ***!
+  \*************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _MamoplastiaLastComponent_vue_vue_type_template_id_2c57b3bf_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MamoplastiaLastComponent.vue?vue&type=template&id=2c57b3bf&scoped=true& */ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=template&id=2c57b3bf&scoped=true&");
+/* harmony import */ var _MamoplastiaLastComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MamoplastiaLastComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=script&lang=js&");
+/* harmony import */ var _MamoplastiaLastComponent_vue_vue_type_style_index_0_id_2c57b3bf_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css& */ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+;
+
+
+/* normalize component */
+
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__.default)(
+  _MamoplastiaLastComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _MamoplastiaLastComponent_vue_vue_type_template_id_2c57b3bf_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _MamoplastiaLastComponent_vue_vue_type_template_id_2c57b3bf_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "2c57b3bf",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue":
 /*!***************************************************************************************************!*\
   !*** ./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue ***!
@@ -49043,6 +49472,38 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************!*\
+  !*** ./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFourthComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MamoplastiaFourthComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFourthComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************!*\
+  !*** ./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaLastComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MamoplastiaLastComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaLastComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
 /***/ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue?vue&type=script&lang=js&":
 /*!****************************************************************************************************************************!*\
   !*** ./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue?vue&type=script&lang=js& ***!
@@ -49523,6 +49984,32 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFirstComponent_vue_vue_type_style_index_0_id_30d462b6_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader/dist/cjs.js!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MamoplastiaFirstComponent.vue?vue&type=style&index=0&id=30d462b6&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFirstComponent.vue?vue&type=style&index=0&id=30d462b6&scoped=true&lang=css&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css&":
+/*!************************************************************************************************************************************!*\
+  !*** ./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css& ***!
+  \************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFourthComponent_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader/dist/cjs.js!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=style&index=0&lang=css&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css&":
+/*!**********************************************************************************************************************************************************!*\
+  !*** ./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css& ***!
+  \**********************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_0_rules_0_use_2_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaLastComponent_vue_vue_type_style_index_0_id_2c57b3bf_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/style-loader/dist/cjs.js!../../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!../../../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css& */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[1]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9[0].rules[0].use[2]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=style&index=0&id=2c57b3bf&scoped=true&lang=css&");
 
 
 /***/ }),
@@ -50078,6 +50565,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFirstComponent_vue_vue_type_template_id_30d462b6_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFirstComponent_vue_vue_type_template_id_30d462b6_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MamoplastiaFirstComponent.vue?vue&type=template&id=30d462b6&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFirstComponent.vue?vue&type=template&id=30d462b6&scoped=true&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=template&id=09d36a8a&":
+/*!**********************************************************************************************************************************!*\
+  !*** ./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=template&id=09d36a8a& ***!
+  \**********************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFourthComponent_vue_vue_type_template_id_09d36a8a___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFourthComponent_vue_vue_type_template_id_09d36a8a___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaFourthComponent_vue_vue_type_template_id_09d36a8a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MamoplastiaFourthComponent.vue?vue&type=template&id=09d36a8a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=template&id=09d36a8a&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=template&id=2c57b3bf&scoped=true&":
+/*!********************************************************************************************************************************************!*\
+  !*** ./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=template&id=2c57b3bf&scoped=true& ***!
+  \********************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaLastComponent_vue_vue_type_template_id_2c57b3bf_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaLastComponent_vue_vue_type_template_id_2c57b3bf_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_MamoplastiaLastComponent_vue_vue_type_template_id_2c57b3bf_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./MamoplastiaLastComponent.vue?vue&type=template&id=2c57b3bf&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=template&id=2c57b3bf&scoped=true&");
 
 
 /***/ }),
@@ -53852,6 +54373,10 @@ var render = function() {
           _vm._v(" "),
           _c("mamoplastiaThirdComponent"),
           _vm._v(" "),
+          _c("mamoplastiaFourthComponent"),
+          _vm._v(" "),
+          _c("mamoplastiaLastComponent"),
+          _vm._v(" "),
           _c("v-footer")
         ],
         1
@@ -54043,6 +54568,736 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=template&id=09d36a8a&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaFourthComponent.vue?vue&type=template&id=09d36a8a& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "row justify-content-center mx-0 px-0 bg-dark" },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0"
+          },
+          [
+            _c(
+              "div",
+              { staticClass: "row mx-0 px-0 justify-content-between" },
+              [
+                _c("div", { staticClass: "col-md-6 p-4 primeira-div" }, [
+                  _c("h3", { staticClass: "font-white" }, [
+                    _vm._v(
+                      "GARANTA SUA VAGA E ACESSE O CONTEÚDO COM RISCO ZERO"
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "font-white" }, [
+                    _vm._v(
+                      "O nosso curso online conta com garantia incondicional de satisfação."
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "font-white" }, [
+                    _vm._v(
+                      "\n                  Você acessa agora o conteúdo, e se nos próximos 7 dias perceber \n                  que o conteúdo não era o que estava buscando, devolvemos 100% do \n                  valor investido para ter acesso ao programa.\n              "
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "d-flex" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "mt-3 botao-fourth",
+                        attrs: { href: "#oprograma" }
+                      },
+                      [_vm._v("EU QUERO PARTICIPAR")]
+                    )
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col-md-5 borda-azul p-4" }, [
+                  _c("h3", { staticClass: "font-white" }, [
+                    _vm._v("Acesso geral disponível para não alunos Hands On")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "preco" }, [_vm._v("12x R$57,50")]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "font-white avista" }, [
+                    _vm._v("ou R$690 a vista")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "font-white" }, [
+                    _c("i", { staticClass: "fas fa-check" }),
+                    _vm._v(" 2 Horas de Conteúdo Gravado")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "font-white" }, [
+                    _c("i", { staticClass: "fas fa-check" }),
+                    _vm._v(" Suporte Na Plataforma de Aulas")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "font-white" }, [
+                    _c("i", { staticClass: "fas fa-check" }),
+                    _vm._v(" Acesso a Comunidade no Telegram")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "font-white" }, [
+                    _c("i", { staticClass: "fas fa-check" }),
+                    _vm._v(" Acesso vitalício ao Conteúdo")
+                  ]),
+                  _vm._v(" "),
+                  _c("p", { staticClass: "font-white" }, [
+                    _c("i", { staticClass: "fas fa-check" }),
+                    _vm._v(" Certificado de Conclusão Digital")
+                  ])
+                ])
+              ]
+            )
+          ]
+        )
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=template&id=2c57b3bf&scoped=true&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaLastComponent.vue?vue&type=template&id=2c57b3bf&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "row justify-content-center mx-0 px-0 bg-light" },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0"
+          },
+          [
+            _c("p", { staticClass: "title" }, [
+              _c("strong", [_vm._v("Ficou com alguma dúvida?")])
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "subtitle" }, [
+              _vm._v(
+                "\r\n            Ainda não se decidiu, então confira respostas para algumas das dúvidas"
+              ),
+              _c("br"),
+              _vm._v(
+                "\r\n            mais comuns que recebemos sobre o programa\r\n        "
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row mx-0 px-0" }, [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-xl-6 col-lg-7 col-md-5 col-sm-12 col-12 px-4 mx-0"
+                },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "accordion",
+                      staticStyle: { "padding-left": "0px" },
+                      attrs: { id: "accordionExample2" }
+                    },
+                    [
+                      _c("div", { staticClass: "accordion-item" }, [
+                        _c(
+                          "h2",
+                          {
+                            staticClass: "accordion-header",
+                            attrs: { id: "headingfive" }
+                          },
+                          [
+                            _c(
+                              "button",
+                              {
+                                staticClass: "accordion-button collapsed",
+                                attrs: {
+                                  type: "button",
+                                  "data-bs-toggle": "collapse",
+                                  "data-bs-target": "#collapsefive",
+                                  "aria-expanded": "true",
+                                  "aria-controls": "collapsefive"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "\r\n                            Quem avaliou Mamoplastia de Aumento (do consultório ao pós operatório)?\r\n                        "
+                                )
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "accordion-collapse collapse",
+                            attrs: {
+                              id: "collapsefive",
+                              "aria-labelledby": "headingfive",
+                              "data-bs-parent": "#accordionExample2"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "accordion-body" }, [
+                              _vm._v(
+                                "\r\n                                Todas as avaliações mostradas aqui foram feitas por "
+                              ),
+                              _c("strong", [_vm._v("pessoas reais")]),
+                              _vm._v(
+                                " que compraram e deram sua opinião sobre o curso. Quando alguém compra um curso através da Hotmart, a pessoa recebe um convite para avaliar o conteúdo dele. A nota nesta página é o resultado da "
+                              ),
+                              _c("strong", [_vm._v("média das avaliações")]),
+                              _vm._v(
+                                " feitas por estes compradores, que vai de 1 a 5 estrelas.\r\n                            "
+                              )
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "accordion-item" }, [
+                        _c(
+                          "h2",
+                          {
+                            staticClass: "accordion-header",
+                            attrs: { id: "headingsix" }
+                          },
+                          [
+                            _c(
+                              "button",
+                              {
+                                staticClass: "accordion-button collapsed",
+                                attrs: {
+                                  type: "button",
+                                  "data-bs-toggle": "collapse",
+                                  "data-bs-target": "#collapsesix",
+                                  "aria-expanded": "false",
+                                  "aria-controls": "collapsesix"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "\r\n                            Como funciona o “Prazo de Garantia”?\r\n                        "
+                                )
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "accordion-collapse collapse",
+                            attrs: {
+                              id: "collapsesix",
+                              "aria-labelledby": "headingsix",
+                              "data-bs-parent": "#accordionExample2"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "accordion-body" }, [
+                              _vm._v(
+                                "\r\n                                O Prazo de Garantia é o período que você tem para pedir o "
+                              ),
+                              _c("strong", [_vm._v("reembolso")]),
+                              _vm._v(
+                                " \r\n                                integral do valor pago pela sua compra, caso o produto não seja satisfatório. \r\n                                Assim que solicitado, seu reembolso é processado automaticamente pela Hotmart em até 5 dias. \r\n                                Para pagamentos com boleto bancário, você precisa preencher uma conta bancária para receber o dinheiro. \r\n                                Passados os "
+                              ),
+                              _c("strong", [_vm._v("5 dias")]),
+                              _vm._v(
+                                ", o valor poderá ser identificado em sua conta em até 7 dias úteis. Já o estorno na \r\n                                fatura do cartão de crédito varia de acordo com o meio de pagamento e pode demorar de 30 a 60 dias.\r\n                            "
+                              )
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "accordion-item" }, [
+                        _c(
+                          "h2",
+                          {
+                            staticClass: "accordion-header",
+                            attrs: { id: "headingseven" }
+                          },
+                          [
+                            _c(
+                              "button",
+                              {
+                                staticClass: "accordion-button collapsed",
+                                attrs: {
+                                  type: "button",
+                                  "data-bs-toggle": "collapse",
+                                  "data-bs-target": "#collapseseven",
+                                  "aria-expanded": "false",
+                                  "aria-controls": "collapseseven"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "\r\n                            Como acesso meu produto?\r\n                        "
+                                )
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "accordion-collapse collapse",
+                            attrs: {
+                              id: "collapseseven",
+                              "aria-labelledby": "headingseven",
+                              "data-bs-parent": "#accordionExample2"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "accordion-body" }, [
+                              _vm._v(
+                                "\r\n                                Você receberá o acesso a Mamoplastia de Aumento (do consultório ao pós operatório) "
+                              ),
+                              _c("strong", [_vm._v("por email")]),
+                              _vm._v(
+                                ". \r\n                                Pode ser um curso online, um ebook, uma série de videoaulas, um serviço, evento, etc. \r\n                                O conteúdo será acessado ou baixado através de um computador, celular, tablet ou outro dispositivo digital. \r\n                                Você também pode acessar o produto comprado nesta página:\r\n\r\n                                "
+                              ),
+                              _c("br"),
+                              _c("br"),
+                              _vm._v(
+                                "01 – Faça login clicando emEntrar\r\n                                "
+                              ),
+                              _c("br"),
+                              _vm._v(
+                                "02 – Acesse o menu lateral, clique emMinha conta\r\n                                "
+                              ),
+                              _c("br"),
+                              _vm._v(
+                                "03 – Clique emMinhas compras\r\n                                "
+                              ),
+                              _c("br"),
+                              _vm._v(
+                                "Em “Minhas compras” estarão todos os produtos que você já comprou!\r\n                            "
+                              )
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "accordion-item" }, [
+                        _c(
+                          "h2",
+                          {
+                            staticClass: "accordion-header",
+                            attrs: { id: "headingeight" }
+                          },
+                          [
+                            _c(
+                              "button",
+                              {
+                                staticClass: "accordion-button collapsed",
+                                attrs: {
+                                  type: "button",
+                                  "data-bs-toggle": "collapse",
+                                  "data-bs-target": "#collapseeight",
+                                  "aria-expanded": "false",
+                                  "aria-controls": "collapseeight"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "\r\n                            Quais diferenciais os produtos podem ter?\r\n                        "
+                                )
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "accordion-collapse collapse",
+                            attrs: {
+                              id: "collapseeight",
+                              "aria-labelledby": "headingeight",
+                              "data-bs-parent": "#accordionExample2"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "accordion-body" }, [
+                              _vm._v(
+                                "\r\n                                Os produtos na Hotmart têm diferenciais que mudam de acordo com o tipo de produto e a disponibilidade. \r\n                                Por exemplo, produtos do tipo “Cursos online” podem ou não oferecer "
+                              ),
+                              _c("strong", [
+                                _vm._v("certificado digital de conclusão")
+                              ]),
+                              _vm._v(
+                                ". \r\n                                Caso o certificado esteja disponível, alunos podem emiti-lo dentro do curso ou entrando em contato com \r\n                                o(a) Autor(a). Os certificados podem ser compartilhados em redes sociais como o LinkedIn e inseridos em \r\n                                informações curriculares. A "
+                              ),
+                              _c("strong", [_vm._v("garantia")]),
+                              _vm._v(
+                                " também é um diferencial dos nossos produtos e pode variar de 7, 15 \r\n                                ou 30 dias, de acordo com o oferecido pelo Autor(a). Para ver os diferenciais disponíveis "
+                              ),
+                              _c("strong", [_vm._v("neste produto")]),
+                              _vm._v(
+                                ", \r\n                                basta checar a seção "
+                              ),
+                              _c("strong", [_vm._v("Diferenciais")]),
+                              _vm._v(".\r\n                            ")
+                            ])
+                          ]
+                        )
+                      ])
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 px-4 mx-0"
+                },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass: "accordion",
+                      staticStyle: { "padding-left": "0px" },
+                      attrs: { id: "accordionExample3" }
+                    },
+                    [
+                      _c("div", { staticClass: "accordion-item" }, [
+                        _c(
+                          "h2",
+                          {
+                            staticClass: "accordion-header",
+                            attrs: { id: "headingnine" }
+                          },
+                          [
+                            _c(
+                              "button",
+                              {
+                                staticClass: "accordion-button collapsed",
+                                attrs: {
+                                  type: "button",
+                                  "data-bs-toggle": "collapse",
+                                  "data-bs-target": "#collapsenine",
+                                  "aria-expanded": "true",
+                                  "aria-controls": "collapsenine"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "\r\n                            Quem avaliou Mamoplastia de Aumento (do consultório ao pós operatório)?\r\n                        "
+                                )
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "accordion-collapse collapse",
+                            attrs: {
+                              id: "collapsenine",
+                              "aria-labelledby": "headingnine",
+                              "data-bs-parent": "#accordionExample3"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "accordion-body" }, [
+                              _vm._v(
+                                "\r\n                                Todas as avaliações mostradas aqui foram feitas por "
+                              ),
+                              _c("strong", [_vm._v("pessoas reais")]),
+                              _vm._v(
+                                " que compraram e deram sua opinião sobre o curso. Quando alguém compra um curso através da Hotmart, a pessoa recebe um convite para avaliar o conteúdo dele. A nota nesta página é o resultado da "
+                              ),
+                              _c("strong", [_vm._v("média das avaliações")]),
+                              _vm._v(
+                                " feitas por estes compradores, que vai de 1 a 5 estrelas.\r\n                            "
+                              )
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "accordion-item" }, [
+                        _c(
+                          "h2",
+                          {
+                            staticClass: "accordion-header",
+                            attrs: { id: "headingten" }
+                          },
+                          [
+                            _c(
+                              "button",
+                              {
+                                staticClass: "accordion-button collapsed",
+                                attrs: {
+                                  type: "button",
+                                  "data-bs-toggle": "collapse",
+                                  "data-bs-target": "#collapseten",
+                                  "aria-expanded": "false",
+                                  "aria-controls": "collapseten"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "\r\n                            Como funciona o “Prazo de Garantia”?\r\n                        "
+                                )
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "accordion-collapse collapse",
+                            attrs: {
+                              id: "collapseten",
+                              "aria-labelledby": "headingten",
+                              "data-bs-parent": "#accordionExample3"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "accordion-body" }, [
+                              _vm._v(
+                                "\r\n                                O Prazo de Garantia é o período que você tem para pedir o "
+                              ),
+                              _c("strong", [_vm._v("reembolso")]),
+                              _vm._v(
+                                " \r\n                                integral do valor pago pela sua compra, caso o produto não seja satisfatório. \r\n                                Assim que solicitado, seu reembolso é processado automaticamente pela Hotmart em até 5 dias. \r\n                                Para pagamentos com boleto bancário, você precisa preencher uma conta bancária para receber o dinheiro. \r\n                                Passados os "
+                              ),
+                              _c("strong", [_vm._v("5 dias")]),
+                              _vm._v(
+                                ", o valor poderá ser identificado em sua conta em até 7 dias úteis. Já o estorno na \r\n                                fatura do cartão de crédito varia de acordo com o meio de pagamento e pode demorar de 30 a 60 dias.\r\n                            "
+                              )
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "accordion-item" }, [
+                        _c(
+                          "h2",
+                          {
+                            staticClass: "accordion-header",
+                            attrs: { id: "headingeleven" }
+                          },
+                          [
+                            _c(
+                              "button",
+                              {
+                                staticClass: "accordion-button collapsed",
+                                attrs: {
+                                  type: "button",
+                                  "data-bs-toggle": "collapse",
+                                  "data-bs-target": "#collapseeleven",
+                                  "aria-expanded": "false",
+                                  "aria-controls": "collapseeleven"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "\r\n                            Como acesso meu produto?\r\n                        "
+                                )
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "accordion-collapse collapse",
+                            attrs: {
+                              id: "collapseeleven",
+                              "aria-labelledby": "headingeleven",
+                              "data-bs-parent": "#accordionExample3"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "accordion-body" }, [
+                              _vm._v(
+                                "\r\n                                Você receberá o acesso a Mamoplastia de Aumento (do consultório ao pós operatório) "
+                              ),
+                              _c("strong", [_vm._v("por email")]),
+                              _vm._v(
+                                ". \r\n                                Pode ser um curso online, um ebook, uma série de videoaulas, um serviço, evento, etc. \r\n                                O conteúdo será acessado ou baixado através de um computador, celular, tablet ou outro dispositivo digital. \r\n                                Você também pode acessar o produto comprado nesta página:\r\n\r\n                                "
+                              ),
+                              _c("br"),
+                              _c("br"),
+                              _vm._v(
+                                "01 – Faça login clicando emEntrar\r\n                                "
+                              ),
+                              _c("br"),
+                              _vm._v(
+                                "02 – Acesse o menu lateral, clique emMinha conta\r\n                                "
+                              ),
+                              _c("br"),
+                              _vm._v(
+                                "03 – Clique emMinhas compras\r\n                                "
+                              ),
+                              _c("br"),
+                              _vm._v(
+                                "Em “Minhas compras” estarão todos os produtos que você já comprou!\r\n                            "
+                              )
+                            ])
+                          ]
+                        )
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "accordion-item" }, [
+                        _c(
+                          "h2",
+                          {
+                            staticClass: "accordion-header",
+                            attrs: { id: "headintwelve" }
+                          },
+                          [
+                            _c(
+                              "button",
+                              {
+                                staticClass: "accordion-button collapsed",
+                                attrs: {
+                                  type: "button",
+                                  "data-bs-toggle": "collapse",
+                                  "data-bs-target": "#collapsetwelve",
+                                  "aria-expanded": "false",
+                                  "aria-controls": "collapsetwelve"
+                                }
+                              },
+                              [
+                                _vm._v(
+                                  "\r\n                            Quais diferenciais os produtos podem ter?\r\n                        "
+                                )
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "accordion-collapse collapse",
+                            attrs: {
+                              id: "collapsetwelve",
+                              "aria-labelledby": "headintwelve",
+                              "data-bs-parent": "#accordionExample3"
+                            }
+                          },
+                          [
+                            _c("div", { staticClass: "accordion-body" }, [
+                              _vm._v(
+                                "\r\n                                Os produtos na Hotmart têm diferenciais que mudam de acordo com o tipo de produto e a disponibilidade. \r\n                                Por exemplo, produtos do tipo “Cursos online” podem ou não oferecer "
+                              ),
+                              _c("strong", [
+                                _vm._v("certificado digital de conclusão")
+                              ]),
+                              _vm._v(
+                                ". \r\n                                Caso o certificado esteja disponível, alunos podem emiti-lo dentro do curso ou entrando em contato com \r\n                                o(a) Autor(a). Os certificados podem ser compartilhados em redes sociais como o LinkedIn e inseridos em \r\n                                informações curriculares. A "
+                              ),
+                              _c("strong", [_vm._v("garantia")]),
+                              _vm._v(
+                                " também é um diferencial dos nossos produtos e pode variar de 7, 15 \r\n                                ou 30 dias, de acordo com o oferecido pelo Autor(a). Para ver os diferenciais disponíveis "
+                              ),
+                              _c("strong", [_vm._v("neste produto")]),
+                              _vm._v(
+                                ", \r\n                                basta checar a seção "
+                              ),
+                              _c("strong", [_vm._v("Diferenciais")]),
+                              _vm._v(".\r\n                            ")
+                            ])
+                          ]
+                        )
+                      ])
+                    ]
+                  )
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row mx-0 px-0 justify-content-center" }, [
+              _c(
+                "a",
+                { staticClass: "mt-3 botao", attrs: { href: "#oprograma" } },
+                [_vm._v("EU QUERO PARTICIPAR")]
+              ),
+              _vm._v(" "),
+              _c("p", { staticClass: "text-pre-telefone" }, [
+                _vm._v("Precisa de mais ajuda? Converse com a nossa equipe")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "telefone" }, [_vm._v("(31) 9 9678-8844")])
+            ])
+          ]
+        )
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue?vue&type=template&id=6870dabe&scoped=true&":
 /*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/mamoplastia/mamoplastia_components/MamoplastiaSecondComponent.vue?vue&type=template&id=6870dabe&scoped=true& ***!
@@ -54114,7 +55369,7 @@ var staticRenderFns = [
                             _c(
                               "button",
                               {
-                                staticClass: "accordion-button",
+                                staticClass: "accordion-button collapsed",
                                 attrs: {
                                   type: "button",
                                   "data-bs-toggle": "collapse",
@@ -54135,7 +55390,7 @@ var staticRenderFns = [
                         _c(
                           "div",
                           {
-                            staticClass: "accordion-collapse collapse show",
+                            staticClass: "accordion-collapse collapse",
                             attrs: {
                               id: "collapseOne",
                               "aria-labelledby": "headingOne",
@@ -54154,7 +55409,7 @@ var staticRenderFns = [
                               ),
                               _c("code", [_vm._v(".accordion-body")]),
                               _vm._v(
-                                ", though the transition does limit overflow.\r\n                        "
+                                ", though the transition does limit overflow.\r\n                            "
                               )
                             ])
                           ]
@@ -54212,7 +55467,7 @@ var staticRenderFns = [
                               ),
                               _c("code", [_vm._v(".accordion-body")]),
                               _vm._v(
-                                ", though the transition does limit overflow.\r\n                        "
+                                ", though the transition does limit overflow.\r\n                            "
                               )
                             ])
                           ]
@@ -54270,7 +55525,7 @@ var staticRenderFns = [
                               ),
                               _c("code", [_vm._v(".accordion-body")]),
                               _vm._v(
-                                ", though the transition does limit overflow.\r\n                        "
+                                ", though the transition does limit overflow.\r\n                            "
                               )
                             ])
                           ]
@@ -54328,7 +55583,7 @@ var staticRenderFns = [
                               ),
                               _c("code", [_vm._v(".accordion-body")]),
                               _vm._v(
-                                ", though the transition does limit overflow.\r\n                        "
+                                ", though the transition does limit overflow.\r\n                            "
                               )
                             ])
                           ]
@@ -54346,40 +55601,56 @@ var staticRenderFns = [
                     "col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 mt-3"
                 },
                 [
-                  _c("div", { staticClass: "row mx-0 px-0" }, [
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1"
-                      },
-                      [
-                        _c("img", {
-                          staticClass: "img-grafico",
-                          attrs: {
-                            src: "images/mamoplastia/grafico-mamoplastia.png",
-                            alt: ""
-                          }
-                        })
-                      ]
-                    )
-                  ]),
+                  _c(
+                    "div",
+                    { staticClass: "row mx-0 px-0 justify-content-end" },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1"
+                        },
+                        [
+                          _c("img", {
+                            staticClass: "img-grafico",
+                            attrs: {
+                              src: "images/mamoplastia/grafico-mamoplastia.png",
+                              alt: ""
+                            }
+                          })
+                        ]
+                      )
+                    ]
+                  ),
                   _vm._v(" "),
-                  _c("div", { staticClass: "row mx-0 px-0" }, [
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "text-second-component-bordered col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1"
-                      },
-                      [
-                        _vm._v(
-                          "\r\n                            Ferramentas, estratégias e técnicas para você atualizar os seus resultados com a prática cirúrgica.\r\n                        "
-                        )
-                      ]
-                    )
-                  ])
+                  _c(
+                    "div",
+                    { staticClass: "row mx-0 px-0 justify-content-end" },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "text-second-component-bordered col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1"
+                        },
+                        [
+                          _vm._v(
+                            "\r\n                        Ferramentas, estratégias e técnicas para você atualizar os seus resultados com a prática cirúrgica.\r\n                    "
+                          )
+                        ]
+                      )
+                    ]
+                  )
                 ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "row mx-0 px-0 justify-content-center" }, [
+              _c(
+                "a",
+                { staticClass: "mt-3 botao", attrs: { href: "#oprograma" } },
+                [_vm._v("GARANTA SUA VAGA")]
               )
             ])
           ]
