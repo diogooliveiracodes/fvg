@@ -96,7 +96,7 @@
                 <div class="card-mamoplastia">
                     <div class="row align-items-center mx-0 px-0">
                         <div class="col mx-auto text-center">
-                            <img class="img-card" src="images/mamoplastia/card/oportunidades_old.svg" alt="">
+                            <img class="img-card" src="images/mamoplastia/card/oportunidades.svg" alt="">
                         </div>
                     </div>
                     <p class="title-card">Oportunidades</p>
