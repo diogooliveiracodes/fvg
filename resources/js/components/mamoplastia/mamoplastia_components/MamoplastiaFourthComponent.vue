@@ -46,7 +46,6 @@ export default {
 }
 .avista{
     font-weight: 100;
-    font-family: 'gotham-light';
     font-size: 1.2rem;
     color: #e2e2e2b2 !important;
     margin-top: -1rem;
@@ -69,7 +68,6 @@ a{
 }
 .font-white{
     color: white;
-    font-family: 'gotham-book';
 }
 .botao-fourth{
     background-color: #88c1d3;
@@ -82,7 +80,6 @@ a{
     text-align: center;
     letter-spacing: .02rem;
     font-size: 1.1rem;
-    font-family: "gotham-light";
     transition: all 0.3s ease-in-out 0s;
 }
 
