@@ -8,16 +8,16 @@
             <div class="px-0 col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12 text-center" style="margin-top: 15%;">
                 <div class="row px-0 mx-0 justify-content-center">
                     <div class="col-xl-9 col-lg-10 col-md-11 col-sm-12 col-12">
-                        <h1 class="text-white gotham-bold desktop">
+                        <h1 class="text-white desktop">
                             Mamoplastia de Aumento:
                         </h1>
-                        <h1 class="text-white gotham-bold desktop">
+                        <h1 class="text-white desktop">
                             do Consultório ao Pós-Operatório
                         </h1>
-                        <h1 class="text-white gotham-bold mobile" style="font-size: 2.7rem">
+                        <h1 class="text-white mobile" style="font-size: 2.7rem">
                             Mamoplastia de Aumento:
                         </h1>
-                        <h1 class="text-white gotham-bold mobile" style="font-size: 2.7rem">
+                        <h1 class="text-white mobile" style="font-size: 2.7rem">
                             do Consultório ao Pós-Operatório
                         </h1>
                         <p class="branco-escuro"><small>powered by FVG Educação e Ensino</small></p>
@@ -59,16 +59,18 @@ export default {
     }
 }
 .text-first-component{
-    font-family: Gotham-light; 
+    /* font-family: Gotham-light;  */
     font-size: 1.6rem;
     line-height: 1rem;
+    letter-spacing: 1px;
+    font-weight: 100;
 }
 .branco-escuro{
-    color: #dadada;
+    color: #ffffff9c;
 }
-p, h1, h2, h3, h4, h5{
+/* p, h1, h2, h3, h4, h5{
     font-family: 'Gotham-book';
-}
+} */
 a{
     transition: all 0.3s ease-in-out 0s;
     /* background-color:rgb(147 187 194); */

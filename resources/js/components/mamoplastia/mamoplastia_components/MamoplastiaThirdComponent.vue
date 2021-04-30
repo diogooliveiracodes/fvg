@@ -53,7 +53,7 @@
                         Exclusivo para cirurgiões plásticos
                         residente ou formados.
                     </p>
-                    <br>
+                    
                 </div>
             </div>
 
@@ -139,9 +139,11 @@ export default {
 }
 .text-card{
     text-align: center;
-    font-family: "gotham-light";
+    /* font-family: "gotham-light"; */
     margin-top: 0px;
     margin-bottom: 0px;
+    min-height: 100px;
+    color: #222222a9;
 }
 .card-mamoplastia{
     box-shadow: 0px 0px 18px -6px rgb(0 0 0 / 50%);
@@ -163,19 +165,20 @@ export default {
 }
 .title{
     font-size: 2rem;
-    font-weight: 900;
+    font-weight: 400;
     color: #414042;
-    font-family: 'gotham-book';
+    /* font-family: 'gotham-book'; */
     margin-bottom: 0px;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 .subtitle{
     font-size: 1.4rem;
-    font-family: "gotham-light";
+    color: #222222a9;
+    /* font-family: "gotham-light"; */
     margin-top: 0px;
     padding-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 </style>

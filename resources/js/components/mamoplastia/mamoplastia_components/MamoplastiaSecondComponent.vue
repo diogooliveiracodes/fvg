@@ -106,7 +106,7 @@ export default {
     text-align: center;
     letter-spacing: .02rem;
     font-size: 1.1rem;
-    font-family: "gotham-light";
+    /* font-family: "gotham-light"; */
     transition: all 0.3s ease-in-out 0s;
 }
 
@@ -160,17 +160,18 @@ export default {
 }
 .title{
     font-size: 2rem;
-    font-weight: 900;
+    font-weight: 400;
     color: #414042;
-    font-family: 'gotham-book';
+    /* font-family: 'gotham-book'; */
     margin-bottom: 0px;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 .subtitle{
     font-size: 1.4rem;
-    font-family: "gotham-light";
+    /* font-family: "gotham-light"; */
+    color: #222222a9;
     margin-top: 0px;
     padding-top: 0px;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
 }
 </style>
