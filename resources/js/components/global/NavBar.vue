@@ -16,7 +16,8 @@
                 class="collapse navbar-collapse px-0" 
                 id="navbarSupportedContent" 
                 >
-                <ul class="navbar-nav mb-2 mb-lg-0 px-0">
+                <!-- NAVBAR DESKTOP -->
+                <ul class="navbar-nav mb-2 mb-lg-0 px-0 navbar-desktop-welcome">
                     <li class="nav-item dropdown px-0">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Imersão
@@ -39,6 +40,32 @@
                         <a class="nav-link text-white" href="#" tabindex="-1">Sobre</a>
                     </li>
                 </ul>
+                <!-- END NAVBAR DESKTOP -->
+                <!-- NAVBAR MOBILE -->
+                <ul class="navbar-nav mb-2 mb-lg-0 px-0 navbar-mobile-welcome">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Imersão
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(147 187 194);">
+                        <li><a class="dropdown-item" :href="handsonlink">Hands On - Prótese de mama</a></li>
+                        <li><a class="dropdown-item" :href="mastopexialink">Hands On - Mastopexia</a></li>
+                        <li><a class="dropdown-item" :href="gestaolink">Gestão e Marketing Médico</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Online
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(147 187 194);">
+                            <li><a class="dropdown-item" :href="mamoplastialink">Mamoplastia de aumento</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" tabindex="-1">Sobre</a>
+                    </li>
+                </ul>
+                <!-- END NAVBAR MOBILE -->
             </div>
 <!-- END NAVBAR WELCOME -->
 
@@ -54,6 +81,11 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#conteudo" tabindex="-1">Dúvidas Frequentes</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="https://app-vlc.hotmart.com/login" 
+                            style="background-color: #88c1d3 !important; color: #222222 !important;" 
+                            class="botao-login bg-primary nav-link">ENTRAR</a>
+                    </li>
                 </ul>
                 <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-desktop">
                     <li class="nav-item">
@@ -64,6 +96,11 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#conteudo" tabindex="-1">Dúvidas Frequentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://app-vlc.hotmart.com/login" 
+                            style="background-color: #88c1d3 !important; color: #222222 !important; margin-left: 20px;" 
+                            class="botao-login bg-primary nav-link">ENTRAR</a>
                     </li>
                 </ul>
             </div>
@@ -129,6 +166,12 @@ export default {
 
 <style scoped>
 @media screen and (min-width: 992px) {
+    .navbar-mobile-welcome{
+        display: none;
+    }
+    .navbar-desktop-welcome{
+        display: flex;
+    }
     .img-logo{
         position: absolute;
         height: 80%;
@@ -153,6 +196,13 @@ export default {
     }
 }
 @media screen and (max-width: 991px) {
+    .navbar-desktop-welcome{
+        display: none;
+    }
+    .navbar-mobile-welcome{
+        display: flex;
+        background: rgb(61 57 53) !important;
+    }
     #navbarSupportedContent{
         padding-top:30px;
         padding-left: 10px !important;
@@ -172,6 +222,12 @@ export default {
     }
 
 }
+/* CURSO ONLINE */
+.botao-login{
+    border: 1px solid #88c1d3;
+    border-radius: 8px;
+}
+/* END CURSO ONLINE */
 .img-logo{
     position: absolute;
     height: 80%;

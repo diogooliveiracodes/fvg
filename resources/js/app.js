@@ -11,6 +11,7 @@ Vue.component('v-footer', require('./components/global/Footer.vue').default);
 Vue.component('v-nossos-numeros', require('./components/global/NossosNumeros.vue').default);
 Vue.component('v-card-default', require('./components/global/CardDefault').default)
 Vue.component('v-card-mentores', require('./components/global/CardMentores').default)
+Vue.component('v-card-mentores-masto', require('./components/global/CardMentoresMastopexia').default)
 // END GLOBAL
 
 // HOME 

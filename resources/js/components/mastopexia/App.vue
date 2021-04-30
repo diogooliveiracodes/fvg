@@ -3,6 +3,7 @@
     <mastopexiaFirstComponent></mastopexiaFirstComponent>
     <mastopexiaSobre></mastopexiaSobre>
     <mastopexiaOprograma></mastopexiaOprograma>
+    <mastopexiaEquipe></mastopexiaEquipe>
     <v-nossos-numeros></v-nossos-numeros>
     <mastopexiaCarousel></mastopexiaCarousel>
     <v-footer></v-footer>
@@ -14,13 +15,15 @@ import mastopexiaCarousel from './mastopexia_components/MastopexiaCarousel'
 import mastopexiaSobre from './mastopexia_components/MastopexiaSobre'
 import mastopexiaOprograma from './mastopexia_components/MastopexiaOprograma'
 import mastopexiaFirstComponent from './mastopexia_components/MastopexiaFirstComponent'
+import mastopexiaEquipe from './mastopexia_components/MastopexiaEquipe'
 export default {
   name: 'mastopexiaApp',
   components:{
     mastopexiaCarousel,
     mastopexiaSobre,
     mastopexiaOprograma,
-    mastopexiaFirstComponent
+    mastopexiaFirstComponent,
+    mastopexiaEquipe
   },
   data(){
     return{

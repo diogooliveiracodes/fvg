@@ -27,41 +27,6 @@
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
                         linkedin="linkedin.com/diogooliveiracodes"
-                        imagem="images/handson/marco-tulio.jpg"
-                        protese=true
-                        >
-                        <template v-slot:titulo>Marco Túlio Ferreira</template>
-                        <template v-slot:crm>CRM: 48.463</template>
-                        <template v-slot:texto>
-                            <strong>Membro da Sociedade Brasileira de Cirurgia Plástica – SBCP</strong>
-                            Especialização em Cirurgia Plástica no
-                            Hospital Felício Rocho em
-                            Belo Horizonte/MG
-                        </template>
-                    </v-card-mentores>
-                </slide>
-                <slide>
-                    <v-card-mentores
-                        facebook="facbook.com/diogooliveira06"
-                        instagram="instagram.com/diggx"
-                        linkedin="linkedin.com/diogooliveiracodes"
-                        imagem="images/handson/david-ordonez.jpg"
-                        protese=true
-                        >
-                        <template v-slot:titulo>David Ordonez</template>
-                        <template v-slot:crm>CRM: 66.017</template>
-                        <template v-slot:texto>
-                            Especialização em Cirurgia Plástica
-                            no Hospital Felício Rocho
-                            em Belo Horizonte/MG
-                        </template>
-                    </v-card-mentores>
-                </slide>
-                <slide>
-                    <v-card-mentores
-                        facebook="facbook.com/diogooliveira06"
-                        instagram="instagram.com/diggx"
-                        linkedin="linkedin.com/diogooliveiracodes"
                         imagem="images/handson/marcio-resende.jpg"
                         protese=true
                         >
@@ -80,6 +45,24 @@
                         facebook="facbook.com/diogooliveira06"
                         instagram="instagram.com/diggx"
                         linkedin="linkedin.com/diogooliveiracodes"
+                        imagem="images/handson/marco-tulio.jpg"
+                        protese=true
+                        >
+                        <template v-slot:titulo>Marco Túlio Ferreira</template>
+                        <template v-slot:crm>CRM: 48.463</template>
+                        <template v-slot:texto>
+                            <strong>Membro da Sociedade Brasileira de Cirurgia Plástica – SBCP</strong>
+                            Especialização em Cirurgia Plástica no
+                            Hospital Felício Rocho em
+                            Belo Horizonte/MG
+                        </template>
+                    </v-card-mentores>
+                </slide>
+                <slide>
+                    <v-card-mentores
+                        facebook="facbook.com/diogooliveira06"
+                        instagram="instagram.com/diggx"
+                        linkedin="linkedin.com/diogooliveiracodes"
                         imagem="images/handson/lucas-rezende.jpg"
                         protese=true
                         >
@@ -90,6 +73,23 @@
                             Especialização em Cirurgia Plástica pelo
                             Centro de Formação e Treinamento em Cirurgia Plástica – Hospital Mater Dei
                             Belo Horizonte/MG
+                        </template>
+                    </v-card-mentores>
+                </slide>
+                <slide>
+                    <v-card-mentores
+                        facebook="facbook.com/diogooliveira06"
+                        instagram="instagram.com/diggx"
+                        linkedin="linkedin.com/diogooliveiracodes"
+                        imagem="images/handson/david-ordonez.jpg"
+                        protese=true
+                        >
+                        <template v-slot:titulo>David Ordonez</template>
+                        <template v-slot:crm>CRM: 66.017</template>
+                        <template v-slot:texto>
+                            Especialização em Cirurgia Plástica
+                            no Hospital Felício Rocho
+                            em Belo Horizonte/MG
                         </template>
                     </v-card-mentores>
                 </slide>
