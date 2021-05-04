@@ -5,13 +5,13 @@
     <div>
         <div class="row justify-content-center px-0 mx-0"
             data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
-            <div class="px-0 col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12" style="margin-top: 15%;">
+            <div class="px-0 col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12 px-0" style="margin-top: 15%;">
                 <div class="row px-0 mx-0">
-                    <div class="col-xl-9 col-lg-10 col-md-11 col-sm-12 col-12">
-                        <h1 class="text-white gotham-bold desktop pb-2">
+                    <div class="col-xl-9 col-lg-10 col-md-11 col-sm-12 col-12 px-0">
+                        <h1 class="text-white desktop pb-2">
                             Desenvolvido para você evoluir na prática.
                         </h1>
-                        <h1 class="text-white gotham-bold mobile" style="font-size: 2.7rem">
+                        <h1 class="text-white mobile" style="font-size: 2.7rem">
                             Desenvolvido para você evoluir na prática.
                         </h1>
                         <p class="text-white font15">
@@ -55,9 +55,6 @@ export default {
     .mobile{
         display: none !important;
     }
-}
-p, h1, h2, h3, h4, h5{
-    font-family: 'Gotham-book';
 }
 a{
     transition: all 0.3s ease-in-out 0s;

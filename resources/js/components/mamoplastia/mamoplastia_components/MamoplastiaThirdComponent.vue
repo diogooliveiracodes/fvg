@@ -1,6 +1,6 @@
 <template>
-<div class="row justify-content-center mx-0 px-0 bg-white">
-    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0">
+<div class="row justify-content-center mx-0 px-0 bg-white" id="o-programa">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0" style="border: 1px solid red;">
         <p class="title"><strong>O que está incluso no programa?</strong></p>
         <p class="subtitle">Confira ao que você terá acesso ao garantir a seu passaporte </p>
         <p class="subtitle"> para o curso online em Mamoplastia de Aumento</p>

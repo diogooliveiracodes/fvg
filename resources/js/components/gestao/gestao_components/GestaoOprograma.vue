@@ -201,7 +201,7 @@ export default {
     h3{
         color: white !important;
         text-align: center;
-        font-family: 'gotham-book';
+        /* font-family: 'gotham-book'; */
     }
     h5{
         color: white;
@@ -209,7 +209,7 @@ export default {
     p{
         color: white !important;
         text-align: start;
-        font-family: 'gotham-book';
+        /* font-family: 'gotham-book'; */
         text-align: justify;
     }
     .div-textos-oprograma{

@@ -16,7 +16,6 @@
                         </h1>
                         <h1 class="text-white mobile" style="font-size: 2.7rem">
                             Mamoplastia de Aumento:
-                            
                         </h1>
                         <h1 class="text-white mobile" 
                             style="font-size: 2.5rem; margin-top: 0px; letter-spacing: -2px;">
@@ -25,7 +24,9 @@
                         <div class="desktop">
                             <p class="branco-escuro"><small>powered by FVG Educação e Ensino</small></p>
                             <p class="branco-escuro text-first-component pt-3">Aqui nós falaremos sobre</p>
-                            <p class="text-first-component text-white"><strong>as técnicas que utilizamos no nosso dia a dia,</strong></p>
+                            <p class="text-first-component text-white">
+                                <strong style="font-weight: 900 !important;">as técnicas que utilizamos no nosso dia a dia,</strong>
+                            </p>
                             <p class="branco-escuro text-first-component">e como fazemos para obter um resultado de excelência.</p>
                             <a class="btn btn-success mt-3 btn-lg" href="#oprograma">GARANTA SUA VAGA</a>
                         </div>
@@ -72,11 +73,15 @@ export default {
     .mobile{
         display: none !important;
     }
+    h1{
+        line-height: 2rem;
+    }
 }
 .text-first-component{
     /* font-family: Gotham-light;  */
     line-height: 1.5rem;
     /* letter-spacing: 1px; */
+    font-size: 1.7rem;
     font-weight: 100;
 }
 .branco-escuro{

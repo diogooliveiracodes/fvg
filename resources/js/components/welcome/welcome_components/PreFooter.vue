@@ -1,10 +1,10 @@
 <template>
     <div class="row justify-content-center mx-0 px-0" id="div-prefooter">
-        <div class="col-md-8">
+        <div class="col-md-8 div-main" style="border: 1px solid red;">
             <div class="row justify-content-between mx-0 px-0">
-                <div class="col-md-5"
+                <div class="col-md-5 px-0"
                     data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
-                    <p class="text-muted Gotham-light" style="text-align: justify;">
+                    <p class="text-muted" style="text-align: justify; font-weight: 100;">
                         Na FVG Educação & Ensino nossa missão
                         é ajudar cirurgiões plásticos formados e residentes
                         a evoluir com a prática cirúrgica e aprimorar skills
@@ -13,9 +13,12 @@
                         receba nossos conteúdos gratuitos.
                     </p>
                 </div>
-                <div class="col-md-5 gotham-bold"
+                <div class="col-md-5 px-0"
                     data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
-                    Descubra como evoluir sua prática cirúrgica e se tornar um profissional da saúde 5.0
+                    <p style="text-align: justify; color: black; font-weight: 900;">
+                        Descubra como evoluir sua prática cirúrgica 
+                        e se tornar um profissional da saúde 5.0
+                    </p>
                 </div>
             </div>
         </div>
@@ -23,10 +26,12 @@
 </template>
 
 <style scoped>
-    #div-prefooter{
-        background-color: #F6F6F6;
+    .div-main{
         padding-top: 7%;
         padding-bottom: 7%;
+    }
+    #div-prefooter{
+        background-color: #F6F6F6;
         max-width: 100vw !important;
     }
     p{
@@ -41,9 +46,7 @@
             text-align: justify;
         }
     }
-    *{
-        font-family: 'Gotham-book';
-    }
+
 </style>
 
 <script>

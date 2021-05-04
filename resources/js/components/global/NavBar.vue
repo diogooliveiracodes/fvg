@@ -73,33 +73,34 @@
             <div v-else-if="pgonline == 'true'" class="collapse navbar-collapse px-0" :class="{'aplicarbg': aplicarbg}" id="navbarSupportedContent">
                 <ul class="navbar-nav nav-mobile-mamoplastia mb-2 mb-lg-0 px-0" id="navbar-mobile">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#oprograma" tabindex="-1">O Programa</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#oprograma" tabindex="-1">O Programa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#conteudo" tabindex="-1">Dúvidas Frequentes</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#conteudo" tabindex="-1">Dúvidas Frequentes</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://app-vlc.hotmart.com/login"
+                        <a  v-on:click="scrollToIdOnClick"
+                            href="https://app-vlc.hotmart.com/login"
                             style="border-radius: 5px; background-color: #88c1d3 !important; color: #222222 !important; padding: 5px; margin-top: 8px;"
                             class="botao-entrar-mobile-mamoplastia nav-link">ENTRAR</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-desktop">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#saiba-mais" tabindex="-1">Saiba Mais</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#oprograma" tabindex="-1">O Programa</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#o-programa" tabindex="-1">O Programa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#conteudo" tabindex="-1">Dúvidas Frequentes</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#duvidas" tabindex="-1">Dúvidas Frequentes</a>
                     </li>
                     <li class="nav-item">
                         <a href="https://app-vlc.hotmart.com/login" 
-                            style="background-color: #88c1d3 !important; color: #222222 !important; margin-left: 20px;" 
+                            style="background-color: #88c1d3 !important; color: #222222 !important; margin-left: 20px; margin-right: 10px;" 
                             class="botao-login bg-primary nav-link">ENTRAR</a>
                     </li>
                 </ul>
@@ -110,36 +111,36 @@
             <div v-else class="collapse navbar-collapse px-0" :class="{'aplicarbg': aplicarbg}" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-mobile">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#oprograma" tabindex="-1">O Programa</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#oprograma" tabindex="-1">O Programa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#conteudo" tabindex="-1">Conteúdo</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#conteudo" tabindex="-1">Conteúdo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#mentores" tabindex="-1">Mentores</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#mentores" tabindex="-1">Mentores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#depoimentos" tabindex="-1">Depoimentos</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#depoimentos" tabindex="-1">Depoimentos</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-desktop">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#oprograma" tabindex="-1">O Programa</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#oprograma" tabindex="-1">O Programa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#conteudo" tabindex="-1">Conteúdo</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#conteudo" tabindex="-1">Conteúdo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#mentores" tabindex="-1">Mentores</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#mentores" tabindex="-1">Mentores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#depoimentos" tabindex="-1">Depoimentos</a>
+                        <a v-on:click="scrollToIdOnClick" class="nav-link text-white" href="#depoimentos" tabindex="-1">Depoimentos</a>
                     </li>
                 </ul>
             </div>
@@ -159,6 +160,15 @@ export default {
     methods:{
         handleScroll(){
             window.scrollY > 80 ? this.aplicarbg=true : this.aplicarbg=false
+        },
+        scrollToIdOnClick(event){
+            event.preventDefault();
+            const elemento = event.target;
+            const id = elemento.getAttribute('href');
+            const to = document.querySelector(id).offsetTop;
+            const tela = screen.height * 0.08;
+            window.scroll(0, to - tela);
+
         }
     },
 }

@@ -1,14 +1,18 @@
 <template>
-<div class="row justify-content-center mx-0 px-0 bg-light">
-    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0">
-        <p class="title"><strong>Ficou com alguma dúvida?</strong></p>
-        <p class="subtitle">
+<div class="row justify-content-center mx-0 px-0 bg-light" id="duvidas">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0" style="border: 1px solid red;">
+        <p class="title" style="line-height: 2rem;"><strong>Ficou com alguma dúvida?</strong></p>
+        <p class="subtitle desktop">
             Ainda não se decidiu, então confira respostas para algumas das dúvidas<br>
+            mais comuns que recebemos sobre o programa
+        </p>
+        <p class="subtitle mobile px-4 mt-3" style="font-size: 1.3rem; line-height: 1.5rem;">
+            Ainda não se decidiu, então confira respostas para algumas das dúvidas
             mais comuns que recebemos sobre o programa
         </p>
 
         <div class="row mx-0 px-0">
-            <div class="col-xl-6 col-lg-7 col-md-5 col-sm-12 col-12 px-4 mx-0">
+            <div class="col-xl-6 col-lg-7 col-md-5 col-sm-12 col-12 px-0 mx-0 acordeon-esquerda">
                 <!-- ACORDEON LEFT-->
                 <div class="accordion" id="accordionExample2" style="padding-left: 0px">
                     <div class="accordion-item">
@@ -82,7 +86,7 @@
                 <!-- END ACORDEON LEFT-->
             </div>
 
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 px-4 mx-0">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 px-0 mx-0 acordeon-direita">
                 <!-- ACORDEON RIGHT-->
                 <div class="accordion" id="accordionExample3" style="padding-left: 0px">
                     <div class="accordion-item">
@@ -176,10 +180,26 @@ export default {
     .botao{
         width: 90% !important;
     }
+    .desktop{
+        display: none;
+    }
+    .acordeon-direita, .acordeon-esquerda{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
 }
 @media screen and (min-width: 577px) {
-
+    .mobile{
+        display: none;
+    }
+    .acordeon-esquerda{
+        padding-right: 20px !important;
+    }
+    .acordeon-direita{
+        padding-left: 20px !important;
+    }
 }
+
 .text-pre-telefone{
     /* font-family: 'gotham-light'; */
     text-align: center;

@@ -1,6 +1,7 @@
 <template>
   <div v-if="!isloaded">
     <gestaoFirstComponent></gestaoFirstComponent>
+    <gestaoParceiros></gestaoParceiros>
     <gestaoSobre></gestaoSobre>
     <gestaoOprograma></gestaoOprograma>
     <v-nossos-numeros></v-nossos-numeros>
@@ -14,13 +15,15 @@ import gestaoCarousel from './gestao_components/GestaoCarousel'
 import gestaoSobre from './gestao_components/GestaoSobre'
 import gestaoOprograma from './gestao_components/GestaoOprograma'
 import gestaoFirstComponent from './gestao_components/GestaoFirstComponent'
+import gestaoParceiros from './gestao_components/GestaoParceiros'
 export default {
   name: 'gestaoApp',
   components:{
     gestaoCarousel,
     gestaoSobre,
     gestaoOprograma,
-    gestaoFirstComponent
+    gestaoFirstComponent,
+    gestaoParceiros
   },
   data(){
     return{

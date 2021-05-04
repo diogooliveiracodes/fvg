@@ -1,8 +1,8 @@
 <template>
   <div class="row justify-content-center mx-0 px-0 bg-dark">
-    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0">
+    <div class="div-main col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0" style="border: 1px solid red;">
         <div class="row mx-0 px-0 justify-content-between">
-            <div class="col-md-6 p-4 primeira-div">
+            <div class="col-md-6 pt-4 px-0 primeira-div">
                 <h3 class="font-white">GARANTA SUA VAGA E ACESSE O CONTEÚDO COM RISCO ZERO</h3>
                 <p class="font-white">O nosso curso online conta com garantia incondicional de satisfação.</p>
                 <p class="font-white">
@@ -42,6 +42,19 @@ export default {
     }
     .primeira-div{
         text-align: center;
+    }
+    .div-main{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .botao-fourth{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width: 577px) {
+    .div-main{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
 .avista{

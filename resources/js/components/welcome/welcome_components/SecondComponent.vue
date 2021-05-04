@@ -17,9 +17,9 @@
                 >
                 <div class="row justify-content-end mx-0 px-0">
                     <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12">
-                        <h5 class="gotham-bold text-muted">O que é a FVG Educação e Ensino</h5>
+                        <h5 class="text-muted">O que é a FVG Educação e Ensino</h5>
                         <p class="text-muted">As imersões e mentorias da FVG Educação e Ensino é um negócio que surgiu a partir da necessidade de transferir conhecimento, prática e gestão empresarial para profissionais da saúde em posições estratégicas.</p>
-                        <p class="gotham-bold text-muted">Você está pronto para atualizar suas técnicas e promover mudanças significativas em seu negócio?</p>
+                        <p class="text-muted">Você está pronto para atualizar suas técnicas e promover mudanças significativas em seu negócio?</p>
                         <a class="btn btn-md" href="#nossosprogramas">Quero saber mais</a>
                     </div>
                 </div>
@@ -101,9 +101,6 @@ export default {
     }
     p{
         text-align: justify;
-    }
-    p, h5{
-        font-family: 'Gotham-book';
     }
     a{
     transition: all 0.3s ease-in-out 0s;

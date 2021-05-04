@@ -1,6 +1,6 @@
 <template>
-<div class="row justify-content-center mx-0 px-0 bg-light">
-    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0">
+<div class="row justify-content-center mx-0 px-0 bg-light" id="saiba-mais">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0" style="border: 1px solid red;">
         <p class="title"><strong>Aprenda como transformar a prática com excelência</strong></p>
         <p class="subtitle">Confira o que você vai aprender</p>
 
@@ -60,7 +60,7 @@
                 <!-- END ACORDEON -->
             </div>
 
-            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 mt-3">
+            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 mt-3 px-0">
                 <div class="row mx-0 px-0 justify-content-end">
                     <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1">
                         <img class="img-grafico" src="images/mamoplastia/grafico-mamoplastia.png" alt="">

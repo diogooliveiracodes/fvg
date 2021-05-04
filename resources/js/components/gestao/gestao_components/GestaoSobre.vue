@@ -26,6 +26,6 @@ export default {
     p, h4 {
         color: white !important;
         text-align: center;
-        font-family: 'Gotham-book';
+        /* font-family: 'Gotham-book'; */
     }
 </style>
