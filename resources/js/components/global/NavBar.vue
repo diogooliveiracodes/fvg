@@ -69,9 +69,9 @@
             </div>
 <!-- END NAVBAR WELCOME -->
 
-<!-- NAVBAR CURSO ONLINE -->
+<!-- NAVBAR CURSO ONLINE MAMOPLASTIA -->
             <div v-else-if="pgonline == 'true'" class="collapse navbar-collapse px-0" :class="{'aplicarbg': aplicarbg}" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-mobile">
+                <ul class="navbar-nav nav-mobile-mamoplastia mb-2 mb-lg-0 px-0" id="navbar-mobile">
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#sobre" tabindex="-1">Saiba Mais</a>
                     </li>
@@ -82,9 +82,9 @@
                         <a class="nav-link text-white" href="#conteudo" tabindex="-1">Dúvidas Frequentes</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://app-vlc.hotmart.com/login" 
-                            style="background-color: #88c1d3 !important; color: #222222 !important;" 
-                            class="botao-login bg-primary nav-link">ENTRAR</a>
+                        <a href="https://app-vlc.hotmart.com/login"
+                            style="border-radius: 5px; background-color: #88c1d3 !important; color: #222222 !important; padding: 5px; margin-top: 8px;"
+                            class="botao-entrar-mobile-mamoplastia nav-link">ENTRAR</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav mb-2 mb-lg-0 px-0" id="navbar-desktop">
@@ -104,7 +104,7 @@
                     </li>
                 </ul>
             </div>
-<!-- END NAVBAR CURSO ONLINE -->
+<!-- END NAVBAR CURSO ONLINE MAMOPLASTIA -->
 
 <!-- NAVBAR HANDS ON -->
             <div v-else class="collapse navbar-collapse px-0" :class="{'aplicarbg': aplicarbg}" id="navbarSupportedContent">
@@ -227,6 +227,10 @@ export default {
     border: 1px solid #88c1d3;
     border-radius: 8px;
 }
+.nav-mobile-mamoplastia{
+    align-items: center;
+}
+
 /* END CURSO ONLINE */
 .img-logo{
     position: absolute;
