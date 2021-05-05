@@ -27,7 +27,7 @@
         </div>
         <div id="video-frente" v-if="videooverflow" >
             <video :autoplay="true" controls>
-                <source  src="videos/abertura.mp4" type="video/mp4">
+                <source  src="videos/conhecaFVG.mp4" type="video/mp4">
             </video>
             <i class="far fa-3x fa-times-circle cor-azul" @click="videooverflow=false" id="btn-fechar-video"></i>
       </div>

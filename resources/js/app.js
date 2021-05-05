@@ -16,7 +16,6 @@ Vue.component('v-card-mentores-masto', require('./components/global/CardMentores
 
 // HOME 
 Vue.component('v-welcome-app', require('./components/welcome/App.vue').default);
-// END - HOME 
 
 // HANDSON 
 Vue.component('v-handson-app', require('./components/handson/App.vue').default);
@@ -30,7 +29,9 @@ Vue.component('v-gestao-app', require('./components/gestao/App.vue').default);
 // MAMOPLASTIA - ONLINE
 Vue.component('v-mamoplastia-app', require('./components/mamoplastia/App.vue').default);
 
-// END - HANDSON 
+// SOBRE
+Vue.component('v-sobre-app', require('./components/sobre/App.vue').default);
+
 
 Vue.directive('scroll', {
     inserted: function (el, binding) {

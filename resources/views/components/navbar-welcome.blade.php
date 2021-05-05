@@ -7,5 +7,6 @@
         mastopexialink="{{route('mastopexia')}}"
         gestaolink="{{route('gestao-e-marketing')}}"
         mamoplastialink="{{route('mamoplastia-de-aumento')}}"
+        sobrelink="{{route('sobre')}}"
     ></v-navbar>
 </template>

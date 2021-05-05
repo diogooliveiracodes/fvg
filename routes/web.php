@@ -32,6 +32,10 @@ Route::get('/mamoplastia-de-aumento', function () {
     return view('mamoplastia');
 })->name('mamoplastia-de-aumento');
 
+Route::get('/sobre', function () {
+    return view('sobre');
+})->name('sobre');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

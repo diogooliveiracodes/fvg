@@ -37,7 +37,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#" tabindex="-1">Sobre</a>
+                        <a class="nav-link text-white" :href="sobrelink" tabindex="-1">Sobre</a>
                     </li>
                 </ul>
                 <!-- END NAVBAR DESKTOP -->
@@ -151,7 +151,7 @@
 
 <script>
 export default {
-    props:['imagem', 'pginicial', 'naoinicial', 'handsonlink', 'mastopexialink', 'gestaolink', 'mamoplastialink', 'pgonline'],
+    props:['imagem', 'pginicial', 'naoinicial', 'handsonlink', 'mastopexialink', 'gestaolink', 'mamoplastialink', 'pgonline', 'sobrelink'],
     data(){
         return{
             aplicarbg: false
