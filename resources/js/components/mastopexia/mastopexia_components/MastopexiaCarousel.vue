@@ -1,5 +1,5 @@
 <template>
-  <div id="caroulselvue" class="wrapper my-0 bg-white justify-content-center" >
+  <div id="depoimentos" class="wrapper my-0 bg-white justify-content-center" >
     <div class="box my-0 py-5 my-0" style="width: 800px"
       data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
       <h1 class="cor-azul text-center">O que nossos alunos falam:</h1>
@@ -101,7 +101,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#caroulselvue {
+#depoimentos {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
