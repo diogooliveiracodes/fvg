@@ -1,6 +1,6 @@
 <template>
 <div class="row justify-content-center mx-0 px-0 bg-light" id="saiba-mais">
-    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0" style="border: 1px solid red;">
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0">
         <p class="title"><strong>Aprenda como transformar a prática com excelência</strong></p>
         <p class="subtitle">Confira o que você vai aprender</p>
 

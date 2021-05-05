@@ -13,10 +13,10 @@
         </slide-3d>
       </carousel-3d>
       <div id="video-frente" v-show="videoFrente" >
-        <videoComponent01 v-if="i == 0" :videoplay="videoFrente"></videoComponent01>
-        <videoComponent02 v-if="i == 1" :videoplay="videoFrente"></videoComponent02>
-        <videoComponent03 v-if="i == 2" :videoplay="videoFrente"></videoComponent03>
-        <videoComponent04 v-if="i == 3" :videoplay="videoFrente"></videoComponent04>
+        <vidDepDrBarbaraFonseca v-if="i == 0" :videoplay="videoFrente"></vidDepDrBarbaraFonseca>
+        <vidDepDrWilson v-if="i == 1" :videoplay="videoFrente"></vidDepDrWilson>
+        <vidDepDavidBravo v-if="i == 2" :videoplay="videoFrente"></vidDepDavidBravo>
+        <vidDepDrJoseNeto v-if="i == 3" :videoplay="videoFrente"></vidDepDrJoseNeto>
         <i class="far fa-3x fa-times-circle cor-azul" @click="clearVideo()" id="btn-fechar-video"></i>
       </div>
     </div>
@@ -50,18 +50,18 @@ const slides = [
   }
 ]
 
-import videoComponent01 from '../../global/videos/Video01.vue'
-import videoComponent02 from '../../global/videos/Video02.vue'
-import videoComponent03 from '../../global/videos/Video03.vue'
-import videoComponent04 from '../../global/videos/Video04.vue'
+import vidDepDrBarbaraFonseca from '../../global/videos/VidDepDrBarbaraFonseca.vue'
+import vidDepDrWilson from '../../global/videos/VidDepDrWilson.vue'
+import vidDepDavidBravo from '../../global/videos/VidDepDavidBravo.vue'
+import vidDepDrJoseNeto from '../../global/videos/VidDepDrJoseNeto.vue'
 
 export default {
   name: 'welcomeCarousel',
   components: {
-    videoComponent01,
-    videoComponent02,
-    videoComponent03,
-    videoComponent04,
+    vidDepDrBarbaraFonseca,
+    vidDepDrWilson,
+    vidDepDavidBravo,
+    vidDepDrJoseNeto,
   },
   data () {
     return {

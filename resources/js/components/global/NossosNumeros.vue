@@ -149,27 +149,13 @@
                 }
             },
             aumentar(){
-                if (window.scrollY > this.windowHeight & this.windowWidth > 576){
-                    setInterval(()=>{
-                        if(this.paciente<11000){
-                            this.paciente = this.paciente+=20
-                        }
-                        if(this.procedimentos<7000){
-                            this.procedimentos = this.procedimentos+=10
-                        }
-                        if(this.horas<18000){
-                            this.horas = this.horas+=30
-                        }
-                        if(this.faturamento<38){
-                            this.faturamento = this.faturamento+=2
-                        }
-                        if(this.nps<89){
-                            this.nps = this.nps+=1
-                        }
-                    }, 100)
-                }
-                if (this.windowWidth < 576 & window.scrollY > this.windowHeightMobile){
-                    console.log('Altura'+this.windowHeight)
+                const elemento = document.querySelector('#div-nossos-numeros');
+                const alturaTopo = elemento.offsetTop;
+                const elementoHeight = elemento.offsetHeight
+                const windowHeight = window.innerHeight;
+                const alturaAtivar = alturaTopo - windowHeight + (elementoHeight/2);
+
+                if (window.scrollY > alturaAtivar){
                     setInterval(()=>{
                         if(this.paciente<11000){
                             this.paciente = this.paciente+=20

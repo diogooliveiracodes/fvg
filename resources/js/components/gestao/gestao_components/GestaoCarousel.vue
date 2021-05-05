@@ -1,5 +1,5 @@
 <template>
-  <div id="depoimentos" class="wrapper my-0 bg-white justify-content-center" >
+  <div id="depoimentos" class="wrapper my-0 bg-white justify-content-center">
     <div class="box my-0 py-5 my-0" style="width: 800px"
       data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
       <h1 class="cor-azul text-center">O que nossos alunos falam:</h1>
@@ -13,10 +13,12 @@
         </slide-3d>
       </carousel-3d>
       <div id="video-frente" v-show="videoFrente" >
-        <videoComponent01 v-if="i == 0" :videoplay="videoFrente"></videoComponent01>
-        <videoComponent02 v-if="i == 1" :videoplay="videoFrente"></videoComponent02>
-        <videoComponent03 v-if="i == 2" :videoplay="videoFrente"></videoComponent03>
-        <videoComponent04 v-if="i == 3" :videoplay="videoFrente"></videoComponent04>
+        <vidDepDrJoseNeto v-if="i == 0" :videoplay="videoFrente"></vidDepDrJoseNeto>
+        <vidDepDrRodrigoNelson v-if="i == 1" :videoplay="videoFrente"></vidDepDrRodrigoNelson>
+        <vidDepDrWilson v-if="i == 2" :videoplay="videoFrente"></vidDepDrWilson>
+        <vidDepDrCynthia v-if="i == 3" :videoplay="videoFrente"></vidDepDrCynthia>
+        <vidDepDrKarine v-if="i == 4" :videoplay="videoFrente"></vidDepDrKarine>
+        <vidDepDrMarcoChiarello v-if="i == 5" :videoplay="videoFrente"></vidDepDrMarcoChiarello>
         <i class="far fa-3x fa-times-circle cor-azul" @click="clearVideo()" id="btn-fechar-video"></i>
       </div>
     </div>
@@ -29,39 +31,53 @@
 const slides = [
   {
     title: 'Slide 1',
-    desc: 'Dra. Bárbara Fonseca',
-    src: 'images/barbara01.jpg',
+    desc: 'Dr. José Neto',
+    src: 'images/gestao/depoimentos/jose-neto.png',
   },
   {
     title: 'Slide 2',
-    desc: 'Dr. Wilson - CEDUS',
-    src: 'images/wilson01.jpg',
+    desc: 'Dr. Rodrigo Nelson',
+    src: 'images/gestao/depoimentos/rodrigo.png',
     
   },
   {
     title: 'Slide 3',
-    desc: 'Dr. David Bravo ',
-    src: 'images/david01.jpg',
+    desc: 'Dr. Wilson Cedus',
+    src: 'images/gestao/depoimentos/wilson-cedus.png',
   },
   {
     title: 'Slide 4',
-    desc: 'Dr. José Neto',
-    src: 'images/joseneto01.jpg',
+    desc: 'Dr. Cynthia Caram',
+    src: 'images/gestao/depoimentos/cynthia.png',
+  },
+  {
+    title: 'Slide 5',
+    desc: 'Dr. Karine Martins',
+    src: 'images/gestao/depoimentos/karine.png',
+  },
+  {
+    title: 'Slide 6',
+    desc: 'Dr. Marco Chiarello',
+    src: 'images/gestao/depoimentos/marco.png',
   }
 ]
 
-import videoComponent01 from '../../global/videos/Video01.vue'
-import videoComponent02 from '../../global/videos/Video02.vue'
-import videoComponent03 from '../../global/videos/Video03.vue'
-import videoComponent04 from '../../global/videos/Video04.vue'
+import vidDepDrJoseNeto from '../../global/videos/VidDepDrJoseNeto.vue'
+import vidDepDrRodrigoNelson from '../../global/videos/vidDepDrRodrigoNelson.vue'
+import vidDepDrWilson from '../../global/videos/VidDepDrWilson.vue'
+import vidDepDrCynthia from '../../global/videos/VidDepDrCynthia.vue'
+import vidDepDrKarine from '../../global/videos/VidDepDrKarine.vue'
+import vidDepDrMarcoChiarello from '../../global/videos/VidDepDrMarcoChiarello.vue'
 
 export default {
-  name: 'mastopexiaCarousel',
+  name: 'welcomeCarousel',
   components: {
-    videoComponent01,
-    videoComponent02,
-    videoComponent03,
-    videoComponent04,
+    vidDepDrJoseNeto,
+    vidDepDrRodrigoNelson,
+    vidDepDrWilson,
+    vidDepDrCynthia,
+    vidDepDrKarine,
+    vidDepDrMarcoChiarello
   },
   data () {
     return {

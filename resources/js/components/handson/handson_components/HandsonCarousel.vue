@@ -1,8 +1,8 @@
 <template>
-  <div id="depoimentos" class="wrapper my-0 bg-white justify-content-center" >
+  <div id="caroulselvue" class="wrapper my-0 bg-white justify-content-center" >
     <div class="box my-0 py-5 my-0" style="width: 800px"
       data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
-      <h1 class="cor-azul gotham-bold text-center">O que nossos alunos falam:</h1>
+      <h1 class="cor-azul text-center">O que nossos alunos falam:</h1>
       <carousel-3d :display="3" :autoplay="true" :title="true" :space="300"
         :controlsVisible="true">
         <slide-3d v-for="(slide, i) in slides" :index="i" :key="i">
@@ -13,10 +13,10 @@
         </slide-3d>
       </carousel-3d>
       <div id="video-frente" v-show="videoFrente" >
-        <videoComponent01 v-if="i == 0" :videoplay="videoFrente"></videoComponent01>
-        <videoComponent02 v-if="i == 1" :videoplay="videoFrente"></videoComponent02>
-        <videoComponent03 v-if="i == 2" :videoplay="videoFrente"></videoComponent03>
-        <videoComponent04 v-if="i == 3" :videoplay="videoFrente"></videoComponent04>
+        <vidDepDrManoel v-if="i == 0" :videoplay="videoFrente"></vidDepDrManoel>
+        <vidDepViktorMonteAlto v-if="i == 1" :videoplay="videoFrente"></vidDepViktorMonteAlto>
+        <vidDepLucasLacerda v-if="i == 2" :videoplay="videoFrente"></vidDepLucasLacerda>
+        <vidDepDavidBravo v-if="i == 3" :videoplay="videoFrente"></vidDepDavidBravo>
         <i class="far fa-3x fa-times-circle cor-azul" @click="clearVideo()" id="btn-fechar-video"></i>
       </div>
     </div>
@@ -29,39 +29,39 @@
 const slides = [
   {
     title: 'Slide 1',
-    desc: 'Dra. Bárbara Fonseca',
-    src: 'images/barbara01.jpg',
+    desc: 'Dr. Manoel Peter',
+    src: 'images/handson/depoimentos/manoel-peter.png',
   },
   {
     title: 'Slide 2',
-    desc: 'Dr. Wilson - CEDUS',
-    src: 'images/wilson01.jpg',
+    desc: 'Dr. Viktor Monte Alto',
+    src: 'images/handson/depoimentos/viktor-montealto.png',
     
   },
   {
     title: 'Slide 3',
-    desc: 'Dr. David Bravo ',
-    src: 'images/david01.jpg',
+    desc: 'Dr. Lucas Lacerda',
+    src: 'images/handson/depoimentos/lucas-lacerda.png',
   },
   {
     title: 'Slide 4',
-    desc: 'Dr. José Neto',
-    src: 'images/joseneto01.jpg',
+    desc: 'Dr. David Bravo',
+    src: 'images/handson/depoimentos/david-bravo.png',
   }
 ]
 
-import videoComponent01 from '../../global/videos/Video01.vue'
-import videoComponent02 from '../../global/videos/Video02.vue'
-import videoComponent03 from '../../global/videos/Video03.vue'
-import videoComponent04 from '../../global/videos/Video04.vue'
+import vidDepDrManoel from '../../global/videos/VidDepDrManoel.vue'
+import vidDepViktorMonteAlto from '../../global/videos/VidDepViktorMonteAlto.vue'
+import vidDepLucasLacerda from '../../global/videos/VidDepLucasLacerda.vue'
+import vidDepDavidBravo from '../../global/videos/VidDepDavidBravo.vue'
 
 export default {
-  name: 'handsonCarousel',
+  name: 'welcomeCarousel',
   components: {
-    videoComponent01,
-    videoComponent02,
-    videoComponent03,
-    videoComponent04,
+    vidDepDrManoel,
+    vidDepViktorMonteAlto,
+    vidDepLucasLacerda,
+    vidDepDavidBravo,
   },
   data () {
     return {
@@ -109,7 +109,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#depoimentos {
+#caroulselvue {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -146,7 +146,7 @@ img:hover{
 #img-desc{
   position: absolute;
   font-size: 1.3rem;
-  font-family: 'gotham-light';
+  // font-family: 'gotham-light';
   top: 60%;
   left: 50%;
   margin-left: -50%;

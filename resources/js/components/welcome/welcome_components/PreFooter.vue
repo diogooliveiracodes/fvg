@@ -1,6 +1,6 @@
 <template>
     <div class="row justify-content-center mx-0 px-0" id="div-prefooter">
-        <div class="col-md-8 div-main" style="border: 1px solid red;">
+        <div class="col-md-8 div-main-welcome">
             <div class="row justify-content-between mx-0 px-0">
                 <div class="col-md-5 px-0"
                     data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
@@ -26,7 +26,7 @@
 </template>
 
 <style scoped>
-    .div-main{
+    .div-main-welcome{
         padding-top: 7%;
         padding-bottom: 7%;
     }

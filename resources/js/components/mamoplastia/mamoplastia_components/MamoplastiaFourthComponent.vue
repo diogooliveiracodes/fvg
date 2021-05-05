@@ -1,6 +1,6 @@
 <template>
   <div class="row justify-content-center mx-0 px-0 bg-dark">
-    <div class="div-main col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0" style="border: 1px solid red;">
+    <div class="div-main-mamoplastia col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0">
         <div class="row mx-0 px-0 justify-content-between">
             <div class="col-md-6 pt-4 px-0 primeira-div">
                 <h3 class="font-white">GARANTA SUA VAGA E ACESSE O CONTEÚDO COM RISCO ZERO</h3>
@@ -43,7 +43,7 @@ export default {
     .primeira-div{
         text-align: center;
     }
-    .div-main{
+    .div-main-mamoplastia{
         padding-left: 20px !important;
         padding-right: 20px !important;
     }
@@ -52,7 +52,7 @@ export default {
     }
 }
 @media screen and (min-width: 577px) {
-    .div-main{
+    .div-main-mamoplastia{
         padding-left: 0px !important;
         padding-right: 0px !important;
     }

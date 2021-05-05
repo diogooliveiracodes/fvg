@@ -5,6 +5,7 @@
     <gestaoSobre></gestaoSobre>
     <gestaoOprograma></gestaoOprograma>
     <v-nossos-numeros></v-nossos-numeros>
+    <gestaoEquipe></gestaoEquipe>
     <gestaoCarousel></gestaoCarousel>
     <v-footer></v-footer>
   </div>
@@ -16,6 +17,7 @@ import gestaoSobre from './gestao_components/GestaoSobre'
 import gestaoOprograma from './gestao_components/GestaoOprograma'
 import gestaoFirstComponent from './gestao_components/GestaoFirstComponent'
 import gestaoParceiros from './gestao_components/GestaoParceiros'
+import gestaoEquipe from './gestao_components/GestaoEquipe'
 export default {
   name: 'gestaoApp',
   components:{
@@ -23,7 +25,8 @@ export default {
     gestaoSobre,
     gestaoOprograma,
     gestaoFirstComponent,
-    gestaoParceiros
+    gestaoParceiros,
+    gestaoEquipe
   },
   data(){
     return{
