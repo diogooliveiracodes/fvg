@@ -1,5 +1,5 @@
 <template>
-<div class="row justify-content-center mx-0 px-0 bg-white" id="o-programa">
+<div class="row justify-content-center mx-0 px-0 bg-white padding-mobile" id="o-programa">
     <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 py-5 mx-0 px-0">
         <p class="title"><strong>O que está incluso no programa?</strong></p>
         <p class="subtitle">Confira ao que você terá acesso ao garantir a seu passaporte </p>
@@ -122,7 +122,10 @@ export default {
 
 <style scoped>
 @media screen and (max-width: 576px) {
-
+    .padding-mobile{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
 }
 @media screen and (min-width: 577px) {
 

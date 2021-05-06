@@ -14,13 +14,14 @@
                         <h1 class="text-white desktop">
                             do Consultório ao Pós-Operatório
                         </h1>
-                        <h1 class="text-white mobile" style="font-size: 2.7rem">
+                        <h1 class="text-white mobile margin-top-title">
                             Mamoplastia de Aumento:
                         </h1>
-                        <h1 class="text-white mobile" 
-                            style="font-size: 2.5rem; margin-top: 0px; letter-spacing: -2px;">
+                        <h1 class="text-white mobile">
                             do Consultório ao Pós-Operatório
                         </h1>
+
+                        <!-- DESKTOP -->
                         <div class="desktop">
                             <p class="branco-escuro"><small>powered by FVG Educação e Ensino</small></p>
                             <p class="branco-escuro text-first-component pt-3">Aqui nós falaremos sobre</p>
@@ -30,17 +31,19 @@
                             <p class="branco-escuro text-first-component">e como fazemos para obter um resultado de excelência.</p>
                             <a class="btn btn-success mt-3 btn-lg" href="#oprograma">GARANTA SUA VAGA</a>
                         </div>
+                        <!-- END DESKTOP -->
+
+                        <!-- MOBILE -->
                         <div class="mobile">
-                            <p class="branco-escuro"><small>powered by FVG Educação e Ensino</small></p>
-                            <p class="branco-escuro text-first-component pt-3"
-                                style="font-size: 1.3rem !important;">
-                                Aqui nós falaremos sobre <br>
-                                <strong style="font-weight: 900; ">as técnicas que utilizamos no nosso dia a dia,</strong><br>
+                            <p class="branco-escuro mt-0" style="text-align: initial; margin-top: 0px;"><small>powered by FVG Educação e Ensino</small></p>
+                            <p class="branco-escuro text-first-component margin-top-mobile mobile-text">
+                                Aqui nós falaremos sobre
+                                <strong class="mobile-negrito mobile-text">as técnicas que utilizamos no nosso dia a dia,</strong><br>
                                 e como fazemos para obter um resultado de excelência.
                             </p>
-                            <a class="btn btn-success mt-3 btn-lg" href="#oprograma">GARANTA SUA VAGA</a>
+                            <a class="btn btn-success btn-lg margin-top-mobile" href="#oprograma">GARANTA SUA VAGA</a>
                         </div>
-                    
+                        <!-- END MOBILE -->
 
                     </div>
                 </div>
@@ -58,14 +61,29 @@ export default {
 
 <style scoped>
 @media screen and (max-width: 576px) {
-    h1{
-        margin-top: 10vh;
+    .margin-top-title{
+        margin-top: 13vh;
     }
-    p, a{
+    h1{
+        font-size: 2.3rem !important;
+        text-align: initial;
+    }
+    .mobile-text{
+        font-size: 1.2rem !important;
+        text-align: initial;
+    }
+    .margin-top-mobile{   
+        margin-top: 30px;
+    }
+    a{
         font-size: 1rem !important;
+        width: 100%;
     }
     .desktop{
         display: none !important;
+    }
+    .mobile-negrito{
+        font-weight: 700;
     }
 
 }
@@ -76,30 +94,21 @@ export default {
     h1{
         line-height: 2rem;
     }
-}
-.text-first-component{
-    /* font-family: Gotham-light;  */
-    line-height: 1.5rem;
-    /* letter-spacing: 1px; */
-    font-size: 1.7rem;
-    font-weight: 100;
+    .text-first-component{
+        /* line-height: 1.5rem; */
+        font-size: 1.7rem;
+        font-weight: 100;
+    }
 }
 .branco-escuro{
     color: #ffffff9c;
 }
-/* p, h1, h2, h3, h4, h5{
-    font-family: 'Gotham-book';
-} */
 a{
-    transition: all 0.3s ease-in-out 0s;
-    /* background-color:rgb(147 187 194); */
+    transition: all 0.3s ease-in-out 0s; 
     border: none;
     border-radius: 20px;
-    /* color: rgb(61 57 53); */
 }
 a:hover{
     transform: scale3d(1.1, 1.1, 1);
-    /* background-color:rgb(147 187 194); */
-    /* color: rgb(61 57 53); */
 }
 </style>

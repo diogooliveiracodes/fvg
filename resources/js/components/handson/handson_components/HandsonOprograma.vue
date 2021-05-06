@@ -1,5 +1,5 @@
 <template>
-<div class="div-main-oprograma py-5 mx-0 px-0"
+<div class="div-main-oprograma py-5 mx-0 px-0 padding-mobile"
     id="oprograma"
     style="background-image: url('http://fvgeducacaoensino.com.br/wp-content/uploads/2020/09/handson-fvg-curso-online.png')">
     <h3 class="pb-4 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
@@ -171,6 +171,14 @@ export default {
     .div-textos-oprograma{
         display: none !important;
     }
+    .padding-mobile{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .div-main-oprograma{
+        background: #141414 !important;
+    }
+    
 }
 @media screen and (min-width: 577px) {
     .div-textos-oprograma-mobile{

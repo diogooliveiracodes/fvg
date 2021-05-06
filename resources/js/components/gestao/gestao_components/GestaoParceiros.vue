@@ -51,6 +51,11 @@ export default {
 </script>
 
 <style scoped>
+@media screen and (max-width: 556px){
+    img{
+        width: 77vw;
+    }
+}
 h3{
     text-align: center;
 }

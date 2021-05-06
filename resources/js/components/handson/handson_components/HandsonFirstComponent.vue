@@ -1,8 +1,8 @@
 <template>
 <div 
-    class="row justify-content-center m-0 p-0" 
+    class="row justify-content-center m-0 p-0 padding-mobile" 
     style="height: 100vh; background-image: url('images/handson/backgroundhandson.jpg'">
-    <div>
+    <div class="mx-0 px-0">
         <div class="row justify-content-center px-0 mx-0"
             data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
             <div class="px-0 col-xl-8 col-lg-8 col-md-10 col-sm-12 col-12 px-0" style="margin-top: 15%;">
@@ -11,7 +11,7 @@
                         <h1 class="text-white desktop pb-2">
                             Desenvolvido para você evoluir na prática.
                         </h1>
-                        <h1 class="text-white mobile" style="font-size: 2.7rem">
+                        <h1 class="text-white mobile">
                             Desenvolvido para você evoluir na prática.
                         </h1>
                         <p class="text-white font15">
@@ -42,12 +42,24 @@ export default {
 @media screen and (max-width: 576px) {
     h1{
         margin-top: 10vh;
+        margin-bottom: 30px;
+        font-size: 2.7rem !important;
     }
-    p, a{
+    p{
+        font-size: 1.1rem !important;
+    }    
+    a{
         font-size: 1rem !important;
     }
     .desktop{
         display: none !important;
+    }
+    .padding-mobile{
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        
     }
 
 }

@@ -15,10 +15,15 @@
                         </h4>
                     </div>
                 </div>
-                <p class="text-white font15">O Hands On foi desenvolvido por cirurgiões plásticos,<br>
+                <p class="text-white font15 desktop">O Hands On foi desenvolvido por cirurgiões plásticos,<br>
                     feito para cirurgiões plásticos e residentes, para atualizações<br>
                     de técnicas e promoção de mudanças significativas,<br>
                     do marketing médico à técnica cirúrgica.<br>
+                </p>
+                <p class="text-white font15 mobile">O Hands On foi desenvolvido por cirurgiões plásticos,
+                    feito para cirurgiões plásticos e residentes, para atualizações
+                    de técnicas e promoção de mudanças significativas,
+                    do marketing médico à técnica cirúrgica.
                 </p>
                 <a class="btn btn-lg btn-welcome" href="#oprograma">QUERO CONHECER OS PROGRAMAS</a>
             </div>
@@ -36,11 +41,14 @@ export default {
 <style scoped>
 @media screen and (max-width: 556px) {
     h4{
-        font-size: 2rem !important;
+        font-size: 2.3rem !important;
         margin-top: 10vh;
+        margin-bottom: 30px !important;
+        /* text-align: center; */
     }
     p{
-        font-size: 1.3rem !important;
+        font-size: 1.1rem !important;
+        /* text-align: center; */
     }
     .div-texto{
         padding-left: 20px !important;
@@ -49,9 +57,19 @@ export default {
     .btn-welcome{
         font-size: 1rem;;
     }
+    .desktop{
+        display: none !important;
+    }
+    a{
+        margin-top: 30px;
+    }
 }
 
-
+@media screen and (min-width: 557px) {
+    .mobile{
+        display: none !important;
+    }
+}
 
 .div-video, .div-main{
     height: 100vh !important;

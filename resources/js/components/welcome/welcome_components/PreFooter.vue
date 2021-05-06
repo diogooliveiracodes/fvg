@@ -2,7 +2,7 @@
     <div class="row justify-content-center mx-0 px-0" id="div-prefooter">
         <div class="col-md-8 div-main-welcome">
             <div class="row justify-content-between mx-0 px-0">
-                <div class="col-md-5 px-0"
+                <div class="col-md-5 px-0 padding-mobile"
                     data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                     <p class="text-muted" style="text-align: justify; font-weight: 100;">
                         Na FVG Educação & Ensino nossa missão
@@ -13,7 +13,7 @@
                         receba nossos conteúdos gratuitos.
                     </p>
                 </div>
-                <div class="col-md-5 px-0"
+                <div class="col-md-5 px-0 padding-mobile"
                     data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                     <p style="text-align: justify; color: black; font-weight: 900;">
                         Descubra como evoluir sua prática cirúrgica 
@@ -44,6 +44,10 @@
     @media screen and (max-width: 767px){
         #div-prefooter{
             text-align: justify;
+        }
+        .padding-mobile{
+            padding-left: 20px !important;
+            padding-right: 20px !important;
         }
     }
 

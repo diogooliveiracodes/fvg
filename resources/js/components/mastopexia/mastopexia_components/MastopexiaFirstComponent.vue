@@ -1,8 +1,8 @@
 <template>
 <div 
-    class="row justify-content-center m-0 p-0" 
+    class="row justify-content-center m-0 p-0 padding-mobile" 
     style="height: 100vh; background-image: url('images/mastopexia/mastopexia_background_first_component.jpg'">
-    <div>
+    <div class="px-0 mx-0">
         <div class="row justify-content-center px-0 mx-0"
             data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
             <div class="px-0 col-xl-8 col-lg-8 col-md-10 col-sm-12 col- px-0" style="margin-top: 15%;">
@@ -11,8 +11,8 @@
                     desenvolvida para você <br>
                     evoluir na prática
                 </h4>
-                <h4 class="text-white mobile" style="font-size: 2.7rem">
-                    Imersão e mentoria 
+                <h4 class="text-white mobile">
+                    Imersão e mentoria
                     desenvolvida para você 
                     evoluir na prática
                 </h4>
@@ -40,14 +40,24 @@ export default {
 <style scoped>
 @media screen and (max-width: 576px) {
     h4{
-        margin-top: 25vh;
-        font-size: 2rem !important;
+        margin-top: 15vh;
+        font-size: 2.4rem !important;
+        margin-bottom: 30px;
     }
-    p, a{
-        font-size: 1rem !important;
+    p{
+        font-size: 1.1rem !important;
     }
     .desktop{
         display: none !important;
+    }
+    a{
+        margin-top: 30px;
+        font-size: .9rem !important;
+        width: 100%;
+    }
+    .padding-mobile{
+        padding-right: 20px !important;
+        padding-left: 20px !important;
     }
 
 }

@@ -1,5 +1,5 @@
 <template>
-<div class="div-main-oprograma py-5 mx-0 px-0"
+<div class="div-main-oprograma py-5 mx-0 px-0 div-main-programa"
     id="oprograma"
     style="background-image: url('http://fvgeducacaoensino.com.br/wp-content/uploads/2020/09/handson-fvg-curso-online.png')">
     <h3 class="pb-4 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
@@ -136,8 +136,8 @@
 
         <!-- MOBILE -->
         <div class="div-textos-oprograma-mobile row mx-0 px-0 justify-content-center">
-            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos">
-                <p class="text-center">
+            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 div-textos">
+                <p class="mobile-center">
                     <strong>
                         O que vou aprender?
                     </strong>
@@ -175,16 +175,32 @@ export default {
 </script>
 
 <style scoped>
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 556px){
+    .div-main-programa{
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        background: #141414 !important;
+    }
+    p{
+        margin-top: 30px !important;
+        text-align: justify !important;
+    }
     .div-textos-oprograma{
         display: none !important;
     }
+    .mobile-center{
+        text-align: center !important;
+    }
+    a{
+        margin-top: 30px;
+    }
 }
-@media screen and (min-width: 577px) {
+@media screen and (min-width: 557px){
     .div-textos-oprograma-mobile{
         display: none !important;
     }
 }
+
     h3{
         color: white !important;
         text-align: center;

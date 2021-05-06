@@ -9,7 +9,7 @@
             </div>
             <div class="div-text col-lg-4 col-md-4 col-sm-4 d-flex mx-0 px-0 flex-column justify-content-center">
                 <div class="row justify-content-end mx-0 px-0">
-                    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12 px-0">
+                    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12 px-0 padding-mobile">
                         <h3 class="text-muted">Hands On - Prótese de Mama</h3>
                         <p class="text-muted">São 2 dias de imersão, com 70% da metodologia prática e com mentoria exclusiva, personalizada e individualizada da equipe FVG Cirurgia Plástica. Desenvolvido para cirurgiões plásticos formados e residentes.</p>
                         <btnSaberDetalhes linkroute='/handson'></btnSaberDetalhes>
@@ -22,7 +22,7 @@
             <img class="img-fundo-mobile" src="images/img2.jpg" alt="" style="margin: 0; padding:0;">
             <div class="div-text col-lg-4 col-md-4 col-sm-4 d-flex mx-0 px-0 flex-column justify-content-center">
                 <div class="row justify-content-start mx-0 px-0">
-                    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12 px-0">
+                    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12 px-0 padding-mobile">
                         <h3 class="text-muted">Hands On - Mastopexia e Redução Mamária com prótese</h3>
                         <p class="text-muted">São 30h de curso, divididas em 3 dias de imersão, com 70% da metodologia prática e mentoria exclusiva e individualizada da equipe FVG Cirurgia Plástica. Desenvolvido para cirurgiões plásticos formados e residentes.</p>
                         <btnSaberDetalhes linkroute='/mastopexia'></btnSaberDetalhes>
@@ -41,7 +41,7 @@
             </div>
             <div class="div-text col-lg-4 col-md-4 col-sm-4 d-flex mx-0 px-0 flex-column justify-content-center">
                 <div class="row justify-content-end mx-0 px-0">
-                    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12 px-0">
+                    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12 px-0 padding-mobile">
                         <h3 class="text-muted">Gestão e Marketing Médico</h3>
                         <p class="text-muted">Tudo que você precisa saber para elevar seu negócio! Se você quer aumentar sua base de pacientes, o curso de Gestão e Marketing Médico é definitivamente para você! Saiba mais sobre o segredo para um marketing médico de sucesso.</p>
                         <btnSaberDetalhes linkroute='/gestao-e-marketing'></btnSaberDetalhes>
@@ -54,7 +54,7 @@
             <img class="img-fundo-mobile" src="images/img4.jpg" alt="" style="margin: 0; padding:0;">
             <div class="div-text col-lg-4 col-md-4 col-sm-4 d-flex flex-column mx-0 px-0 justify-content-center">
                 <div class="row justify-content-start mx-0 px-0">
-                    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12 px-0">
+                    <div class="col-xl-11 col-lg-11 col-md-11 col-sm-12 col-12 px-0 padding-mobile">
                         <h3 class="text-muted">Online: Mamoplastia de Aumento</h3>
                         <p class="text-muted">O objetivo do curso é, através do pilar de transferência do conhecimento FVG Cirurgia Plástica, repassar as práticas que vão desde o atendimento no consultório ao pós-operatório. Tudo isso online e na hora que você quiser e precisar. Confira!</p>
                         <btnSaberDetalhes linkroute='/mamoplastia-de-aumento'></btnSaberDetalhes>
@@ -70,7 +70,7 @@
 
 <style scoped>
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:576px) {
     h3{
         text-align: center;
     }
@@ -86,8 +86,12 @@
     .div-img-background{
         display: none;
     }
+    .padding-mobile{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
 }
-@media screen and (min-width:576px) and (max-width: 1282px) {
+@media screen and (min-width:577px) and (max-width: 1282px) {
     h3{
         text-align: left;
     }

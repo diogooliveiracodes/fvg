@@ -5,7 +5,7 @@
         <p class="subtitle">Confira o que você vai aprender</p>
 
         <div class="row mx-0 px-0">
-            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 px-0 mx-0">
+            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 px-0 mx-0 padding-mobile">
                 <!-- ACORDEON -->
                 <div class="accordion" id="accordionExample" style="padding-left: 0px">
                     <div class="accordion-item">
@@ -62,11 +62,11 @@
 
             <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 mt-3 px-0">
                 <div class="row mx-0 px-0 justify-content-end">
-                    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1">
+                    <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1 padding-mobile">
                         <img class="img-grafico" src="images/mamoplastia/grafico-mamoplastia.png" alt="">
                     </div>
                 </div>
-                <div class="row mx-0 px-0 justify-content-end">
+                <div class="row mx-0 px-0 justify-content-end padding-mobile">
                     <div class="text-second-component-bordered col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 offset-xl-1 offset-lg-1 offset-md-1">
                         Ferramentas, estratégias e técnicas para você atualizar os seus resultados com a prática cirúrgica.
                     </div>
@@ -90,6 +90,10 @@ export default {
 @media screen and (max-width: 576px) {
     .botao{
         width: 90% !important;
+    }
+    .padding-mobile{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 }
 @media screen and (min-width: 577px) {

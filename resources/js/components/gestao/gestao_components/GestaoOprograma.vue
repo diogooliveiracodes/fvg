@@ -1,8 +1,8 @@
 <template>
-<div class="div-main-oprograma py-5 mx-0 px-0"
+<div class="div-main-oprograma py-5 mx-0 px-0 div-main-gestao"
     id="oprograma"
     style="background-image: url('http://fvgeducacaoensino.com.br/wp-content/uploads/2020/09/handson-fvg-curso-online.png')">
-    <h3 class="pb-4 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
+    <h3 class="pb-4 pt-5 titulo-programa" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
         <strong>O Programa</strong>
     </h3>
     <div class="" style="display: box;">
@@ -56,29 +56,47 @@
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out"
                 class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos">
                 <p>
-                    <strong>
-                        O que vou aprender?
-                    </strong>
+                   No curso de Gestão e Marketing Médico ajudamos fundadores, 
+                   líderes e gestores de negócios a aplicarem as melhores práticas 
+                   e ferramentas para alavancar os resultados do seu negócio.
                 </p>
                 <p>
-                   Ao longo dos 2 dias de imersão, você terá aulas cobrindo diversos tópicos relevantes para o seu negócio.
+                    Quais são as melhores práticas de gestão para o seu negócio 
+                    se adaptar a nova realidade que está surgindo?
                 </p>
                 <p>
-                   Em seguida, você também participa de 5 sessões de mentorias ao todo, 
-                   onde nossos mentores ajudarão você, a entender como implementar as técnicas, 
-                   ferramentas e estratégias apresentadas no seu negócio!
+                    É por isso que você precisa saber como explorar novos canais, 
+                    práticas, frameworks e ferramentas de gestão que te ajude a
+                    tornar o seu negócio relevante diante de uma nova realidade.
                 </p>
-                <a class="btn btn-md" href="#garantias">Eu quero a minha vaga!</a>
+                <p>
+                    Mas não se preocupe, nós do FVG Educação e Ensino estamos aqui 
+                    para te apoiar nesse processo!?
+                </p>
+                <p>
+                    Iremos te guiar e ajudar a entender quais são as mudanças fundamentais 
+                    que o seu negócio sofrerá nesse momento, e como criar uma estratégia 
+                    sólida para se adaptar e prosperar diante dessa nova realidade.
+                </p>
+                <a class="btn btn-md" 
+                    href="https://fvg.typeform.com/to/fRmSZb6c#tema=gestaomkt&fonte=site">
+                    Eu quero participar da Imersão!
+                </a>
+                <p class="sub-title-gestao pt-2">
+                    IMERSÃO E MENTORIA PARA LÍDERES
+                </p>
+                <p>
+                    A imersão foi desenvolvida para que, em um final de semana, 
+                    médicos, enfermeiros e demais profissionais da saúde , incluindo 
+                    gestores do segmento clínico e hospitalar, se atualizem nestas 
+                    técnicas e consigam promover mudanças significativas em seus negócios.
+                </p>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
                 class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos mt-4 text-center">
-                <p><i class="fas fa-check cor-azul"></i>  O Papel do Gestor;</p>
-                <p><i class="fas fa-check cor-azul"></i>  Como construir times de excelência</p>
-                <p><i class="fas fa-check cor-azul"></i>  Quais métricas focar em seu negócio</p>
-                <p><i class="fas fa-check cor-azul"></i>  Como construir, gerenciar e diversificar canais de vendas</p>
-                <p><i class="fas fa-check cor-azul"></i>  Criar uma jornada do paciente com eficiência</p>
-                <p><i class="fas fa-check cor-azul"></i>  Analisar e implementar métricas eficientes</p>
-                <p><i class="fas fa-check cor-azul"></i>  Como construir um funil de vendas e garantir receita previsível</p>
+                <p><i class="fas fa-check cor-azul"></i>  2 dias de imersão;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Sessões de mentoria exclusiva;</p>
+                <p><i class="fas fa-check cor-azul"></i>  Acesso a todas as ferramentas e playbooks;</p>
             </div>
         </div>
         <!-- END MOBILE -->
@@ -150,14 +168,14 @@
         <!-- MOBILE -->
         <div class="div-textos-oprograma-mobile row mx-0 px-0 justify-content-center" >
             <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12  div-textos" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
-                <p class="text-center">
+                <p class="text-center center-text-mobile">
                     <strong>
                         O que vou aprender?
                     </strong>
                 </p>
                 <p>
                     Ao longo dos 2 dias de imersão, você terá aulas cobrindo diversos tópicos relevantes que vai da 
-                    prática cirúrgica à gestão.<br>
+                    prática cirúrgica à gestão.<br><br>
                     O curso não é apenas demonstração! Durante o curso, você vai receber mentoria 
                     individualizada e atuar dentro do campo cirúrgico.
                 </p>
@@ -192,11 +210,34 @@ export default {
     .div-textos-oprograma{
         display: none !important;
     }
+    .div-main-gestao{
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        background: #141414 !important;
+    }
+    a{
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+        width: 100% !important;
+    }
+    .titulo-programa{
+        padding-top: 0px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .center-text-mobile{
+        text-align: center !important;
+    }
+    .sub-title-gestao{
+        font-weight: 900;
+        letter-spacing: -1px;
+    }
 }
 @media screen and (min-width: 577px) {
     .div-textos-oprograma-mobile{
         display: none !important;
     }
+
 }
     h3{
         color: white !important;
@@ -207,10 +248,10 @@ export default {
         color: white;
     }
     p{
+        text-align: justify !important;
         color: white !important;
         text-align: start;
         /* font-family: 'gotham-book'; */
-        text-align: justify;
     }
     .div-textos-oprograma{
         display: flex;
