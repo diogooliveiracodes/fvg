@@ -131,17 +131,38 @@ export default {
     @media screen and (max-width: 556px) {
         .card-text{
             font-size: 1rem !important;
+            line-height: 1.1rem;
+            /* letter-spacing: -0.5px !important; */
+            font-weight: 100;
+            font-family: Arial;
+        }
+        h5{
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        .card-body{
+            padding-bottom: 8px;
+            padding-right: 8px;
+            padding-left: 8px;
+
         }
         .social-main{
-            height: 15%;
+            height: 8%;
         }
         .text-main{
             height: 80%;
-            padding-bottom: 5%;
+            /* padding-bottom: 5%; */
         }
         .div-main{
-            min-height: 80vh !important;
-            min-width: 100% !important;
+            height: 125.91vw !important;
+            width: 100vw !important;
+        }
+        img{
+            width: 100vw !important;
+            height: 125.91vw !important;
+            /* 154,922 x 195,062 */
+            /* 79 - 100 */
+            /* 100 - x */
         }
     }
     @media screen and (min-width: 557px) and (max-width: 992px) {

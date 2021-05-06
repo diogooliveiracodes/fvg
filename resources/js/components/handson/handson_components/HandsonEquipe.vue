@@ -16,7 +16,7 @@
                         <template v-slot:titulo>Felipe Villaça</template>
                         <template v-slot:crm>CRM: 48.463</template>
                         <template v-slot:texto>
-                            Responsável Técnico da FVG<br>
+                            Responsável Técnico da FVG.<br>
                             Membro da Sociedade Brasileira de Cirurgia Plástica – SBCP
                             Membro Adjunto do Colégio Brasileiro de Cirurgiões Sócio Diretor do Premier Hospital Dia Sócio Diretor da Médico sem Fila
                         </template>
