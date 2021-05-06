@@ -56,7 +56,6 @@ export default {
     },
     methods:{
         mudarClasse(){
-            console.log('passei aqui')
             this.ativo = !this.ativo
             this.inativo = !this.inativo
         }
@@ -65,22 +64,61 @@ export default {
 </script>
 
 <style scoped>
+    @media screen and (max-width: 556px) {
+        .card-text{
+            font-size: 1rem !important;
+            line-height: 1.1rem;
+            /* letter-spacing: -0.5px !important; */
+            font-weight: 100;
+            font-family: Arial;
+        }
+        h5{
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        .card-body{
+            padding-bottom: 8px;
+            padding-right: 8px;
+            padding-left: 8px;
+
+        }
+        .social-main{
+            height: 8%;
+        }
+        .text-main{
+            height: 80%;
+            /* padding-bottom: 5%; */
+        }
+        .div-main{
+            width: 100% !important;
+            height: 125.91vw !important;
+        }
+        img{
+            width: 95vw !important;
+            height: 125.91vw !important;
+            /* 154,922 x 195,062 */
+            /* 79 - 100 */
+            /* 100 - x */
+        }
+    }
+
     .protese{
         color: white !important;
         background: #7aa8b5;
         /* border-left: 10px solid white; */
     }
 
-
     i{
         color: white;
     }
-    .div-main{
-        height: 500px;
-        max-width: 40vh !important;
-        /* box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31); */
-        
-        transition: all .3s ease-in-out;
+    @media screen and (min-width: 557px) {
+        .div-main{
+            height: 500px;
+            max-width: 40vh !important;
+            /* box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31); */
+            
+            transition: all .3s ease-in-out;
+        }
     }
     .div-main-background{
         /* border-left: 10px solid rgb(61 57 53); */
@@ -128,57 +166,6 @@ export default {
     .card-main{
         transition: all 0.3s;
     }
-    @media screen and (max-width: 556px) {
-        .card-text{
-            font-size: 1rem !important;
-            line-height: 1.1rem;
-            /* letter-spacing: -0.5px !important; */
-            font-weight: 100;
-            font-family: Arial;
-        }
-        h5{
-            margin-bottom: 0px;
-            padding-bottom: 0px;
-        }
-        .card-body{
-            padding-bottom: 8px;
-            padding-right: 8px;
-            padding-left: 8px;
-
-        }
-        .social-main{
-            height: 8%;
-        }
-        .text-main{
-            height: 80%;
-            /* padding-bottom: 5%; */
-        }
-        .div-main{
-            height: 125.91vw !important;
-            width: 100vw !important;
-        }
-        img{
-            width: 100vw !important;
-            height: 125.91vw !important;
-            /* 154,922 x 195,062 */
-            /* 79 - 100 */
-            /* 100 - x */
-        }
-    }
-    @media screen and (min-width: 557px) and (max-width: 992px) {
-
-        .social-main{
-            height: 15%;
-        }
-        .text-main{
-            height: 60%;
-            padding-bottom: 5%;
-        }
-        .div-main{
-            min-height: 80vh !important;
-
-        }
-    }
     a{
         width: auto !important;
     }
@@ -194,4 +181,5 @@ export default {
     .text-main{
         height: 80%
     }
+
 </style>
