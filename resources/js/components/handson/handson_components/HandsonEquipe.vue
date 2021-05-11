@@ -4,7 +4,10 @@
             <h3 class="pb-4 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                 <strong>Seus Mentores</strong>
             </h3>
-            <carousel :perPageCustom=[[1,1],[556,2],[992,3]] data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
+            <carousel :perPageCustom=[[1,1],[556,2],[992,3]] :navigationEnabled='responsivel'
+
+                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
+
                 <slide>
                     <v-card-mentores
                         facebook="facbook.com/diogooliveira06"
@@ -100,7 +103,12 @@
 
 <script>
 export default {
-    name: 'handsonEquipe'
+    name: 'handsonEquipe',
+    data(){
+        return{
+            responsivel: window.innerWidth > 556 ? true : false,
+        }
+    }
 }
 </script>
 

@@ -4,7 +4,7 @@
             <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12 mx-0 px-0">
                 <div class="row justify-content-center mx-0 px-0">
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-0 mx-0 img-div-footer">
-                            <img src="images/logo.png" alt="" style="height: 6rem"><br><br>
+                            <a href="https://www.fvgeducacaoeensino.com.br"><img src="images/logo.png" alt="" style="height: 6rem"></a><br><br>
                             <div>
                                 <a href="https://www.facebook.com/fvgeducacaoeensino/">
                                     <i class="i-mob fab fa-3x fa-facebook-square cor-azul"></i>

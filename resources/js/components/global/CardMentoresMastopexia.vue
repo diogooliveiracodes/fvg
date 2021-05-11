@@ -5,9 +5,10 @@
         @mouseover="mudarClasse" 
         @mouseout="mudarClasse">
         
-        <transition name="fade">
-            <img :src="imagem" alt="" :class="{'img-ativo':ativo, 'img-inativo':inativo}">
-        </transition>
+
+            <img class="desktop" :src="imagem" alt="" :class="{'img-ativo':ativo, 'img-inativo':inativo}">
+            <img class="mobile" :src="imagem" alt="">
+
             <div class="px-2">
                 <div class="card-body">
                     <div class="text-main">
@@ -64,7 +65,18 @@ export default {
 </script>
 
 <style scoped>
-    @media screen and (max-width: 556px) {
+
+@media screen and (max-width: 556px) {
+    .desktop{
+        display: none;
+    }
+}
+@media screen and (min-width: 557px) {
+    .mobile{
+        display: none;
+    }
+}
+@media screen and (max-width: 556px) {
         .card-text{
             font-size: 1rem !important;
             line-height: 1.1rem;
@@ -92,33 +104,102 @@ export default {
         .div-main{
             width: 100% !important;
             height: 125.91vw !important;
+            margin: 8px;
         }
         img{
             width: 95vw !important;
             height: 125.91vw !important;
-            /* 154,922 x 195,062 */
-            /* 79 - 100 */
-            /* 100 - x */
+            top: 5%;
+            left: 25%;
+            width: 45% !important;
+            height: 45% !important;
+            box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31);
+            transition: all .5s ease;
         }
     }
 
+    @media screen and (min-width: 557px) and (max-width: 768) {
+        .div-main{
+            width: 20vw !important;
+            height: 25.18vw !important;
+            /* box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31); */
+            transition: all .3s ease-in-out;
+        }
+        .card-text{
+            font-size: 1rem !important;
+            line-height: 1.1rem;
+            /* letter-spacing: -0.5px !important; */
+            font-weight: 100;
+            font-family: Arial;
+        }
+        h5{
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        .card-body{
+            padding-bottom: 8px;
+            padding-right: 8px;
+            padding-left: 8px;
+
+        }
+        .social-main{
+            height: 8%;
+        }
+        .text-main{
+            height: 80%;
+            /* padding-bottom: 5%; */
+        }
+    }
+
+    @media screen and (min-width: 769px){
+        .div-main{
+            width: 20vw !important;
+            height: 25.18vw !important;
+            transition: all .3s ease-in-out;
+        }
+        .card-text{
+            font-size: 1.4vh !important;
+            font-weight: 100;
+            font-family: Arial;
+        }
+        h5{
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        .card-body{
+            padding-bottom: 8px;
+            padding-right: 8px;
+            padding-left: 8px;
+        }
+        .social-main{
+            height: 4%;
+        }
+        .text-main{
+            height: 80%;
+        }
+        .footer-social-icon {
+            border-radius: 100%;
+            width: 2vh !important;
+            height: 2vh !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2vh !important;
+        }
+        .card-title{
+            font-size: 2vh !important;
+        }
+        p{
+            margin-bottom: 1vh;
+        }
+    }
     .protese{
         color: white !important;
         background: #7aa8b5;
         /* border-left: 10px solid white; */
     }
-
     i{
         color: white;
-    }
-    @media screen and (min-width: 557px) {
-        .div-main{
-            height: 500px;
-            max-width: 40vh !important;
-            /* box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31); */
-            
-            transition: all .3s ease-in-out;
-        }
     }
     .div-main-background{
         /* border-left: 10px solid rgb(61 57 53); */
@@ -139,12 +220,8 @@ export default {
         left: 25%;
         width: 45% !important;
         height: 45% !important;
-        box-shadow: 1px 1px 14px 2px #7aa8b5;
+        box-shadow: 1px 1px 14px 2px rgba(0,0,0,0.31);
         transition: all .5s ease;
-    }
-    .card-text{
-        text-align: justify !important;
-        font-size: 0.8rem;
     }
     .footer-social-icon {
         border-radius: 100%;
@@ -166,6 +243,7 @@ export default {
     .card-main{
         transition: all 0.3s;
     }
+    
     a{
         width: auto !important;
     }
@@ -181,5 +259,4 @@ export default {
     .text-main{
         height: 80%
     }
-
 </style>

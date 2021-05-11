@@ -4,10 +4,7 @@
             <h3 class="pb-4 pt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                 <strong>Seus Mentores</strong>
             </h3>
-            <carousel :perPageCustom=[[1,1],[556,2],[992,3]] :navigationEnabled='responsivel'
-
-                data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
-
+            <carousel :perPageCustom=[[1,1],[556,2],[992,3]] data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out">
                 <slide>
                     <v-card-mentores-masto
                         facebook="facbook.com/diogooliveira06"
@@ -19,7 +16,7 @@
                         <template v-slot:titulo>Felipe Villaça</template>
                         <template v-slot:crm>CRM: 48.463</template>
                         <template v-slot:texto>
-                            Responsável Técnico da FVG.<br>
+                            Responsável Técnico da FVG<br>
                             Membro da Sociedade Brasileira de Cirurgia Plástica – SBCP
                             Membro Adjunto do Colégio Brasileiro de Cirurgiões Sócio Diretor do Premier Hospital Dia Sócio Diretor da Médico sem Fila
                         </template>
@@ -103,12 +100,7 @@
 
 <script>
 export default {
-    name: 'handsonEquipe',
-    data(){
-        return{
-            responsivel: window.innerWidth > 556 ? true : false,
-        }
-    }
+    name: 'handsonEquipe'
 }
 </script>
 
