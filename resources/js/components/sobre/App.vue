@@ -4,7 +4,7 @@
     <sobreVideo></sobreVideo>
     <sobreCarrossel></sobreCarrossel>
     <v-nossos-numeros></v-nossos-numeros>
-    <v-footer></v-footer>
+    <v-footer sobre="true"></v-footer>
   </div>
 </template>
 

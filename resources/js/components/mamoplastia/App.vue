@@ -6,7 +6,7 @@
         <mamoplastiaThirdComponent></mamoplastiaThirdComponent>
         <mamoplastiaFourthComponent></mamoplastiaFourthComponent>
         <mamoplastiaLastComponent></mamoplastiaLastComponent>
-        <v-footer></v-footer>
+        <v-footer mamoplastia="true"></v-footer>
     </div>
 </template>
 

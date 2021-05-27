@@ -7,7 +7,7 @@
     <v-nossos-numeros></v-nossos-numeros>
     <gestaoEquipe></gestaoEquipe>
     <gestaoCarousel></gestaoCarousel>
-    <v-footer></v-footer>
+    <v-footer gestao="true"></v-footer>
   </div>
 </template>
 

@@ -8,7 +8,7 @@
     <!-- <handsonEquipeCaroussel></handsonEquipeCaroussel> -->
     <v-nossos-numeros></v-nossos-numeros>
     <handsonCarousel></handsonCarousel>
-    <v-footer></v-footer>
+    <v-footer protese="true"></v-footer>
   </div>
 </template>
 

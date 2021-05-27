@@ -6,7 +6,7 @@
     <mastopexiaEquipe></mastopexiaEquipe>
     <v-nossos-numeros></v-nossos-numeros>
     <mastopexiaCarousel></mastopexiaCarousel>
-    <v-footer></v-footer>
+    <v-footer mastopexia="true"></v-footer>
   </div>
 </template>
 

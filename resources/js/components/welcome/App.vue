@@ -6,7 +6,7 @@
     <v-nossos-numeros></v-nossos-numeros>
     <welcomeCarousel></welcomeCarousel>
     <preFooter></preFooter>
-    <v-footer></v-footer>
+    <v-footer home="true"></v-footer>
   </div>
 </template>
 

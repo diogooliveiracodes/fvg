@@ -20,7 +20,50 @@
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 px-0 mx-0 div-footer">
                         <div style="display: flex;" class="flex-container">
                             <ul class="list-unstyled text-small">
-                            <li><a class="btn btn-sm botao-fale-com-especialista" style="font-family: arial" href="#"><i class="fab fa-whatsapp"></i> Fale com nosso especialista</a></li>
+                            <li>
+                                <!-- HOME -->
+                                <a  v-if="home == 'true'"
+                                    class="btn btn-sm botao-fale-com-especialista" style="font-family: arial" 
+                                    href="https://wa.me/+553196788844?text=Olá!%20Gostaria%20de%20saber%20mais%20informações%20dos%20programas%20da%20FVG%20Educação%20e%20Ensino,%20pode%20me%20ajudar?">
+                                    <i class="fab fa-whatsapp"></i> Fale com nosso especialista
+                                </a>
+                                
+                                <!-- HANDS ON - PROTESE DE MAMA -->
+                                <a  v-if="protese == 'true'"
+                                    class="btn btn-sm botao-fale-com-especialista" style="font-family: arial" 
+                                    href="https://wa.me/+553196788844?text=Olá!%20Gostaria%20de%20saber%20mais%20informações%20do%20Hands%20On%20-%20Prótese%20de%20Mama,%20pode%20me%20ajudar?">
+                                    <i class="fab fa-whatsapp"></i> Fale com nosso especialista
+                                </a>
+
+                                <!-- HANDS ON - MASTOPEXIA -->
+                                <a  v-if="mastopexia == 'true'"
+                                    class="btn btn-sm botao-fale-com-especialista" style="font-family: arial" 
+                                    href="https://wa.me/+553196788844?text=Olá!%20Gostaria%20de%20saber%20mais%20informações%20do%20Hands%20On%20-%20Mastopexia,%20pode%20me%20ajudar?">
+                                    <i class="fab fa-whatsapp"></i> Fale com nosso especialista
+                                </a>
+
+                                <!-- GESTÃO E MARKETING MÉDICO -->
+                                <a  v-if="gestao == 'true'"
+                                    class="btn btn-sm botao-fale-com-especialista" style="font-family: arial" 
+                                    href="https://wa.me/+553196788844?text=Olá!%20Gostaria%20de%20saber%20mais%20informações%20da%20Imersão%20e%20Mentoria%20de%20Gestão%20e%20Marketing%20Médico,%20pode%20me%20ajudar?">
+                                    <i class="fab fa-whatsapp"></i> Fale com nosso especialista
+                                </a>
+
+                                <!-- ONLINE -->
+                                <a  v-if="mamoplastia == 'true'"
+                                    class="btn btn-sm botao-fale-com-especialista" style="font-family: arial" 
+                                    href="https://wa.me/+553196788844?text=Olá!%20Gostaria%20de%20saber%20mais%20informações%20do%20Curso%20Online%20de%20Mamoplastia%20de%20Aumento,%20pode%20me%20ajudar?">
+                                    <i class="fab fa-whatsapp"></i> Fale com nosso especialista
+                                </a>
+
+                                <!-- SOBRE -->
+                                <a  v-if="sobre == 'true'"
+                                    class="btn btn-sm botao-fale-com-especialista" style="font-family: arial" 
+                                    href="https://wa.me/+553196788844?text=Gostaria%20de%20saber%20mais%20informações%20dos%20programas%20da%20FVG%20Educação%20e%20Ensino,%20pode%20me%20ajudar?">
+                                    <i class="fab fa-whatsapp"></i> Fale com nosso especialista
+                                </a>
+                            </li>
+
                             <li class="cor-azul gotham-bold pt-2" style="font-size: 1.4rem">(31) 3090-4488</li>
                             <li class="cor-azul gotham-bold" style="font-size: 1.4rem">(31) 9 9678-8844</li>
                             <li class="text-white gotham-bold pt-2">Av. Bandeirantes, 694</li>
@@ -38,7 +81,7 @@
 
 <script>
 export default {
-
+    props:['home', 'protese', 'mastopexia', 'gestao', 'mamoplastia', 'sobre']
 }
 </script>
 
