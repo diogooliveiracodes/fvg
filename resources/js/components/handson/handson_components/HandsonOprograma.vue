@@ -114,7 +114,7 @@
                     individualizada e atuar dentro do campo cirúrgico.
                     
                 </p>
-                <a class="btn btn-md" href="#garantias">Eu quero a minha vaga!</a>
+                <a class="btn btn-md" href="https://fvg.typeform.com/to/C16WV6eH#tema=handson&fonte=site">Eu quero a minha vaga!</a>
             </div>
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50" data-aos-easing="ease-in-out" 
                 class="div-textos-oprograma-conteudo" style="padding-left: 10px">

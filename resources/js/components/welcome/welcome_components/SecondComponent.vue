@@ -20,7 +20,7 @@
                         <h5 class="text-muted">O que é a FVG Educação e Ensino</h5>
                         <p class="text-muted">As imersões e mentorias da FVG Educação e Ensino é um negócio que surgiu a partir da necessidade de transferir conhecimento, prática e gestão empresarial para profissionais da saúde em posições estratégicas.</p>
                         <p class="text-muted">Você está pronto para atualizar suas técnicas e promover mudanças significativas em seu negócio?</p>
-                        <a class="btn btn-md" href="#nossosprogramas">Quero saber mais</a>
+                        <a class="btn btn-md" href="#oprograma">Quero saber mais</a>
                     </div>
                 </div>
             </div>

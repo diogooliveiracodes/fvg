@@ -3,7 +3,7 @@
     <sobreCapa></sobreCapa>
     <sobreVideo></sobreVideo>
     <sobreCarrossel></sobreCarrossel>
-    <v-nossos-numeros></v-nossos-numeros>
+    <v-nossos-numeros sobre="true"></v-nossos-numeros>
     <v-footer sobre="true"></v-footer>
   </div>
 </template>
@@ -15,6 +15,7 @@ import sobreVideo from './sobre_components/SobreVideo'
 import sobreCarrossel from './sobre_components/SobreCarrossel'
 
 export default {
+  props:["rotawelcome"],
   name: 'mastopexiaApp',
   components:{
     sobreCapa,

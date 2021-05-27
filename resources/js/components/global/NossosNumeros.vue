@@ -29,7 +29,36 @@
             </div>
         </div>
         <div class="row justify-content-center mt-5 mx-0 px-0 div-bottom">
-            <a class="btn btn-sm cor-escura col-11 col-sm-10 col-md-8 col-lg-4 col-xl-3 text-white" href="#oprograma">EU QUERO PARTICIPAR</a>
+            <a  v-if="home == 'true'" 
+                class="btn btn-sm cor-escura col-11 col-sm-10 col-md-8 col-lg-4 col-xl-3 text-white" 
+                href="#oprograma">
+                EU QUERO PARTICIPAR
+            </a>
+            <a  v-if="protese == 'true'" 
+                class="btn btn-sm cor-escura col-11 col-sm-10 col-md-8 col-lg-4 col-xl-3 text-white" 
+                href="https://fvg.typeform.com/to/C16WV6eH#tema=handson&fonte=site">
+                EU QUERO PARTICIPAR
+            </a>
+            <a  v-if="mastopexia == 'true'" 
+                class="btn btn-sm cor-escura col-11 col-sm-10 col-md-8 col-lg-4 col-xl-3 text-white" 
+                href="https://fvg.typeform.com/to/C16WV6eH#tema=handson&fonte=MastopexiaSite">
+                EU QUERO PARTICIPAR
+            </a>
+            <a  v-if="gestao == 'true'" 
+                class="btn btn-sm cor-escura col-11 col-sm-10 col-md-8 col-lg-4 col-xl-3 text-white" 
+                href="https://fvg.typeform.com/to/fRmSZb6c#tema=gestaomkt&fonte=site">
+                EU QUERO PARTICIPAR
+            </a>
+            <a  v-if="mamoplastia == 'true'" 
+                class="btn btn-sm cor-escura col-11 col-sm-10 col-md-8 col-lg-4 col-xl-3 text-white" 
+                href="">
+                EU QUERO PARTICIPAR
+            </a>
+            <a  v-if="sobre == 'true'" 
+                class="btn btn-sm cor-escura col-11 col-sm-10 col-md-8 col-lg-4 col-xl-3 text-white" 
+                href="#">
+                EU QUERO PARTICIPAR
+            </a>
         </div>
         <div id="jarallax-container-0 px-0 mx-0" style="position: absolute; bottom: 0px; overflow: hidden; z-index: -100;">
             <img :src="imagemFundo()" alt="hero background" class="jarallax-img" >
@@ -127,6 +156,7 @@
 <script>
 
     export default {
+        props:['home', 'protese', 'mastopexia', 'gestao', 'mamoplastia', 'sobre'],
         name: 'nossosNumeros',
         data(){
             return {

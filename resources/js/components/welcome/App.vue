@@ -3,7 +3,7 @@
     <welcomeFirstComponent></welcomeFirstComponent>
     <welcomeSecondComponent></welcomeSecondComponent>
     <welcomeNossosProgramas></welcomeNossosProgramas>
-    <v-nossos-numeros></v-nossos-numeros>
+    <v-nossos-numeros home="true"></v-nossos-numeros>
     <welcomeCarousel></welcomeCarousel>
     <preFooter></preFooter>
     <v-footer home="true"></v-footer>
