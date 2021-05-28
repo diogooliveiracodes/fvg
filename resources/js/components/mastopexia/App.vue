@@ -4,7 +4,7 @@
     <mastopexiaSobre></mastopexiaSobre>
     <mastopexiaOprograma></mastopexiaOprograma>
     <mastopexiaEquipe></mastopexiaEquipe>
-    <v-nossos-numeros></v-nossos-numeros>
+    <v-nossos-numeros mastopexia="true"></v-nossos-numeros>
     <mastopexiaCarousel></mastopexiaCarousel>
     <v-footer mastopexia="true"></v-footer>
   </div>

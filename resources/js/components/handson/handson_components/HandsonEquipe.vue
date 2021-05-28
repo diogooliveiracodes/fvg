@@ -10,9 +10,9 @@
 
                 <slide>
                     <v-card-mentores
-                        facebook="facbook.com/diogooliveira06"
-                        instagram="instagram.com/diggx"
-                        linkedin="linkedin.com/diogooliveiracodes"
+                        
+                        instagram="https://www.instagram.com/drfelipevillaca/"
+                        
                         imagem="images/handson/felipe-villaca.jpg"
                         protese=true
                         >
@@ -27,9 +27,9 @@
                 </slide>
                 <slide>
                     <v-card-mentores
-                        facebook="facbook.com/diogooliveira06"
-                        instagram="instagram.com/diggx"
-                        linkedin="linkedin.com/diogooliveiracodes"
+                        
+                        instagram="https://www.instagram.com/dr.marcioresende/"
+                        
                         imagem="images/handson/marcio-resende.jpg"
                         protese=true
                         >
@@ -45,9 +45,9 @@
                 </slide>
                 <slide>
                     <v-card-mentores
-                        facebook="facbook.com/diogooliveira06"
-                        instagram="instagram.com/diggx"
-                        linkedin="linkedin.com/diogooliveiracodes"
+                        
+                        instagram="https://www.instagram.com/drmarcotulioferreira/"
+                        
                         imagem="images/handson/marco-tulio.jpg"
                         protese=true
                         >
@@ -63,9 +63,9 @@
                 </slide>
                 <slide>
                     <v-card-mentores
-                        facebook="facbook.com/diogooliveira06"
-                        instagram="instagram.com/diggx"
-                        linkedin="linkedin.com/diogooliveiracodes"
+                        
+                        instagram="https://www.instagram.com/drlucas.rodriguesrezende/"
+                        
                         imagem="images/handson/lucas-rezende.jpg"
                         protese=true
                         >
@@ -81,9 +81,9 @@
                 </slide>
                 <slide>
                     <v-card-mentores
-                        facebook="facbook.com/diogooliveira06"
-                        instagram="instagram.com/diggx"
-                        linkedin="linkedin.com/diogooliveiracodes"
+                        
+                        instagram="https://www.instagram.com/drdavidordonez/"
+                        
                         imagem="images/handson/david-ordonez.jpg"
                         protese=true
                         >

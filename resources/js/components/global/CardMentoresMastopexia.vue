@@ -27,15 +27,15 @@
 
                     <div class="social-main">
                         <div class="row mx-0 px-0 mt-2 justify-content-end">
-                            <a class="footer-social-icon color-component-primary bg-component-light" :href="facebook">
+                            <!-- <a class="footer-social-icon color-component-primary bg-component-light" :href="facebook">
                                 <i class="fa fa-facebook"></i>
-                            </a> 
+                            </a>  -->
                             <a class="mx-2 footer-social-icon color-component-primary bg-component-light" :href="instagram">
                                 <i class="fa fa-instagram"></i>
                             </a> 
-                            <a class="footer-social-icon color-component-primary bg-component-light" :href="linkedin">
+                            <!-- <a class="footer-social-icon color-component-primary bg-component-light" :href="linkedin">
                                 <i class="fa fa-linkedin"></i>
-                            </a>
+                            </a> -->
                         </div>
                     </div>
 

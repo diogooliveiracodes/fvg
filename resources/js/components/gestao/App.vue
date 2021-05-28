@@ -4,7 +4,7 @@
     <gestaoParceiros></gestaoParceiros>
     <gestaoSobre></gestaoSobre>
     <gestaoOprograma></gestaoOprograma>
-    <v-nossos-numeros></v-nossos-numeros>
+    <v-nossos-numeros gestao="true"></v-nossos-numeros>
     <gestaoEquipe></gestaoEquipe>
     <gestaoCarousel></gestaoCarousel>
     <v-footer gestao="true"></v-footer>

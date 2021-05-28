@@ -29,7 +29,7 @@
                                 <strong style="font-weight: 900 !important;">as técnicas que utilizamos no nosso dia a dia,</strong>
                             </p>
                             <p class="branco-escuro text-first-component">e como fazemos para obter um resultado de excelência.</p>
-                            <a class="btn btn-success mt-3 btn-lg" href="#oprograma">GARANTA SUA VAGA</a>
+                            <a v-on:click="scrollToIdOnClick" class="btn btn-success mt-3 btn-lg" href="#valores">GARANTA SUA VAGA</a>
                         </div>
                         <!-- END DESKTOP -->
 
@@ -41,7 +41,7 @@
                                 <strong class="mobile-negrito mobile-text">as técnicas que utilizamos no nosso dia a dia,</strong><br>
                                 e como fazemos para obter um resultado de excelência.
                             </p>
-                            <a class="btn btn-success btn-lg margin-top-mobile" href="#oprograma">GARANTA SUA VAGA</a>
+                            <a v-on:click="scrollToIdOnClick" class="btn btn-success btn-lg margin-top-mobile" href="#valores">GARANTA SUA VAGA</a>
                         </div>
                         <!-- END MOBILE -->
 
@@ -55,7 +55,18 @@
 
 <script>
 export default {
-    name: 'mamoplastiaFirstComponent'
+    name: 'mamoplastiaFirstComponent',
+    methods:{
+        scrollToIdOnClick(event){
+            event.preventDefault();
+            const elemento = event.target;
+            const id = elemento.getAttribute('href');
+            const to = document.querySelector(id).offsetTop;
+            const tela = screen.height * 0.08;
+            window.scroll(0, to - tela);
+
+        }
+    }
 }
 </script>
 

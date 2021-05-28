@@ -56,7 +56,7 @@
             </a>
             <a  v-if="sobre == 'true'" 
                 class="btn btn-sm cor-escura col-11 col-sm-10 col-md-8 col-lg-4 col-xl-3 text-white" 
-                href="#">
+                href="https://fvg.typeform.com/to/cneXqOsX#tema=sobre&fonte=site">
                 EU QUERO PARTICIPAR
             </a>
         </div>

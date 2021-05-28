@@ -6,7 +6,7 @@
     <handsonOprograma></handsonOprograma>
     <handsonEquipe></handsonEquipe>
     <!-- <handsonEquipeCaroussel></handsonEquipeCaroussel> -->
-    <v-nossos-numeros></v-nossos-numeros>
+    <v-nossos-numeros protese="true"></v-nossos-numeros>
     <handsonCarousel></handsonCarousel>
     <v-footer protese="true"></v-footer>
   </div>

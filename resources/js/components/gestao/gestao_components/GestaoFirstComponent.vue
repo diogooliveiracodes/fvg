@@ -31,7 +31,7 @@
                     para alavancar os resultados do seu negócio.
                 </p>
 
-                <a class="btn btn-success btn-lg" href="#oprograma">QUERO CONHECER</a>
+                <a v-on:click="scrollToIdOnClick" class="btn btn-success btn-lg" href="#oprograma">QUERO CONHECER</a>
             </div>
         </div>
     </div>
@@ -40,7 +40,17 @@
 
 <script>
 export default {
-    name: 'mastopexiaFirstComponent'
+    name: 'mastopexiaFirstComponent',
+    methods:{
+        scrollToIdOnClick(event){
+            event.preventDefault();
+            const elemento = event.target;
+            const id = elemento.getAttribute('href');
+            const to = document.querySelector(id).offsetTop;
+            const tela = screen.height * 0.08;
+            window.scroll(0, to - tela);
+        }
+    }
 }
 </script>
 

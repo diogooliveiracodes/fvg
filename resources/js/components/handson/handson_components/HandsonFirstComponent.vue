@@ -22,7 +22,7 @@
                         <p class="text-white font15">
                             Conheça as técnicas que utilizamos e aprenda como aplicá-las na prática.
                         </p>
-                        <a class="btn btn-success mt-3 btn-lg" href="#oprograma">QUERO CONHECER OS PROGRAMAS</a>
+                        <a v-on:click="scrollToIdOnClick" class="btn btn-success mt-3 btn-lg" href="#oprograma">QUERO CONHECER OS PROGRAMAS</a>
 
                     </div>
                 </div>
@@ -34,7 +34,18 @@
 
 <script>
 export default {
-    name: 'handsonFirstComponent'
+    name: 'handsonFirstComponent',
+    methods:{
+        scrollToIdOnClick(event){
+            event.preventDefault();
+            const elemento = event.target;
+            const id = elemento.getAttribute('href');
+            const to = document.querySelector(id).offsetTop;
+            const tela = screen.height * 0.08;
+            window.scroll(0, to - tela);
+
+        }
+    }
 }
 </script>
 
