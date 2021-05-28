@@ -19,7 +19,7 @@
                             no mercado. Isso, buscando os melhores resultados através de
                             cursos, imersões e mentorias para você evoluir na prática.
                         </p>
-                        <a class="btn btn-success mt-3 btn-lg btn-sobre" href="#oprograma">QUERO CONHECER OS PROGRAMAS</a>
+                        <a class="btn btn-success mt-3 btn-lg btn-sobre" href="https://fvg.typeform.com/to/cneXqOsX#tema=sobre&fonte=site">QUERO CONHECER OS PROGRAMAS</a>
 
                     </div>
                 </div>
